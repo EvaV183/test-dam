@@ -1,0 +1,335 @@
+{
+  "asignatura": "Acceso a Datos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor una característica de las bases de datos XML Nativas?",
+      "opciones": [
+        "Son las bases de datos más empleadas en la actualidad.",
+        "Se caracteriza por la facilidad de usar las transacciones.",
+        "Se caracteriza por permitir introducir objetos directamente.",
+        "Permiten la consulta, modificación, transformación y validación de documentos XML."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "Almacenamiento primario o memoria principal:",
+      "opciones": [
+        "Su capacidad es baja y la información se borra cuando dejamos de trabajar con ella o cuando apagamos el ordenador.",
+        "Permite el almacenamiento masivo de la información durante un periodo extendido de tiempo.",
+        "En estas memorias se almacenan los datos persistentes.",
+        "La segunda y tercera son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "Dependiendo de la memoria o almacenamiento donde se encuentren los datos pueden ser persistentes o…:",
+      "opciones": [
+        "Temporales.",
+        "Transitorios.",
+        "Transportables.",
+        "Transaccionales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "En ACID, esta característica: Completadas las transacciones se deben guardar todos los datos modificados como datos persistentes:",
+      "opciones": [
+        "Atomic.",
+        "Consistent.",
+        "Isolated.",
+        "Durable."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "En ACID, esta característica: No se deben producir errores en la transacción, y si los hubiera deben corregirse automáticamente:",
+      "opciones": [
+        "Atomic.",
+        "Consistent.",
+        "Isolated.",
+        "Durable."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "Iteradores o cursores:",
+      "opciones": [
+        "Son lo mismo y permiten el almacenamiento persistente de información.",
+        "No son lo mismo y permiten el almacenamiento persistente de información.",
+        "Son lo mismo y permiten realizar consultas en una base de datos.",
+        "No son lo mismo y permiten realizar consultas en una base de datos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "La indexación permite:",
+      "opciones": [
+        "Mayor almacenamiento.",
+        "Una búsqueda más eficiente.",
+        "Un registro automático de la información.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Las bases de datos relacionales:",
+      "opciones": [
+        "Poseen una gran escalabilidad.",
+        "Maneja bien las transacciones.",
+        "Emplea mecanismos de seguridad y recuperación de datos.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Tipo de base de datos que no emplea tablas en el almacenamiento ni tampoco transacciones y restricciones:",
+      "opciones": [
+        "XML-enabled.",
+        "Bases de datos relacionales.",
+        "Bases de datos NoSQL.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "XML:",
+      "opciones": [
+        "Posee un orden jerárquico.",
+        "Posee un orden arborescente.",
+        "Puede poseer índices.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 11,
+      "enunciado": "La clase File de Java permite:",
+      "opciones": [
+        "Obtener información sobre un fichero.",
+        "Crear un fichero.",
+        "Abrir un fichero.",
+        "Esa clase no es de Java."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 12,
+      "enunciado": "La función seek() permite:",
+      "opciones": [
+        "Buscar metainformación de un fichero.",
+        "Situar el cursor en la posición deseada.",
+        "Introducir información en ficheros.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 13,
+      "enunciado": "Las bases de datos de ficheros:",
+      "opciones": [
+        "Ya no se usan.",
+        "Siguen usándose ampliamente.",
+        "Su uso se ha reducido a ciertos sectores específicos.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 14,
+      "enunciado": "Las clases FileReader y FileWriter pertenecen a:",
+      "opciones": [
+        "El modo de acceso secuencial.",
+        "El modo de acceso aleatorio.",
+        "El modo de acceso buffering.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 15,
+      "enunciado": "Los ficheros de texto almacenan:",
+      "opciones": [
+        "Bytes.",
+        "Bits.",
+        "Cadenas de caracteres.",
+        "Las dos primeras son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 16,
+      "enunciado": "Los modos de acceso son aleatorio y:",
+      "opciones": [
+        "De cierre.",
+        "Buffering.",
+        "Secuencial.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 17,
+      "enunciado": "Para resolver excepciones podemos:",
+      "opciones": [
+        "Dar una única solución para todo.",
+        "Dar soluciones individuales para cada una de las excepciones.",
+        "Las dos anteriores son válidas.",
+        "Las excepciones no se pueden resolver."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 18,
+      "enunciado": "RandomAccesFile es una clase para:",
+      "opciones": [
+        "El acceso aleatorio.",
+        "El cierre del buffer.",
+        "La búsqueda dentro de un fichero.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 19,
+      "enunciado": "Try, catch y finally, se emplean para:",
+      "opciones": [
+        "La codificación.",
+        "La descodificación.",
+        "La lectura de ficheros.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 20,
+      "enunciado": "UTF-8:",
+      "opciones": [
+        "Está desapareciendo.",
+        "Es compatible con ASCII.",
+        "Es un tipo de fichero no muy usado.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 21,
+      "enunciado": "El placeholders más empleado es:",
+      "opciones": [
+        "next.",
+        "Replay",
+        "?",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 22,
+      "enunciado": "JDBC puede ejecutar SELECT, UPDATE, DELETE, etc. aunque son parte de:",
+      "opciones": [
+        "executeQuery().",
+        "SQL.",
+        "CSV.",
+        "OBDC."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 23,
+      "enunciado": "Las transacciones permiten:",
+      "opciones": [
+        "Ejecutar diversas acciones predefinidas simultáneamente.",
+        "Eliminar los resultados de diversas acciones predefinidas simultáneamente.",
+        "Las dos primeras son correctas.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 24,
+      "enunciado": "Los índices:",
+      "opciones": [
+        "Son un fichero.",
+        "Son un apartado del fichero.",
+        "Son un tipo especial de fichero.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 25,
+      "enunciado": "Los conectores:",
+      "opciones": [
+        "Permiten enlazar diversos drivers.",
+        "Permiten realizar consultas.",
+        "Permiten indexar ficheros.",
+        "No existen en las bases de datos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 26,
+      "enunciado": "Los procedimientos pueden introducirse con:",
+      "opciones": [
+        "Las sentencias UPDATE, DELETE e INSERT.",
+        "Las cláusulas WHERE con UPDATE y DELETE.",
+        "Las dos primeras son correctas.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 27,
+      "enunciado": "SQL:",
+      "opciones": [
+        "Solo se emplea con API.",
+        "Solo se emplea con drivers.",
+        "Se emplea con ambos, incluso de manera simultánea.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 28,
+      "enunciado": "Statement nos permite trabajar con:",
+      "opciones": [
+        "SQL.",
+        "XML.",
+        "CSV.",
+        "HTML."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 29,
+      "enunciado": "Un búfer es:",
+      "opciones": [
+        "Un tipo de aplicación.",
+        "Un tipo de invocación.",
+        "Un tipo de memoria.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 30,
+      "enunciado": "Una arquitectura que entrelaza API y drivers en un sistema de traducción doble:",
+      "opciones": [
+        "Es posible.",
+        "Es imposible.",
+        "Posible, pero solo si se emplea CSV.",
+        "Posible, pero solo con dos API, no API y drivers."
+      ],
+      "correcta": 0
+    }
+  ]
+}

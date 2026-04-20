@@ -1,0 +1,445 @@
+{
+  "asignatura": "Programación",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cómo podemos cerrar una conexión de la base de datos?",
+      "opciones": [
+        "No hay mecanismos para cerrar la conexión.",
+        "Haciendo uso del método .close() sobre el objeto Connection",
+        "Estableciendo en la conexión que se autocierre cuando no se use.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cómo podemos comprobar si un fichero o directorio existe?",
+      "opciones": [
+        "Usando isFile()",
+        "Usando isDirectory()",
+        "Usando exists()",
+        "Usando getPath()"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Es posible cambiar el tamaño de un array durante su ejecución?",
+      "opciones": [
+        "Sí.",
+        "Sí, solo cuando tenga un primer valor asignado.",
+        "Sí, en cualquier momento.",
+        "No, solo se puede indicar su tamaño en la declaración inicial."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Qué es una colección?",
+      "opciones": [
+        "Una estructura estática que almacena elementos de forma secuencial con un tamaño ilimitado de valores.",
+        "Una estructura estática que almacena elementos con un tamaño limitado de valores.",
+        "Una estructura dinámica que almacena un grupo de elementos limitado.",
+        "Una estructura dinámica que almacena un grupo de elementos ilimitado."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué tipo de colección hace uso de una clave como identificador?",
+      "opciones": [
+        "HashMap.",
+        "ArrayList.",
+        "HashSet.",
+        "ArrayDeque."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "Al capturar una excepción que realiza este método printStackTrace()",
+      "opciones": [
+        "Imprime la causa del error.",
+        "Obtiene el código de error de la excepción",
+        "Obtiene el mensaje de la excepción",
+        "Imprime el flujo de llamadas donde ocurrió el error."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 7,
+      "enunciado": "Código traducido para que pueda ser interpretado por el microprocesador:",
+      "opciones": [
+        "Código fuente.",
+        "Código máquina.",
+        "Código intermedio.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Coloca cada componente horizontalmente de izquierda a derecha. Si sobrepasa la fila comienza en la siguiente.:",
+      "opciones": [
+        "BorderLayout.",
+        "CardLayout.",
+        "FlowLayout.",
+        "GridLayout."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "El código fuente en java se identifica por:",
+      "opciones": [
+        "Usar la extensión .class",
+        "Usar la extensión .doc",
+        "Usar la extensión .ear",
+        "Usar la extensión .java"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "El código intermedio compilado en java se identifica por:",
+      "opciones": [
+        "Usar la extensión .class",
+        "Usar la extensión .doc",
+        "Usar la extensión .ear",
+        "Usar la extensión .java"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 11,
+      "enunciado": "El Pseudocódigo es:",
+      "opciones": [
+        "Un lenguaje de programación.",
+        "Un lenguaje descriptivo para desarrollar algoritmos.",
+        "Código binario o hexadecimal.",
+        "Una estructura de control."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 12,
+      "enunciado": "En la utilización de los sistemas de ficheros, ¿Qué hace el método listFiles()?",
+      "opciones": [
+        "Comprueba si la ruta existe.",
+        "Comprueba si es un directorio",
+        "Obtiene un listado de ficheros que hay en la ruta.",
+        "Obtiene el directorio padre."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 13,
+      "enunciado": "En una aplicación en java:",
+      "opciones": [
+        "Tiene que haber una clase denominada .x",
+        "Es obligatorio usar paquetes.",
+        "Tiene que haber un método main.",
+        "Puede no haber ninguna clase."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 14,
+      "enunciado": "Es el elemento principal de POO:",
+      "opciones": [
+        "Clase.",
+        "Campo.",
+        "Objeto.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 15,
+      "enunciado": "Es habitual trabajar directamente con ficheros de tipo de datos",
+      "opciones": [
+        "De bytes o caracteres.",
+        "De enteros.",
+        "De cadena de caracteres.",
+        "De hexadecimal."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 16,
+      "enunciado": "Estos, char, int, boolean y double, son:",
+      "opciones": [
+        "Constantes.",
+        "Tipos de datos primitivos.",
+        "Operadores.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 17,
+      "enunciado": "Indica que controlador permite introducir texto en un campo",
+      "opciones": [
+        "Button.",
+        "Label.",
+        "Checkbox.",
+        "TextField."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 18,
+      "enunciado": "La estructura basada en bucles es:",
+      "opciones": [
+        "Secuencial.",
+        "Alternativa.",
+        "Iterativa.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 19,
+      "enunciado": "La estructura de una clase está compuesta por:",
+      "opciones": [
+        "Solo variables",
+        "Solo métodos",
+        "Campos y métodos.",
+        "Métodos y funciones."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 20,
+      "enunciado": "La estructura if",
+      "opciones": [
+        "Permite hacer saltos incondicionales",
+        "Permite ejecutar una parte de código según una condición.",
+        "Permite ejecutar varias veces una parte del código.",
+        "Solo se ejecuta una vez."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 21,
+      "enunciado": "La notación Big-0",
+      "opciones": [
+        "Es un tipo de dato",
+        "Permite medir la complejidad algorítmica.",
+        "Es una herramienta para calcular los usuarios que puede soportar una aplicación",
+        "Es una estructura de programación"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 22,
+      "enunciado": "Las clases abstractas:",
+      "opciones": [
+        "Pueden ser instanciadas normalmente.",
+        "Pueden ser instanciadas pero requieren de la palabra reservada abstract.",
+        "No puede ser instanciada ni empleada de otro modo.",
+        "No puede ser instanciada, pero sí empleada para la herencia."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 23,
+      "enunciado": "Los métodos sobrescritos tendrán que añadir encima de la cabecera del método la palabra reservada:",
+      "opciones": [
+        "@override.",
+        "@overwrite.",
+        "$override.",
+        "$overwrite."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 24,
+      "enunciado": "No es una forma de polimorfismo:",
+      "opciones": [
+        "Asignación polimorfa.",
+        "Ejecución polimorfa.",
+        "Herencia polimorfa.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 25,
+      "enunciado": "Palabra reservada que convierte la visibilidad en un campo común entre todos los objetos de esa clase:",
+      "opciones": [
+        "Static.",
+        "getter.",
+        "setter.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 26,
+      "enunciado": "Para establecer cualquier conexión a una base de datos desde Java, es necesario:",
+      "opciones": [
+        "Emplear un driver específico.",
+        "Emplear el objeto statement.",
+        "Emplear una librería con ficheros .iso.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 27,
+      "enunciado": "Para indicar a una clase que se almacene a una base de datos orientada a objetos, usaremos la etiqueta.",
+      "opciones": [
+        "@Entity",
+        "@Embedded",
+        "@Transient",
+        "@Id"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 28,
+      "enunciado": "Para montar la cadena de conexión ¿Que datos necesitamos?",
+      "opciones": [
+        "Solo el nombre de la base de datos.",
+        "La URL de la base de datos, el usuario y la contraseña.",
+        "El nombre de la base de datos y la tabla que queremos consultar.",
+        "No hace falta ningún dato, el driver ya dispone de los datos para conectarse."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 29,
+      "enunciado": "Podemos decir de la herencia:",
+      "opciones": [
+        "Es una relación jerárquica entre una clase padre y una clase hija.",
+        "En java solo se puede heredar de una superclase o clase padre.",
+        "Las clases hijas o subclases heredan toda la funcionalidad de la clase padre.",
+        "Todas las anteriores son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 30,
+      "enunciado": "Qué campos de una clase no se guardarán en una base de datos orientada a objetos",
+      "opciones": [
+        "Todos los campos se guardan siempre.",
+        "Los campos que se declaren final, static, transient o lleve la etiqueta @Transient",
+        "Los que tengan visibilidad privada.",
+        "Los que lleven la etiqueta @FieldNotIncluded."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 31,
+      "enunciado": "Qué tipos de recursividad existen:",
+      "opciones": [
+        "Simple, múltiple, cruzada o anidada.",
+        "Simple, múltiple, cruzada o anillada.",
+        "Doble, unificada, indirecta o anillada.",
+        "Doble, anillada, simple o cruzada."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 32,
+      "enunciado": "Queremos realizar las acciones de un semáforo, Verde para continuar, Amarillo y Rojo para parar. ¿Cómo se puede hacer?",
+      "opciones": [
+        "Con una estructura switch",
+        "Con una estructura if-else",
+        "Con una estructura if-else if",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 33,
+      "enunciado": "Queremos sumar los 10 primeros números para que dé como resultado 55 ¿Qué código es correcto?",
+      "opciones": [
+        "for (int i = 1; i <= 10; i++) { resultado += i; }",
+        "int i=1; while(i<10) { resultado += i; }",
+        "int i=1; do { i++; resultado +=i; } while(i<=10);",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 34,
+      "enunciado": "Se puede decir de un constructor que...:",
+      "opciones": [
+        "Se encarga de crear instancias de objetos.",
+        "Se encarga de destruir instancias de objetos.",
+        "Un método personalizado que realiza una función concreta, por ejemplo, una suma.",
+        "Es un atributo de una clase."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 35,
+      "enunciado": "Si queremos acceder al primer elemento de un array, usaremos...",
+      "opciones": [
+        "array[1]",
+        "array[array.length]",
+        "array[0]",
+        "array[1][1]"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 36,
+      "enunciado": "Todas las excepciones deben de heredar de:",
+      "opciones": [
+        "La clase que contiene el método main o cualquier subclase.",
+        "La clase Throwable o cualquier subclase.",
+        "La clase System o cualquier subclase.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 37,
+      "enunciado": "TreeSet",
+      "opciones": [
+        "No existe este tipo de colección",
+        "Es una colección que permite tener elementos duplicados",
+        "Los datos se organizan en forma de árbol jerárquico",
+        "Usa la interfaz map."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "Un caso base es:",
+      "opciones": [
+        "Una plantilla para hacer recursividad",
+        "Una condición de terminación de la recursividad.",
+        "Un ejemplo de recursividad.",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 39,
+      "enunciado": "Una aplicación...",
+      "opciones": [
+        "No necesita manejar información.",
+        "Necesita el manejo de información dependiendo de la funcionalidad.",
+        "Necesita el manejo de información existiendo solo una entrada de datos.",
+        "Necesita el manejo de información existiendo una entrada y salida de datos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 40,
+      "enunciado": "Una base de datos orientada a objetos...",
+      "opciones": [
+        "La información la representa en forma de objetos.",
+        "Aplica el paradigma orientado a objetos.",
+        "Se caracteriza por ser NoSQL.",
+        "Todas las opciones son correctas."
+      ],
+      "correcta": 3
+    }
+  ]
+}

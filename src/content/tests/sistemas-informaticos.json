@@ -1,0 +1,445 @@
+{
+  "asignatura": "Sistemas Informáticos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cómo se llama la consola de Windows que permite administrar usuarios?",
+      "opciones": [
+        "Lusmerger.msc",
+        "Lusrmgr.mcs",
+        "Lusrmgr.msc",
+        "No se pueden administrar usuarios en Windows mediante consolas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "¿En qué fichero de Linux se almacenan las contraseñas encriptadas de los usuarios?",
+      "opciones": [
+        "/etc/passwd",
+        "/etc/shadow",
+        "/etc/password",
+        "/etc/users"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Se puede instalar Debian de manera gráfica?",
+      "opciones": [
+        "No",
+        "Depende de si se instala en VirtualBox o en VMware",
+        "Depende de qué versión se instale",
+        "Sí"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Se pueden restaurar copias de seguridad incrementales y diferenciales al mismo tiempo?",
+      "opciones": [
+        "Sí y debe de hacerse",
+        "No se debe",
+        "No",
+        "No se pueden restaurar este tipo de copias bajo ningún concepto"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "El comando cat hola > alumnos.txt añade contenido a un fichero y además...",
+      "opciones": [
+        "Lo borra",
+        "Lo ejecuta",
+        "Reescribe el contenido si ya tiene algo",
+        "Lo añade a continuación si ya existe contenido en el fichero"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "El directorio C:\\system32 pertenece a:",
+      "opciones": [
+        "Windows.",
+        "Linux.",
+        "GNU.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "El más dañino de todos los tipos de malware. Se usa para cifrar todo el sistema y quitarles el acceso a los usuarios ya que no poseen la correspondiente clave:",
+      "opciones": [
+        "Scumware.",
+        "Exploit.",
+        "Ransomware.",
+        "Adware."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "El procesador se describe como:",
+      "opciones": [
+        "Un conjunto software del sistema operativo que debido a su gran importancia en la gestión del sistema no puede abandonar la memoria principal.",
+        "La selección del orden de importancia de cada solicitud y de quien quiera hacer uso de esos recursos.",
+        "Un recurso que posee varios núcleos con los que puede ejecutar varios procesos a la vez.",
+        "El facilitador de la gestión de manera adecuada de los trabajos de impresión."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "El protocolo POP3 es empleado en:",
+      "opciones": [
+        "El correo electrónico.",
+        "Mensajería instantánea.",
+        "Transferencia de ficheros.",
+        "Software antimalware."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "El SID es:",
+      "opciones": [
+        "Un código que da acceso al sistema.",
+        "Un sistema de autenticación de Windows.",
+        "Un identificador único asociado a un usuario.",
+        "Es lo mismo que el SAT."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 11,
+      "enunciado": "El sistema de archivos estándar de Microsoft Windows:",
+      "opciones": [
+        "FAT.",
+        "NTFS.",
+        "APFS.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 12,
+      "enunciado": "El tipo de red coaxial se basa en:",
+      "opciones": [
+        "El espacio.",
+        "La distribución.",
+        "El cableado.",
+        "El diseño."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 13,
+      "enunciado": "En Linux la opción \"l\" del comando ls:",
+      "opciones": [
+        "Muestra el contenido en formato largo.",
+        "Ordena el contenido por fecha de modificación.",
+        "Invierte el orden de la salida.",
+        "Muestra el contenido oculto."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 14,
+      "enunciado": "Es importante que un antivirus...",
+      "opciones": [
+        "Consume mucha CPU",
+        "No se actualice",
+        "Consuma poca memoria",
+        "Ocupe mucho espacio en disco"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 15,
+      "enunciado": "exFat suele usarse en dispositivos...",
+      "opciones": [
+        "Portátiles",
+        "Fijos",
+        "De Microsoft únicamente",
+        "Todas son incorrectas"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 16,
+      "enunciado": "FTP hace referencia a...",
+      "opciones": [
+        "File Transfer Protocol",
+        "Found Transfer Protocol",
+        "File Transport Protocol",
+        "File Transfer Premium"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 17,
+      "enunciado": "Indica cuál de los siguientes es un dispositivo de interconexión de red:",
+      "opciones": [
+        "RJ-45",
+        "Ordenador",
+        "Switch",
+        "BIOS"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 18,
+      "enunciado": "Indica qué tipo de software es VMware Workstation:",
+      "opciones": [
+        "Software libre",
+        "Software propietario",
+        "Software totalmente gratuito",
+        "Todas son incorrectas"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 19,
+      "enunciado": "La administración remota:",
+      "opciones": [
+        "Solo se puede usar con una herramienta.",
+        "Viene incorporada en Windows mediante tres herramientas.",
+        "No permite gestionar el equipo en temas de seguridad.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 20,
+      "enunciado": "La cabecera en IPv6 posee:",
+      "opciones": [
+        "20 bytes.",
+        "30 bytes.",
+        "40 bytes.",
+        "50 bytes."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 21,
+      "enunciado": "Las placas base se guían por los:",
+      "opciones": [
+        "Factores de forma.",
+        "Zócalos del microprocesador.",
+        "Conectores internos.",
+        "Conectores externos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 22,
+      "enunciado": "Las redes P2P hacen referencia a...",
+      "opciones": [
+        "Pair top pair",
+        "Peer to peer",
+        "Point to point",
+        "Poe to poe"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 23,
+      "enunciado": "Las tarjetas de red pueden ser:",
+      "opciones": [
+        "USB",
+        "Inalámbricas",
+        "Cableadas",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 24,
+      "enunciado": "Los permisos 0666 y 0777 son:",
+      "opciones": [
+        "Los permisos originales y por defecto de un archivo y un directorio respectivamente.",
+        "Los permisos originales y por defecto de un directorio y un archivo respectivamente.",
+        "Los permisos no otorgables y por defecto de un archivo y un directorio respectivamente.",
+        "Los permisos no otorgables y por defecto de un directorio y un archivo respectivamente."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 25,
+      "enunciado": "Los sistemas operativos distribuidos son una clasificación de un sistema operativo que responde a:",
+      "opciones": [
+        "El interfaz utilizado.",
+        "Cómo ofrecen los servicios.",
+        "El tipo de procesamiento.",
+        "El número de usuarios."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 26,
+      "enunciado": "Para crear un directorio alumnos en Linux en la ruta actual usamos el comando...",
+      "opciones": [
+        "mkdir -r alumnos",
+        "mkdir alumnos",
+        "rmdir alumnos",
+        "rmdir -r alumnos"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 27,
+      "enunciado": "Pro, Player y Fusion son versiones del siguiente software privativo de virtualización:",
+      "opciones": [
+        "VMWare Workstation.",
+        "VritualBox.",
+        "KVM.",
+        "Aviat Design."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 28,
+      "enunciado": "Puede que sea importante realizar esta acción antes de instalar un sistema operativo:",
+      "opciones": [
+        "Copia de seguridad",
+        "Instalación nativa",
+        "Instalación por red",
+        "Instalación dual"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 29,
+      "enunciado": "Qué tipo de aplicación es MySQL:",
+      "opciones": [
+        "Procesador de texto.",
+        "Base de datos.",
+        "Presentación gráfica.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 30,
+      "enunciado": "Si una BIOS enciende una luz LED para indicar un problema, es una señal...",
+      "opciones": [
+        "Sonora",
+        "Visual",
+        "Depende del color de la luz",
+        "Una BIOS no puede emitir señales mediante LEDs"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 31,
+      "enunciado": "Un algoritmo simétrico es:",
+      "opciones": [
+        "RC2",
+        "AES",
+        "ICE",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 32,
+      "enunciado": "Un ejemplo de buen nombre para una máquina virtual es:",
+      "opciones": [
+        "VRSTFVM",
+        "VirtualBox",
+        "Windows 10 - Cliente",
+        "Linux"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 33,
+      "enunciado": "Un hardware está formado, entre otros componentes, por:",
+      "opciones": [
+        "Bus de datos.",
+        "Microprocesador.",
+        "Host.",
+        "VirtualBox."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 34,
+      "enunciado": "Un servidor debe de cumplir con estos tres aspectos:",
+      "opciones": [
+        "Disponibilidad, calidad y mantenimiento.",
+        "Escalabilidad, mantenimiento y disponibilidad.",
+        "Mantenimiento, disponibilidad y automatismo.",
+        "Disponibilidad, escalabilidad y gestión avanzada."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 35,
+      "enunciado": "Un sistema multitarea:",
+      "opciones": [
+        "Trabaja con un solo proceso al mismo tiempo",
+        "Trabaja con un solo proceso por usuario al mismo tiempo",
+        "Trabaja con varios procesos al mismo tiempo",
+        "No gestiona más de dos procesos al mismo tiempo"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 36,
+      "enunciado": "Una de las distribuciones que se emplean de manera específica en los sistemas Linux es:",
+      "opciones": [
+        "Windows Pro",
+        "MacOS X",
+        "Ubuntu Desktop.",
+        "FreeBSD."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 37,
+      "enunciado": "Una NIC también se puede llamar:",
+      "opciones": [
+        "Adaptador de video",
+        "Adaptador de internet",
+        "Tarjeta de sonido",
+        "Adaptador de pantalla"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 38,
+      "enunciado": "Usaremos este comando para cambiar los permisos en Linux:",
+      "opciones": [
+        "chmod.",
+        "umask.",
+        "umod.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 39,
+      "enunciado": "Usuario que tiene el privilegio necesario para efectuar cambios en los ficheros de configuración:",
+      "opciones": [
+        "Gestor.",
+        "Administrador.",
+        "Usuario.",
+        "Usuario avanzado."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 40,
+      "enunciado": "Versión de Microsoft Windows para dispositivos móviles:",
+      "opciones": [
+        "Server",
+        "Enterprise",
+        "IoT",
+        "Mobile"
+      ],
+      "correcta": 3
+    }
+  ]
+}

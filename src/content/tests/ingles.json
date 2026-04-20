@@ -1,0 +1,445 @@
+{
+  "asignatura": "Inglés",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "__________ is your name? My name is Susan.",
+      "opciones": [
+        "Which",
+        "Where",
+        "Who",
+        "What"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "Choose the correct Imperative sentence:",
+      "opciones": [
+        "Stayed still!",
+        "Stay still!",
+        "Didn't stay still!",
+        "Stays still!"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "Choose the correct negative sentence with the verb \"Have Got\":",
+      "opciones": [
+        "I haven't any brothers or sister.",
+        "I doesn't have any brothers or sisters.",
+        "I haven't got any brothers or sisters.",
+        "I don't have got any brothers or sisters."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "Choose the correct option in the Present Perfect Simple:",
+      "opciones": [
+        "She has forgot her phone number.",
+        "She has forget her phone number.",
+        "She have forgot her phone number.",
+        "She has forgotten her phone number."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 5,
+      "enunciado": "Choose the correct option with the Past Simple:",
+      "opciones": [
+        "I works in a supermarket.",
+        "I did work in a supermarket.",
+        "I worked in a supermarket.",
+        "I working in a supermarket."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 6,
+      "enunciado": "Choose the correct option:",
+      "opciones": [
+        "They making any progress right now.",
+        "They aren't making any progress right now.",
+        "They aren't any progress right now.",
+        "They don't make any progress right now."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "Choose the correct option:",
+      "opciones": [
+        "She isn't like fast food.",
+        "She doesn't like fast food.",
+        "She don't like fast food.",
+        "She doesn't liking fast food."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Choose the correct option:",
+      "opciones": [
+        "David were gave me this bike.",
+        "I were given this bike from David.",
+        "This bike was given to me by David.",
+        "All the answers are correct."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 9,
+      "enunciado": "Choose the correct option:",
+      "opciones": [
+        "She is to old to vote.",
+        "She is old enough to vote.",
+        "She is enough old to vote.",
+        "She is old too vote."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 10,
+      "enunciado": "Choose the correct option: Ctrl + E is used to...",
+      "opciones": [
+        "Save the document",
+        "Insert footnote",
+        "Apply underline format",
+        "Select the entire document"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 11,
+      "enunciado": "Choose the correct sentence with the verb To Be in the past:",
+      "opciones": [
+        "I were on the beach.",
+        "I weren't on the beach.",
+        "I was on the beach.",
+        "I is in the beach."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 12,
+      "enunciado": "Choose the correct sentence with the verb To Be in the present:",
+      "opciones": [
+        "He were a very good worker.",
+        "He are a very good worker.",
+        "He am a very good worker.",
+        "He is a very good worker."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 13,
+      "enunciado": "Choose the right answer:",
+      "opciones": [
+        "Support specialists usually fix computer problems.",
+        "Support specialists fix computer problems usually.",
+        "Usually support specialists fix computer problems.",
+        "Support specialists fixes computer problems usually."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 14,
+      "enunciado": "Choose the right answer:",
+      "opciones": [
+        "I used to study French.",
+        "They use to assemble computers.",
+        "She didn't used to like technology.",
+        "Did he used to play videogames?"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 15,
+      "enunciado": "Choose the right option of Reported Speech: Mary said “I worked the whole day yesterday.”",
+      "opciones": [
+        "She said that she works the whole day yesterday.",
+        "She told that she had worked the whole day yesterday.",
+        "She said that she had worked the whole day the day before.",
+        "She said she has worked the whole day the day before."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 16,
+      "enunciado": "Choose the wrong answer:",
+      "opciones": [
+        "He is more tall than me.",
+        "She is the most intelligent pupil in class.",
+        "Alcohol is as bad as tobacco.",
+        "The faster you drive, the more dangerous it is."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 17,
+      "enunciado": "Complete the sentence choosing the correct option. Right now, I am using my ___________ car because mine is broken.",
+      "opciones": [
+        "father's",
+        "fathers's",
+        "fathers",
+        "father'"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 18,
+      "enunciado": "Complete the sentence choosing the right option: ______________ any documents on the desk?",
+      "opciones": [
+        "There is",
+        "Are there",
+        "There are",
+        "Is there"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 19,
+      "enunciado": "Complete the sentence with the correct conditional: \"If I _______ you, I_________ a new car\".",
+      "opciones": [
+        "were/would buy",
+        "would be / would buy",
+        "am / would buy",
+        "were / buy"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 20,
+      "enunciado": "Complete the sentence with the correct demonstrative: \"Can you pass me _______ pencils over there, please?\"",
+      "opciones": [
+        "this",
+        "that",
+        "these",
+        "those"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 21,
+      "enunciado": "Complete the sentence with the correct Future expression: “Look at those storm clouds. I think it ………… rain.”",
+      "opciones": [
+        "will",
+        "will be",
+        "is going to",
+        "is"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 22,
+      "enunciado": "Complete the sentence with the correct options: \"What______ about with the employee when I_________?\"",
+      "opciones": [
+        "were you talking / arrived",
+        "you were talking / was arriving",
+        "did you talk / was arriving",
+        "you talked / arrived"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 23,
+      "enunciado": "Complete the sentence with the Superlative form: \"This car is the___________ and the _______ option.\"",
+      "opciones": [
+        "best / cheapest",
+        "better / cheaper",
+        "best / cheaper",
+        "better / cheapest"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 24,
+      "enunciado": "Complete the sentence: \"Never expect __________ from ___________\"",
+      "opciones": [
+        "Anything/ anyone",
+        "Nothing / Anybody",
+        "Something /Anyone",
+        "Nothing /no-one"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 25,
+      "enunciado": "Complete the sentence: \"There are ______ workstations in the office, but there is _____ space\".",
+      "opciones": [
+        "many/little",
+        "much/little",
+        "many/few",
+        "many/a few"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 26,
+      "enunciado": "Complete the word with the right suffix: BROAD",
+      "opciones": [
+        "-BYTE",
+        "-WARE",
+        "-BAND",
+        "-PHONE"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 27,
+      "enunciado": "Every time we drive __________ a tunnel I hold my breath:",
+      "opciones": [
+        "along",
+        "across",
+        "over",
+        "through"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 28,
+      "enunciado": "Fill in the gaps with the correct possessive forms: \"Sam has forgotten ______ USB flash drive at home, can he borrow _______?\"",
+      "opciones": [
+        "his/your",
+        "her/yours",
+        "him/you",
+        "his/yours"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 29,
+      "enunciado": "Phishing is...",
+      "opciones": [
+        "Deceiving individuals to gain private or personal information about that person.",
+        "Pretending you are someone you are not.",
+        "Releasing another person's personal information without their permission.",
+        "Writing, creating or distributing malware."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 30,
+      "enunciado": "The hardware is...",
+      "opciones": [
+        "a language used to program computers.",
+        "the physical and electronic parts of a computer.",
+        "the instructions that control what a computer can do.",
+        "none of the above."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 31,
+      "enunciado": "What does IP stand for?",
+      "opciones": [
+        "Internal Procedure",
+        "Internal Protocol",
+        "Internet Protocol",
+        "Important Program"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 32,
+      "enunciado": "What is the name of the symbol \"@\"?",
+      "opciones": [
+        "At",
+        "Ampersand",
+        "Hash",
+        "Asterisk"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 33,
+      "enunciado": "Which is an input device?",
+      "opciones": [
+        "Projector",
+        "Speaker",
+        "Mouse",
+        "Printer"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 34,
+      "enunciado": "Which is not a part of the motherboard?",
+      "opciones": [
+        "The mainframe",
+        "The CPU",
+        "RAM memory",
+        "The heat sink"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 35,
+      "enunciado": "Which is the right answer?",
+      "opciones": [
+        "You must come to the meeting.",
+        "You can coming to the meeting.",
+        "You shoulds come to the meeting.",
+        "You ought to comes to the meeting."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 36,
+      "enunciado": "Which is the right option?",
+      "opciones": [
+        "Mikel is such an interesting and amazed person.",
+        "Mikel is such an interesting and amazing person.",
+        "Mikel is such an interested and amazed person.",
+        "Mikel is such an interested and amazing person."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 37,
+      "enunciado": "Which of these is not a type of malicious software?",
+      "opciones": [
+        "Ransomware",
+        "Spyware",
+        "Hardware",
+        "Adware"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "Which one is an application software?",
+      "opciones": [
+        "Linux",
+        "Java",
+        "Word",
+        "C++"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 39,
+      "enunciado": "Which one is not a word processor?",
+      "opciones": [
+        "Word",
+        "NotePad",
+        "Powerpoint",
+        "WordPad"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 40,
+      "enunciado": "Which one is the shortcut for undoing the previous action?",
+      "opciones": [
+        "Ctrl+Z",
+        "Ctrl+Y",
+        "Ctrl+S",
+        "Ctrl+X"
+      ],
+      "correcta": 0
+    }
+  ]
+}

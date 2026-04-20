@@ -1,0 +1,225 @@
+{
+  "asignatura": "Programación de Servicios y Procesos",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+      "opciones": [
+        "El planificador a medio plazo gestiona el paso de procesos de la memoria principal a la secundaria y viceversa.",
+        "El planificador a corto plazo gestiona el paso de procesos de la memoria principal a la secundaria y viceversa.",
+        "El planificador a largo plazo gestiona el paso de procesos de la memoria principal a la secundaria y viceversa.",
+        "B y C son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "La multiprogramación consiste en ejecutar de forma concurrente:",
+      "opciones": [
+        "Varios procesos en un sistema monoprocesador.",
+        "Varios procesos en un sistema multiprocesador.",
+        "Un proceso en varios sistemas monoprocesador.",
+        "Un proceso en varios sistemas multiprocesador."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "La multitarea:",
+      "opciones": [
+        "Aprovecha las operaciones de E/S para ejecutar otros procesos.",
+        "Solo se consigue en sistemas monoprocesador.",
+        "Solo se consigue en sistemas multiprocesadores.",
+        "Ninguna de las opciones es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "La programación concurrente se basa en:",
+      "opciones": [
+        "Técnicas de comunicación y sincronización entre sistemas operativos.",
+        "Técnicas de comunicación y sincronización entre clases.",
+        "Técnicas de comunicación y sincronización entre procesos.",
+        "A y C son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "Los cambios de contexto:",
+      "opciones": [
+        "Los gestiona el usuario mediante una interfaz.",
+        "Los gestiona el módulo de E/S.",
+        "No se permiten cambios de contexto en un sistema iniciado.",
+        "Los gestiona el núcleo del sistema operativo."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "Los hilos:",
+      "opciones": [
+        "Comparten la memoria principal del sistema con todos los hilos de todos los procesos.",
+        "Comparten la memoria con hilos del mismo proceso.",
+        "Comparten la memoria secundaria del sistema con todos los hilos de todos los procesos.",
+        "Ninguna de las opciones es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "Process:",
+      "opciones": [
+        "Es una clase abstracta por lo que puedes crear instancias suyas, pero no de sus subclases.",
+        "Es una clase abstracta por lo que no puedes crear instancias suyas, pero sí de sus subclases.",
+        "No es una clase abstracta.",
+        "A es correcta, pero no es una clase abstracta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 8,
+      "enunciado": "Un programa:",
+      "opciones": [
+        "Se va creando a medida que se va ejecutando.",
+        "Se almacena en medios de almacenamiento secundario.",
+        "Se ejecuta en varios procesadores a la vez para aumentar su rendimiento.",
+        "Carga todos los datos que utiliza en la memoria principal para que vaya más rápido."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 1,
+      "enunciado": "Un servicio:",
+      "opciones": [
+        "Es transparente para el usuario.",
+        "Se ejecuta en segundo plano.",
+        "Se puede configurar para que arranque de forma automática al iniciar el sistema.",
+        "Todas las opciones anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "Un sistema fuertemente acoplado:",
+      "opciones": [
+        "Existe una memoria compartida para todos los procesadores.",
+        "Existe una memoria para cada procesador, pero están conectadas entre ellas.",
+        "Existe una memoria para cada procesador, pero son independientes entre ellas.",
+        "B y C son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Cuándo finaliza la ejecución de la Java Virtual Machine?",
+      "opciones": [
+        "Cuando finaliza la ejecución de todos los hilos.",
+        "Cuando finaliza la ejecución de todos los hilos que no sean de tipo Daemon.",
+        "Cuando finaliza el método main.",
+        "Ninguna de las opciones anteriores es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Cuándo podemos afirmar que existe un interbloqueo?",
+      "opciones": [
+        "No se pueden producir.",
+        "Cuando todos los hilos del proceso se bloquean.",
+        "Son de carácter transitorio siempre.",
+        "Ninguna de las opciones es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 13,
+      "enunciado": "¿Cuándo podemos interrumpir un hilo?",
+      "opciones": [
+        "Cuando otro hilo lo interrumpe.",
+        "Con sleep y wait.",
+        "Con el método interrupt.",
+        "Todas las opciones anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 14,
+      "enunciado": "¿Cuándo utilizaremos notifyAll() y cuando notify()?",
+      "opciones": [
+        "Si se quiere que continúen todos los hilos: notifyAll().",
+        "Si se quiere que continúe solo un hilo: notify().",
+        "Si se quiere que continúe solo un hilo: notifyAll().",
+        "A y B son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 15,
+      "enunciado": "¿Qué método se usa para interrumpir la ejecución del hilo actual?",
+      "opciones": [
+        "break()",
+        "wait()",
+        "block()",
+        "stop()"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 16,
+      "enunciado": "¿Qué sucede si el hilo principal no ejecuta el método join sobre el resto de los hilos?",
+      "opciones": [
+        "El hilo principal podría finalizar antes que algún otro hilo.",
+        "Se pueden interrumpir todos a la vez.",
+        "El proceso finalizará con un error.",
+        "Los hilos secundarios no finalizarán nunca."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 17,
+      "enunciado": "Los hilos de un mismo proceso...",
+      "opciones": [
+        "Tienen la misma prioridad.",
+        "Comparten código y datos.",
+        "Comparten registros del procesador.",
+        "Se crean y se lanzan al mismo tiempo."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 18,
+      "enunciado": "Para crear un hilo en Java se parte de una clase que implementa la interfaz...",
+      "opciones": [
+        "Runnable.",
+        "Start.",
+        "Main.",
+        "Run."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 19,
+      "enunciado": "Si un objeto se pasa a varios hilos...",
+      "opciones": [
+        "Los cambios que un hilo produzca sobre el objeto no son visibles por el resto.",
+        "Los cambios serán visibles siempre que estén dentro del método synchronized.",
+        "Los cambios que un hilo produzca sobre el objeto serán visibles por el resto de los hilos.",
+        "No se permite pasar un objeto a varios hilos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 20,
+      "enunciado": "Una clase se considera de tipo thread-safe cuando...",
+      "opciones": [
+        "Siempre.",
+        "Nunca.",
+        "No existen mecanismos de sincronización para el uso concurrente.",
+        "Existen mecanismos de sincronización para el uso concurrente implementados en la clase."
+      ],
+      "correcta": 3
+    }
+  ]
+}

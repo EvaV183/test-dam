@@ -1,0 +1,76 @@
+---
+import Layout from "../layouts/Layout.astro"
+---
+
+<Layout title="Test de DAM">
+    <main class="p-4 max-w-4xl mx-auto">
+        
+        <h1 class="text-3xl text-center font-bold mb-4 mt-8 text-slate-100">Asignaturas de Primer Año</h1>
+        <div class="py-4">
+            <ul class="grid grid-cols-2 gap-4 w-full max-w-md mx-auto">
+                <li>
+                    <a class="btn-pastel bg-amber-200 text-amber-900" href="/acceso-a-datos">Bases de Datos</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-sky-200 text-sky-900" href="/entornos-desarrollo">Entornos de desarrollo</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-violet-200 text-violet-900" href="/lenguajes-de-marcas">Lenguajes de marcas y sistemas de gestión de información</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-emerald-200 text-emerald-900" href="/programacion">Programación</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-lime-200 text-lime-900" href="/ingles">Inglés</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-red-200 text-red-900" href="/sistemas-informaticos">Sistemas informáticos</a>
+                </li>
+            </ul>
+        </div>
+
+        <h1 class="text-3xl text-center font-bold mb-4 mt-12 text-slate-100">Asignaturas de Segundo Año</h1>
+        <div class="py-4">
+            <ul class="grid grid-cols-2 gap-4 w-full max-w-md mx-auto">
+                <li>
+                    <a class="btn-pastel bg-sky-200 text-sky-900" href="/acceso-a-datos">Acceso a Datos</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-violet-200 text-violet-900" href="/desarrollo-interfaces">Desarrollo de interfaces</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-lime-200 text-lime-900" href="/programacion-multimedia">Programación multimedia y dispositivos móviles</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-amber-200 text-amber-900" href="/programacion-servicios-y-procesos">Programación de servicios y procesos</a>
+                </li>
+
+
+                <li>
+                    <a class="btn-pastel bg-red-200 text-red-900" href="/sistemas-gestion-empresarial">Sistemas de gestión empresarial</a>
+                </li>
+                <li>
+                    <a class="btn-pastel bg-emerald-200 text-emerald-900" href="/sostenibilidad">Sostenibilidad aplicada al sistema productivo</a>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+</Layout>
+
+<style>
+    @reference "../styles/global.css"; 
+
+    .btn-pastel {
+        /* w-48 (12rem) y h-32 (8rem) suele ser un tamaño ideal */
+        /* Aspect-video o dimensiones fijas como w-64 h-32 también funcionan bien */
+        @apply flex items-center justify-center text-center p-4 font-bold border border-slate-800 rounded-3xl shadow-md transition-all duration-200 hover:scale-105 active:scale-95;
+        
+        width: 100%; /* Ocupa el ancho de la celda */
+        aspect-ratio: 16 / 9; /* Esto les da a todos la misma forma rectangular */
+    }
+
+    li {
+        @apply flex justify-center;
+    }
+</style>

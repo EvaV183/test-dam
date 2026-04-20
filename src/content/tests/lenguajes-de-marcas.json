@@ -1,0 +1,445 @@
+{
+  "asignatura": "Lenguajes de Marcas",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Qué es XQuery?",
+      "opciones": [
+        "Lenguaje de consultas especializado en datos XML.",
+        "Lenguaje de procesamiento de documentos XML.",
+        "Lenguaje de verificación empleado por DTD",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "Cómo se denomina el elemento que modifica o añade información a una etiqueta",
+      "opciones": [
+        "Elemento.",
+        "Gramática.",
+        "Etiqueta.",
+        "Atributo."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "Con qué programa podemos crear un documento HTML",
+      "opciones": [
+        "Kompozer",
+        "Bloc de Notas.",
+        "HTML Online Editor.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 4,
+      "enunciado": "CSS son las siglas de:",
+      "opciones": [
+        "Code Sheets Style.",
+        "Code Style Sheets.",
+        "Cascading Style Sheets.",
+        "Cascading Sheets Style."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Cuál de las siguientes extensiones no corresponde con un archivo de lenguaje de marcas?",
+      "opciones": [
+        ".css.",
+        ".sgml.",
+        ".html.",
+        ".xml."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Cuál de las siguientes opciones no es una etiqueta específica?",
+      "opciones": [
+        "<xsl:value-of>",
+        "<xsl:for-each>",
+        "<xsl:boolean›",
+        "<xsl:choose>"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Cuál de los siguientes no es un formato para el intercambio y almacenamiento de los datos?",
+      "opciones": [
+        "Ficheros CSV.",
+        "Ficheros JSON.",
+        "Ficheros XML.",
+        "Fichero TEMP."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "Cuál es el símbolo faltante, marcado con (…), en esta etiqueta xsl, <xsl(…)value-of: ",
+      "opciones": [
+        "=, igual.",
+        "?, interrogación.",
+        "_, barra baja.",
+        ":, Dos punto."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Documento que permite validar un documento XML:",
+      "opciones": [
+        "DTD.",
+        "OS/2.",
+        "SASS.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 10,
+      "enunciado": "DTD es:",
+      "opciones": [
+        "Un sistema numérico.",
+        "Un tipo de atributo.",
+        "Un documento de verificación.",
+        "Un tipo de etiqueta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 11,
+      "enunciado": "El atributo CDATA de DTD implica que el valor:",
+      "opciones": [
+        "Es un contenido único e inequívoco.",
+        "Refiere a otro elemento",
+        "Es alfanumérico.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 12,
+      "enunciado": "El módulo encargado de permitir la venta online mediante el pago electrónico es:",
+      "opciones": [
+        "Módulo de TPV.",
+        "Módulo de Marketing.",
+        "Módulo de proyectos.",
+        "Módulo de gestión de almacenes."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 13,
+      "enunciado": "En un  DTD, #IMPLIED implica que el atributo:",
+      "opciones": [
+        "Es obligatorio.",
+        "Es opcional.",
+        "Es fijo.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 14,
+      "enunciado": "Elementos básicos de un feed que se deben introducir en channel:",
+      "opciones": [
+        "Title, link y URL.",
+        "Title, link e imagen.",
+        "Title, URL y description.",
+        "Title, link y description."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 15,
+      "enunciado": "En el lenguaje XPath, la expresión de ruta \"/\" se utiliza para seleccionar:",
+      "opciones": [
+        "El nodo con un nombre específico.",
+        "El nodo raíz.",
+        "El nodo actual.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 16,
+      "enunciado": "En esta regla de CSS: h2 { color: #B6E1F9; } definimos \"color\" como:",
+      "opciones": [
+        "Selector",
+        "Declaración",
+        "Propiedad.",
+        "Valor"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 17,
+      "enunciado": "En HTML la etiqueta <link> determina: ",
+      "opciones": [
+        "La versión.",
+        "Estándar empleado.",
+        "Recursos externos, hojas de estilo.",
+        "Estilos empleados."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 18,
+      "enunciado": "En las hojas de estilo XSL el símbolo / en solitario indica:",
+      "opciones": [
+        "Un comentario.",
+        "Un atributo.",
+        "Un valor.",
+        "Todos los anteriores son correctos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 19,
+      "enunciado": "En XML los valores siempre deben:",
+      "opciones": [
+        "Ser numéricos.",
+        "Entrecomillarse.",
+        "Ir entre símbolos de igual.",
+        "Acotarse con los símbolos \"<\" y \">\"."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 20,
+      "enunciado": "En XPath \"|\" permite:",
+      "opciones": [
+        "Computar dos nodos simultáneos.",
+        "Dividir los valores de dos nodos. ",
+        "Marcar una disyunción entre uno o más nodos entre los que elegir.",
+        "Ninguna de las anteriores es correcta, ese símbolo no se emplea."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 21,
+      "enunciado": "Entre los elementos secundarios de channel, el elemento ttl:",
+      "opciones": [
+        "Marca la fecha de publicación.",
+        "El tipo de licencia. ",
+        "Marca el tiempo de actualización en el caché.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 22,
+      "enunciado": "HTML son las siglas de:",
+      "opciones": [
+        "Hypertext Markup Language",
+        "Hypertext Medium Language.",
+        "Hyperlink Meta List.",
+        "Hiperlink Mask Line"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 23,
+      "enunciado": "La estructura de XML consta de:",
+      "opciones": [
+        "Prólogo y directorio.",
+        "Índice y cuerpo.",
+        "Prólogo y cuerpo.",
+        "Todas las anteriores son incorrectas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 24,
+      "enunciado": "La información XML se puede almacenar en forma de:",
+      "opciones": [
+        "Ficheros.",
+        "XML enabled. ",
+        "Bases de datos nativas en XML.",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 25,
+      "enunciado": "La seguridad de los ERP:",
+      "opciones": [
+        "No es muy alta, por lo que se deben implementar medidas por parte de la empresa.",
+        "No es muy alta, pero un mínimo cuidado por parte de la empresa es suficiente.",
+        "Es muy alta, por lo que no requiere de otras medidas por parte de la empresa.",
+        "Es muy alta, pero, además, se recomienda que la empresa tome sus propias medidas de seguridad adicional"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 26,
+      "enunciado": "La sintaxis FLOWR es un acrónimo de For, Let, Where, Order by y....",
+      "opciones": [
+        "Rearrange.",
+        "React. ",
+        "Return.",
+        "Remove."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 27,
+      "enunciado": "Las bases de datos XML enabled son:",
+      "opciones": [
+        "Bases de datos no nativas.",
+        "Bases de datos relacionales.",
+        "Bases de datos que trabajan con XML.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 28,
+      "enunciado": "Las marcas de cierre:",
+      "opciones": [
+        "Son iguales que las de apertura.",
+        "Se marcan con ?.",
+        "Se marcan con =.",
+        "Se marcan con /."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 29,
+      "enunciado": "Los agregadores pueden ser:",
+      "opciones": [
+        "Online.",
+        "De escritorio.",
+        "De clientes de correo web y navegadores web.",
+        "Todas las anteriores son correctas. "
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 30,
+      "enunciado": "Los lenguajes de marcas se pueden utilizar en:",
+      "opciones": [
+        "Páginas web.",
+        "Mensajería instantánea..",
+        "Sindicación de contenidos.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 31,
+      "enunciado": "Los sistemas de gestión empresarial requieren de múltiples herramientas, por lo que:",
+      "opciones": [
+        "Se recomienda emplear múltiples herramientas específicas individuales.",
+        "Se recomiendo realizarlo todo en una única herramienta, aunque no sea lo ideal.",
+        "Se recomienda emplear un único sistema con diversas herramientas incorporadas, para evitar problemas de incompatibilidad.",
+        "Lo sistemas de gestión empresarial deben hacer uso de una única herramienta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 32,
+      "enunciado": "Los tres pilares de los CRM son:",
+      "opciones": [
+        "Marketing, venta y servicio postventa.",
+        "Marketing, compra y servicio postventa.",
+        "Marketing, venta y análisis.",
+        "Marketing, compra y análisis."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Qué debe incluir el prólogo del documento XML?",
+      "opciones": [
+        "Presentación.",
+        "Versión.",
+        "Estructura del documento.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 34,
+      "enunciado": "¿Qué tipo de estructura jerárquica tiene un documento XML?",
+      "opciones": [
+        "Estructura ascendente arbórea.",
+        "Estructura descendente canórea.",
+        "Estructura descendente arbórea.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 35,
+      "enunciado": "Qué tipo de sindicación se utiliza en este documento XML.",
+      "opciones": [
+        "FeedTe.",
+        "RSS.",
+        "ATOM.",
+        "Todos los anteriores son incorrectos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 36,
+      "enunciado": "RSS hace referencia a:",
+      "opciones": [
+        "Really Simple Syndication.",
+        "Real Sindication Simple .",
+        "Real Sindicate Simplified.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 37,
+      "enunciado": "Un texto que se encuentra en un símbolo menor que (<) y otro símbolo mayor que (>) se denomina:",
+      "opciones": [
+        "Elemento.",
+        "Gramática.",
+        "Etiqueta.",
+        "Atributo."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "XML se incluye en el tipo de lenguaje de marcas:",
+      "opciones": [
+        "Tipo 1 o de procedimiento.",
+        "Tipo 2 o de presentación.",
+        "Tipo 3 o descriptivos o semánticos.",
+        "En todos los anteriores."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 39,
+      "enunciado": "XSL-FOR son las siglas de:",
+      "opciones": [
+        "extensible stylesheet language formatting.",
+        "extensible stylesheet language formatting objects reload.",
+        "XML stylesheets language for transformation.",
+        "XSL-FOR no existe."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 40,
+      "enunciado": "XSLT requiere la entrada de:",
+      "opciones": [
+        "Una hoja de estilo.",
+        "Dos hojas de estilo.",
+        "Una hoja de estilo y un documento XML.",
+        "Dos documentos XML."
+      ],
+      "correcta": 2
+    }
+  ]
+}

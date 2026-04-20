@@ -1,0 +1,225 @@
+{
+  "asignatura": "Sostenibilidad",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cómo se denomina en inglés a los grupos de interés?",
+      "opciones": [
+        "Stakeholders",
+        "ODS",
+        "Groups of interest",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál de las siguientes NO es uno de los 5 principios de sostenibilidad?",
+      "opciones": [
+        "Planeta",
+        "Paz",
+        "Promoción",
+        "Participación"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 3,
+      "enunciado": "El equilibrio entre los recursos utilizados por la humanidad y el bienestar humano teniendo en cuenta el futuro se denomina:",
+      "opciones": [
+        "Sostenibilidad ambiental",
+        "Sostenibilidad",
+        "Sostenibilidad social",
+        "Sostenibilidad económica"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 4,
+      "enunciado": "En una empresa, los aspectos de gestión de residuos y reducción de emisiones hacen referencia a:",
+      "opciones": [
+        "Aspectos sociales",
+        "Aspectos de gobernanza",
+        "Aspectos ambientales",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 5,
+      "enunciado": "Entre las normativas actuales internacionales en materia de sostenibilidad se encuentra:",
+      "opciones": [
+        "Agenda 2030",
+        "Acuerdo de París",
+        "Marco Estratégico de Energía y Clima",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 6,
+      "enunciado": "Es un indicador de sostenibilidad ambiental:",
+      "opciones": [
+        "Huella de carbono",
+        "Índice de Desarrollo Humano",
+        "Valor Económico Generado y Distribuido",
+        "Ninguna es correcta"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "Es un stakeholder:",
+      "opciones": [
+        "Personal trabajador de la empresa",
+        "Clientes",
+        "ONGs",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "La P que se centra en la protección del medio natural y el cambio climático es:",
+      "opciones": [
+        "Paz",
+        "Prosperidad",
+        "Personas",
+        "Planeta"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 9,
+      "enunciado": "Las estrategias de inversión que tienen en cuenta los criterios ASG son:",
+      "opciones": [
+        "Inversiones Socialmente Respetables",
+        "Inversiones verdes",
+        "Inversiones Socialmente Responsables",
+        "Inversiones Sociales y Medioambientales"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "Las siglas ASG hacen referencia a:",
+      "opciones": [
+        "Aspectos Ambientales, Sociales y de Gobernanza",
+        "Aspectos Ambientales, Sociales y de Gestión",
+        "Aspectos Ambientales, Servicios y de Gobernanza",
+        "Aspectos Amigables, Serviciales y de Gobierno"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 11,
+      "enunciado": "¿A qué nos referimos cuando los cambios se producen en la cantidad y distribución de la población?",
+      "opciones": [
+        "Desempleo.",
+        "Pobreza y exclusión social.",
+        "Migración.",
+        "Reto demográfico."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Cómo se llama el acuerdo internacional que pretende frenar las emisiones de gases de efecto invernadero?",
+      "opciones": [
+        "Protocolo de Kioto.",
+        "Protocolo de Tokio.",
+        "Protocolo de Okazaki.",
+        "Protocolo de Kobe."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 13,
+      "enunciado": "¿Cuál de las siguientes no se encuentran entre los principales problemas ambientales?",
+      "opciones": [
+        "Cambio climático acelerado por la actividad humana.",
+        "Pérdida de biodiversidad.",
+        "Contaminación del aire, agua y suelos.",
+        "La protección de los ecosistemas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 14,
+      "enunciado": "¿Qué provoca un desastre natural?",
+      "opciones": [
+        "Reto social.",
+        "El desplazamiento de poblaciones enteras.",
+        "Dependencia de combustibles fósiles.",
+        "Fomentar la reutilización de materiales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 15,
+      "enunciado": "El cambio climático y la escasez de recursos naturales afecta directamente a:",
+      "opciones": [
+        "Sector primario.",
+        "Sector secundario.",
+        "Sector terciario.",
+        "Sector cuaternario."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 16,
+      "enunciado": "¿A qué nos referimos cuando la colaboración lleva a cambios de comportamiento que protegen el medio ambiente?",
+      "opciones": [
+        "A los incentivos económicos.",
+        "Al desarrollo de políticas integrales.",
+        "Al desarrollo de estándares y certificaciones.",
+        "Educación y sensibilización."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 17,
+      "enunciado": "La pérdida y degradación de bosques es:",
+      "opciones": [
+        "Pérdida de biodiversidad.",
+        "Deforestación.",
+        "Contaminación del suelo.",
+        "Producción sostenible."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 18,
+      "enunciado": "Las prácticas sostenibles, reducción de residuos y producción local son medidas de:",
+      "opciones": [
+        "Consumo.",
+        "Conservación del medio ambiente.",
+        "Sectores productivos.",
+        "Política y gobierno."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 19,
+      "enunciado": "¿Qué es la eficiencia energética?",
+      "opciones": [
+        "Regular el uso de recursos naturales.",
+        "Cambio de un sistema de energía fósil.",
+        "Utilizar menos energía para realizar la misma tarea.",
+        "Aumentar la conciencia sobre los problemas ambientales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 20,
+      "enunciado": "Una medida para reducir el impacto ambiental es:",
+      "opciones": [
+        "Eficiencia energética.",
+        "Movilidad sostenible.",
+        "Transición energética.",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    }
+  ]
+}

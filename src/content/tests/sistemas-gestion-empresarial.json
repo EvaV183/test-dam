@@ -1,0 +1,15 @@
+{
+  "asignatura": "Sistemas de Gestión Empresarial",
+  "preguntas": [
+    { "id": 1, "enunciado": "Algunos de los beneficios de las mejoras de las operaciones comerciales son:", "opciones": ["Aumentar ventas y reducir costes.", "Suprimir actividades innecesarias.", "Facilitar tareas y mecanizar actividades.", "Todas son correctas."], "correcta": 3 },
+    { "id": 2, "enunciado": "El acrónimo OAS corresponde con el término:", "opciones": ["Gestión documental.", "Automatización de oficinas.", "Gestión de contenidos.", "Información geográfica."], "correcta": 1 },
+    { "id": 3, "enunciado": "El acrónimo TPS corresponde con el término:", "opciones": ["Procesamiento de transacciones.", "Información ejecutiva.", "Información de gestión.", "Procesos comerciales."], "correcta": 0 },
+    { "id": 4, "enunciado": "EL CRM está orientado a:", "opciones": ["La empresa.", "Las ventas.", "El cliente.", "Todas son correctas."], "correcta": 2 },
+    { "id": 5, "enunciado": "El nivel de operaciones que recopila datos operativos para informes y estadísticas generales es:", "opciones": ["MIS.", "ERP.", "EIS.", "BSC."], "correcta": 0 },
+    { "id": 6, "enunciado": "Herramienta de control para rastrear el logro de objetivos por áreas de negocio:", "opciones": ["Información ejecutiva.", "Información de gestión.", "Cuadro de mando integral.", "Gestión por procesos."], "correcta": 2 },
+    { "id": 7, "enunciado": "Las funciones principales de un CRM son:", "opciones": ["Recopilar info de clientes.", "Clasificar clientes y gestionar ventas.", "Seguimiento de operaciones y personal.", "Todas son correctas."], "correcta": 3 },
+    { "id": 8, "enunciado": "Las siglas ERP corresponden con:", "opciones": ["Información ejecutiva.", "Colaboración empresarial.", "Gestión por procesos.", "Ninguna es correcta."], "correcta": 3 },
+    { "id": 9, "enunciado": "Las soluciones verticales son soluciones desarrolladas de forma:", "opciones": ["General.", "Concreta.", "Abstracta.", "Superficial."], "correcta": 1 },
+    { "id": 10, "enunciado": "Los pilares de la gestión empresarial eficaz se basan en:", "opciones": ["Procesos de negocio.", "Flujos de datos.", "La información.", "Todas son correctas."], "correcta": 3 }
+  ]
+}

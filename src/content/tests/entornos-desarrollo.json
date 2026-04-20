@@ -1,0 +1,445 @@
+{
+  "asignatura": "Entornos de Desarrollo",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "Algunas características del software son:",
+      "opciones": [
+        "Es intangible.",
+        "Se desarrolla.",
+        "En algunas ocasiones, es a medida.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 2,
+      "enunciado": "Dentro de los modos de colaboración con los SCV (Sistemas de Control de Versiones) está:",
+      "opciones": [
+        "Flujo de trabajo centralizado.",
+        "Flujo de trabajo con gestor de integración.",
+        "Flujo de trabajo con dictador y tenientes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 3,
+      "enunciado": "En diagramas de casos de uso, la relación de extensión es una situación donde:",
+      "opciones": [
+        "Uno de ellos añade un matiz extra.",
+        "Son idénticos, no hay ningún matiz que los diferencie.",
+        "Uno de ellos requiere del otro para su realización.",
+        "Ninguna de las anteriores"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 4,
+      "enunciado": "Ejecutando el comando \"javac -version\":",
+      "opciones": [
+        "Comprobamos que está instalado el JDK (Java Development Kit).",
+        "Comprobamos que está instalado el JVM (Java Virtual Machine).",
+        "Comprobamos que está instalado NetBeans.",
+        "Iniciamos el proceso de depuración de errores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "El compilador de Java también se denomina:",
+      "opciones": [
+        "Javac.",
+        "JRE.",
+        "JVM.",
+        "JDK."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "El diagrama de casos de uso permite:",
+      "opciones": [
+        "Secuenciación temporal del programa.",
+        "Clasifica las clases y sus relaciones.",
+        "Representar interacciones entre actores y sistema.",
+        "Ninguna es correcta"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 7,
+      "enunciado": "El nivel de visibilidad designado con \"-\" es:",
+      "opciones": [
+        "El público.",
+        "El protegido.",
+        "El reflexivo.",
+        "El privado."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "El proceso de reestructuración interna del código sin modificar su comportamiento se llama:",
+      "opciones": [
+        "Refactorización.",
+        "Recodificación.",
+        "Reordenación.",
+        "Regeneración."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "El software estándar o enlatado:",
+      "opciones": [
+        "Es un software que se compra ya desarrollado.",
+        "Es usado por varias aplicaciones o clientes.",
+        "Diseñado para una variedad de necesidades.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "El valor int:",
+      "opciones": [
+        "Indica valores en números enteros.",
+        "Indica valores en números con decimales.",
+        "Indica valores con caracteres alfanuméricos.",
+        "Las dos primeras son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 11,
+      "enunciado": "En el lenguaje UML los atributos de una clase se representan en:",
+      "opciones": [
+        "La primera celda.",
+        "La segunda celda.",
+        "La tercera celda.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 12,
+      "enunciado": "En los diagramas de secuencia, el envío de mensajes puede ser:",
+      "opciones": [
+        "Simple.",
+        "Sincrónico.",
+        "Asincrónico.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 13,
+      "enunciado": "Entre las medidas para evaluar los principales criterios de calidad están:",
+      "opciones": [
+        "Modularidad.",
+        "Estandarización de datos.",
+        "Tolerancia a errores.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 14,
+      "enunciado": "Entre sus herramientas, un IDE puede contar con:",
+      "opciones": [
+        "Editor.",
+        "Depurador.",
+        "Compilador.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 15,
+      "enunciado": "Es muy recomendable que las pruebas:",
+      "opciones": [
+        "Las realice personal del equipo de programación.",
+        "No cubran aspectos como las características.",
+        "Las realice personal externo al equipo de programación.",
+        "Todas son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 16,
+      "enunciado": "Es un elemento de los diagramas de uso:",
+      "opciones": [
+        "Actor.",
+        "Caso de uso.",
+        "Sistema.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 17,
+      "enunciado": "La acción de depurar un programa se debe a:",
+      "opciones": [
+        "Arreglar fallos de un programa.",
+        "Cambiar el programa.",
+        "Combinar varios programas.",
+        "Eliminar un programa."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 18,
+      "enunciado": "La fase donde se definen los procesos específicos de ejecución de la aplicación es:",
+      "opciones": [
+        "Fase de diseño.",
+        "Fase de análisis.",
+        "Fase inicial.",
+        "Explotación."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 19,
+      "enunciado": "La refactorización es:",
+      "opciones": [
+        "Un medio para cambiar el funcionamiento.",
+        "El proceso de reestructuración interna sin cambiar el programa.",
+        "Cambiar la velocidad del programa.",
+        "Todas son correctas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 20,
+      "enunciado": "La relación de agregación se marca con:",
+      "opciones": [
+        "Un triángulo vacío.",
+        "Un rombo vacío.",
+        "Un rombo negro.",
+        "Un círculo vacío."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 21,
+      "enunciado": "La UML es:",
+      "opciones": [
+        "Un lenguaje de modelado.",
+        "Un tipo de programa OO.",
+        "Una OO.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 22,
+      "enunciado": "Las primeras pruebas que se realizan durante las primeras fases son:",
+      "opciones": [
+        "Pruebas de integración.",
+        "Pruebas de aceptación.",
+        "Pruebas unitarias.",
+        "Pruebas de validación."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 23,
+      "enunciado": "Las pruebas para comprobar que el software ofrece todo lo necesario son:",
+      "opciones": [
+        "Diseñadas o mantenidas.",
+        "Explotadas o analizadas.",
+        "Codificadas o implementadas.",
+        "Funcionales o estructurales."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 24,
+      "enunciado": "Pruebas tras modificar algo para comprobar que no han afectado al software:",
+      "opciones": [
+        "Pruebas funcionales.",
+        "Pruebas unitarias.",
+        "Pruebas lineales.",
+        "Pruebas de regresión."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 25,
+      "enunciado": "Las pruebas se realizan con el fin de:",
+      "opciones": [
+        "Convencer de que el software cumple objetivos.",
+        "Comprobar que no hay errores.",
+        "Asegurar que el software está operativo.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 26,
+      "enunciado": "Las relaciones de inclusión:",
+      "opciones": [
+        "Unen casos de uso cuando uno requiere de otros.",
+        "Se marcan con una flecha con rombo.",
+        "Se encuentran en los diagramas de actividades.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 27,
+      "enunciado": "Los CASE permiten:",
+      "opciones": [
+        "La reutilización del software.",
+        "La portabilidad del software.",
+        "La estandarización de la documentación.",
+        "Todas las anteriores son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 28,
+      "enunciado": "Los diagramas de estados poseen:",
+      "opciones": [
+        "Un marcado inicio y final.",
+        "Semejanzas con los diagramas de clases.",
+        "Las dos anteriores son correctas.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 29,
+      "enunciado": "Los lenguajes de programación clasificados por cómo se ejecutan son:",
+      "opciones": [
+        "Compilados, interpretados y virtuales.",
+        "De máquina y de medio nivel.",
+        "De alto nivel y de ensamblador.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 30,
+      "enunciado": "Los métodos:",
+      "opciones": [
+        "Son las acciones que podrá desempeñar cada instancia.",
+        "No forman parte de los UML.",
+        "Se muestran siempre con un valor int.",
+        "La primera y tercera son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 31,
+      "enunciado": "Los patrones de diseño son:",
+      "opciones": [
+        "Programas CASE.",
+        "Elementos de corrección.",
+        "Programas de ordenación de código.",
+        "Soluciones prefabricadas para problemas comunes."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 32,
+      "enunciado": "Los POO son:",
+      "opciones": [
+        "Programas de Orientación Orgánica.",
+        "Programas Orientados a Objetos.",
+        "Programas de Objetos Orientados.",
+        "Programas con Objetos Ocultos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 33,
+      "enunciado": "Los SCV pueden ser:",
+      "opciones": [
+        "Centralizados o compartimentados.",
+        "Compartimentados o individuales.",
+        "Cíclicos o centralizados.",
+        "Centralizados o distribuidos."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 34,
+      "enunciado": "Los tipos de diagramas que pueden desarrollarse por UML se dividen en:",
+      "opciones": [
+        "No existen grandes categorías.",
+        "Dos categorías: estructura y comportamiento.",
+        "Dos categorías: interactividad y comunicación.",
+        "Tres categorías: estandarización, consolidación y comportamiento."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 35,
+      "enunciado": "Tipos de documentación fundamentales en la creación de software:",
+      "opciones": [
+        "Documentos técnicos y funcionales.",
+        "Documentos técnicos y orgánicos.",
+        "Documentos funcionales y descriptivos.",
+        "Documentos creacionales y estructurales."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 36,
+      "enunciado": "Los tipos de lenguajes de programación son:",
+      "opciones": [
+        "Lenguaje de diseño y contabilidad.",
+        "Lenguaje estándar y mecanizado.",
+        "Máquina, bajo nivel (ensamblador) y alto nivel.",
+        "Lenguaje interpretado y lenguaje literal."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 37,
+      "enunciado": "NetBeans es un IDE:",
+      "opciones": [
+        "No es modular.",
+        "Solo puede usarse en Windows.",
+        "Permite desarrollar en Java, C++, HTML, PHP y Python.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "Un punto de interrupción al depurar un programa consiste en:",
+      "opciones": [
+        "Lugar donde se detendrá la ejecución esperando al depurador.",
+        "Lugar donde se actualiza la ejecución.",
+        "Lugar donde se modifica la ejecución.",
+        "Lugar donde se espera un warning."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 39,
+      "enunciado": "Una de las características del lenguaje de modelado UML es:",
+      "opciones": [
+        "Documentación sencilla.",
+        "Estandarización para sistemas orientados a objetos.",
+        "Capacidad de diagramación.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 40,
+      "enunciado": "Una instancia es:",
+      "opciones": [
+        "Un valor de uno de los atributos.",
+        "El conjunto de entidades de un objeto.",
+        "Cada uno de los objetos particulares de una clase.",
+        "Todas son incorrectas."
+      ],
+      "correcta": 2
+    }
+  ]
+}
