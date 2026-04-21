@@ -1,0 +1,225 @@
+{
+  "asignatura": "Digitalización",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cuál de las siguientes afirmaciones define mejor la digitalización en sistemas empresariales?",
+      "opciones": [
+        "Solo incluye la automatización de procesos.",
+        "Se refiere exclusivamente al uso de software en las empresas.",
+        "Es la integración de tecnologías digitales en todos los aspectos/contextos de una empresa.",
+        "Se limita a la conversión de documentos en papel a formato digital."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cuál es la función principal de las redes de comunicación industrial?",
+      "opciones": [
+        "Proporcionar internet de alta velocidad en las instalaciones.",
+        "Conectar sensores y actuadores con el PLC.",
+        "Almacenar datos de producción.",
+        "Monitorizar la temperatura en entornos industriales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Cuál es una de las aplicaciones de la digitalización en la gestión del agua en entornos urbanos?",
+      "opciones": [
+        "Desalinización de agua de mar.",
+        "Automatización de la distribución de agua embotellada.",
+        "Sistemas de control que detectan fugas de agua y contabilizan su uso.",
+        "Duplicación de la infraestructura de tuberías."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "¿Cuál es uno de los beneficios principales de la digitalización en el sector del medio ambiente?",
+      "opciones": [
+        "Reducción en la utilización de recursos materiales y energéticos.",
+        "Incremento en el uso de recursos naturales.",
+        "Aumento en la dependencia de combustibles fósiles.",
+        "Expansión del uso de papel en las oficinas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "¿Qué es Fintech en el contexto de la digitalización financiera?",
+      "opciones": [
+        "Empresas, técnicas y métodos basados en herramientas digitales para el sector financiero.",
+        "Una nueva moneda digital.",
+        "Un tipo de seguro de vida.",
+        "Un banco tradicional con sucursales físicas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 6,
+      "enunciado": "¿Qué es la digitalización en un contexto técnico?",
+      "opciones": [
+        "La creación de nuevas tecnologías.",
+        "La transformación de una señal analógica en una señal digital.",
+        "El uso de software en empresas.",
+        "La mejora de la productividad empresarial."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 7,
+      "enunciado": "¿Qué es Profibus?",
+      "opciones": [
+        "Un tipo de cable de alimentación.",
+        "Un software de diseño industrial.",
+        "Un sistema de almacenamiento en la nube.",
+        "Un protocolo de comunicación industrial."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 8,
+      "enunciado": "¿Qué función cumplen los sistemas SCADA en el entorno de las Tecnologías de Operación (OT)?",
+      "opciones": [
+        "Realizan el mantenimiento preventivo de equipos industriales.",
+        "Permiten la supervisión y control de procesos industriales para asegurar su correcto funcionamiento.",
+        "Generan electricidad en plantas industriales.",
+        "Almacenan productos terminados en almacenes automatizados."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 9,
+      "enunciado": "¿Qué impacto ha tenido la digitalización en el sector financiero?",
+      "opciones": [
+        "La reducción en la cantidad de transacciones electrónicas.",
+        "El aumento de sucursales bancarias físicas.",
+        "La aparición de medios de pago digitales y banca sin sedes físicas.",
+        "La eliminación total de la banca tradicional."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 10,
+      "enunciado": "¿Qué implica la digitalización en el contexto de la optimización de recursos?",
+      "opciones": [
+        "Aumento de la mano de obra física.",
+        "Eliminación completa del factor humano.",
+        "Sustitución total de tecnologías antiguas por nuevas.",
+        "Implementación de procesos que optimizan el uso de recursos y mejoran la productividad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Cuál es una de las características clave de la tecnología Blockchain?",
+      "opciones": [
+        "Centralización en un servidor principal.",
+        "Transparencia y trazabilidad en todas las transacciones.",
+        "Almacenamiento de datos en un solo lugar.",
+        "Exclusividad para el uso de criptomonedas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 12,
+      "enunciado": "¿Cuál es una de las medidas clave para evitar que las personas mayores queden excluidas en el proceso de digitalización?",
+      "opciones": [
+        "Fomentar el uso de redes sociales.",
+        "Proporcionar acceso a internet de alta velocidad.",
+        "Implementar programas de \"alfabetización digital\".",
+        "Reducir el uso de tecnologías digitales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 13,
+      "enunciado": "¿Cuál es una medida recomendada para mejorar la seguridad de datos y privacidad en la era digital?",
+      "opciones": [
+        "Usar contraseñas sencillas para recordarlas fácilmente.",
+        "Evitar hacer copias de seguridad de los datos.",
+        "Conectarse regularmente a redes WiFi públicas.",
+        "Implementar la autenticación multifactor."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 14,
+      "enunciado": "¿Qué ámbito se menciona como uno de los grandes influenciados por la digitalización en la sociedad actual?",
+      "opciones": [
+        "La agricultura.",
+        "El entretenimiento.",
+        "La minería.",
+        "La medicina."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 15,
+      "enunciado": "¿Qué aspecto de la digitalización permite a las empresas mejorar su capacidad de respuesta y adaptabilidad al mercado?",
+      "opciones": [
+        "El análisis de datos mediante Big Data.",
+        "La reducción del tamaño de los ordenadores.",
+        "La invención del transistor.",
+        "El uso de teléfonos inteligentes."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 16,
+      "enunciado": "¿Qué característica define la importancia de la digitalización en el entorno empresarial actual?",
+      "opciones": [
+        "Aumentar el tamaño físico de los servidores.",
+        "Eliminar el uso de internet en las transacciones.",
+        "Reducir la automatización y el análisis de datos.",
+        "Facilitar la globalización y la competitividad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 17,
+      "enunciado": "¿Qué componente en un sistema IoT es fundamental para la transmisión de datos, aunque no es un dispositivo físico como tal?",
+      "opciones": [
+        "Dispositivos y sensores.",
+        "Conectividad.",
+        "Plataforma de gestión.",
+        "Interfaz de usuario."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 18,
+      "enunciado": "¿Qué evento marcó el inicio de la era digital tal y como la conocemos hoy en día?",
+      "opciones": [
+        "La invención del telégrafo eléctrico en 1837.",
+        "La aparición del primer ordenador electrónico, el ENIAC, en los años 40.",
+        "El desarrollo de la teoría unificada de la electricidad y el magnetismo en 1861.",
+        "La invención de la radio en 1898."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 19,
+      "enunciado": "¿Qué tecnología emergente a comienzos del siglo XXI fue clave para la expansión de internet y la digitalización en España?",
+      "opciones": [
+        "La radio.",
+        "La computación en la nube.",
+        "La tecnología ADSL.",
+        "Los ordenadores personales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 20,
+      "enunciado": "¿Qué término describe la diferencia en el acceso y uso de tecnologías digitales entre diferentes generaciones?",
+      "opciones": [
+        "Brecha digital generacional.",
+        "Ciberseguridad.",
+        "Automatización de procesos.",
+        "Transformación digital."
+      ],
+      "correcta": 0
+    }
+  ]
+}

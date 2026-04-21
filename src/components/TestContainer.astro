@@ -1,114 +1,187 @@
 ---
+import QuizHeader from './QuizHeader.astro';
 const { preguntas: todasLasPreguntas, asignatura } = Astro.props;
 const preguntas = todasLasPreguntas.sort(() => Math.random() - 0.5).slice(0, 10);
 ---
 
 <div class="max-w-2xl mx-auto p-4">
-    <div class="hidden border-green-500 border-red-500 bg-green-600 bg-red-600 text-white shadow-green-500/20 shadow-red-500/20 bg-green-900/30 text-green-400"></div>
-
-    <div id="test-header" class="mb-6 text-center">
-        <h1 class="text-2xl font-bold text-slate-100">{asignatura}</h1>
-        <p id="contador" class="text-sm text-slate-400 mt-2">Pregunta 1 de {preguntas.length}</p>
-    </div>
+    <QuizHeader asignatura={asignatura} totalPreguntas={preguntas.length} />
 
     <div id="quiz-card" class="bg-slate-900 p-6 rounded-3xl shadow-2xl border border-slate-800">
         <h2 id="enunciado" class="text-xl font-medium mb-6 text-slate-100 leading-relaxed"></h2>
         <div id="opciones" class="grid gap-4"></div>
+
+        <div class="flex justify-between items-center mt-8 pt-6 border-t border-slate-800">
+            <a href="/" class="p-3 text-slate-500 hover:text-slate-200 transition-colors" title="Volver al inicio">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                </svg>
+            </a>
+
+            <div class="flex gap-4">
+                <button id="btn-prev" class="px-6 py-2 rounded-xl bg-slate-800 text-slate-400 hover:bg-slate-700 disabled:opacity-30 disabled:cursor-not-allowed transition-all">
+                    ← Anterior
+                </button>
+                <button id="btn-next" class="px-6 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-500 shadow-lg shadow-indigo-500/20 transition-all">
+                    Siguiente →
+                </button>
+            </div>
+        </div>
     </div>
 
     <div id="results-card" class="hidden bg-slate-900 p-8 rounded-3xl shadow-2xl border border-slate-800 text-center">
         <h2 class="text-3xl font-bold mb-2 text-slate-100">¡Test Completado!</h2>
         <p class="text-slate-400 mb-8">Has terminado el repaso de {asignatura}</p>
         
-        <div class="flex justify-center gap-12 mb-10">
+        <div class="flex justify-center gap-8 mb-10">
             <div>
-                <p class="text-5xl font-bold text-green-500" id="final-aciertos">0</p>
-                <p class="text-xs uppercase tracking-widest text-slate-500 mt-2 font-semibold">Aciertos</p>
+                <p class="text-4xl font-bold text-green-500" id="final-aciertos">0</p>
+                <p class="text-[10px] uppercase tracking-widest text-slate-500 mt-2 font-semibold">Aciertos</p>
             </div>
             <div>
-                <p class="text-5xl font-bold text-red-500" id="final-fallos">0</p>
-                <p class="text-xs uppercase tracking-widest text-slate-500 mt-2 font-semibold">Fallos</p>
+                <p class="text-4xl font-bold text-red-500" id="final-fallos">0</p>
+                <p class="text-[10px] uppercase tracking-widest text-slate-500 mt-2 font-semibold">Fallos</p>
+            </div>
+            <div>
+                <p class="text-4xl font-bold text-slate-400" id="final-pendientes">0</p>
+                <p class="text-[10px] uppercase tracking-widest text-slate-500 mt-2 font-semibold">Omitidas</p>
             </div>
         </div>
 
-        <button onclick="window.location.reload()" class="w-full bg-slate-100 text-slate-900 py-4 rounded-2xl font-bold hover:bg-white transition-all transform active:scale-95 shadow-lg shadow-white/5">
+        <button onclick="window.location.reload()" class="w-full bg-slate-100 text-slate-900 py-4 rounded-2xl font-bold hover:bg-white transition-all transform active:scale-95 shadow-lg">
             Hacer otro test nuevo
         </button>
 
         <div class="grid grid-cols-2 gap-4 mt-4">
-            <button onclick="resetCurrentTest()" class="py-3 px-4 bg-slate-800 text-slate-200 rounded-xl font-semibold border border-slate-700 hover:bg-slate-700 transition-colors">
-                Reiniciar este test
+            <button onclick="location.reload()" class="py-3 px-4 bg-slate-800 text-slate-200 rounded-xl font-semibold border border-slate-700 hover:bg-slate-700 transition-colors">
+                Reiniciar
             </button>
             <a href="/" class="py-3 px-4 bg-slate-800 text-slate-200 rounded-xl font-semibold border border-slate-700 hover:bg-slate-700 transition-colors flex items-center justify-center">
-                Volver al inicio
+                Inicio
             </a>
         </div>
+    </div>
 </div>
 
 <script define:vars={{ preguntas, asignatura }}>
     let currentIdx = 0;
-    let aciertos = 0;
-    let fallos = 0;
-    let respondido = false;
-
+    let respuestasUsuario = new Array(preguntas.length).fill(null); 
+    
     const enunciadoEl = document.getElementById('enunciado');
     const opcionesEl = document.getElementById('opciones');
     const contadorEl = document.getElementById('contador');
+    const btnPrev = document.getElementById('btn-prev');
+    const btnNext = document.getElementById('btn-next');
+    const resultsCard = document.getElementById('results-card');
+    const quizCard = document.getElementById('quiz-card');
+    const quizHeader = document.getElementById('quiz-header');
+
+    const hAciertos = document.getElementById('header-aciertos');
+    const hFallos = document.getElementById('header-fallos');
+    const hPendientes = document.getElementById('header-pendientes');
+    const progressBar = document.getElementById('progress-bar');
+
+    function updateStats() {
+        const aciertos = respuestasUsuario.filter((r, i) => r !== null && r === preguntas[i].correcta).length;
+        const fallos = respuestasUsuario.filter((r, i) => r !== null && r !== preguntas[i].correcta).length;
+        const respondidas = respuestasUsuario.filter(r => r !== null).length;
+        
+        if(hAciertos) hAciertos.innerText = aciertos;
+        if(hFallos) hFallos.innerText = fallos;
+        if(hPendientes) hPendientes.innerText = preguntas.length - respondidas;
+        if(progressBar) progressBar.style.width = `${((currentIdx + 1) / preguntas.length) * 100}%`;
+    }
 
     function render() {
-        respondido = false;
         const p = preguntas[currentIdx];
         contadorEl.innerText = `Pregunta ${currentIdx + 1} de ${preguntas.length}`;
         enunciadoEl.innerText = p.enunciado;
         opcionesEl.innerHTML = '';
+        
+        btnPrev.disabled = currentIdx === 0;
+        
+        // Configuración inicial del botón Next
+        if (currentIdx === preguntas.length - 1) {
+            btnNext.innerText = "Finalizar";
+            // Si ya está respondida la última, le damos el estilo especial
+            if (respuestasUsuario[currentIdx] !== null) {
+                btnNext.classList.replace('bg-indigo-600', 'bg-green-600');
+                btnNext.classList.add('scale-105', 'font-bold');
+                btnNext.innerText = "¡Finalizar Test!";
+            }
+        } else {
+            btnNext.innerText = "Siguiente →";
+            btnNext.className = "px-6 py-2 rounded-xl bg-indigo-600 text-white hover:bg-indigo-500 shadow-lg shadow-indigo-500/20 transition-all";
+        }
 
         p.opciones.forEach((op, i) => {
             const btn = document.createElement('button');
             btn.innerText = op;
-            // ESTILO BASE OSCURO
-            btn.className = "p-5 border border-slate-800 rounded-2xl text-left transition-all duration-200 font-medium bg-slate-800/50 text-slate-200 hover:border-slate-600 active:scale-[0.98]";
+            btn.className = "p-5 border border-slate-800 rounded-2xl text-left transition-all duration-200 font-medium bg-slate-800/50 text-slate-200 hover:border-slate-600";
             
+            if (respuestasUsuario[currentIdx] !== null) {
+                marcarBotones(btn, i, p.correcta, respuestasUsuario[currentIdx]);
+            }
+
             btn.onclick = () => {
-                if (respondido) return;
-                respondido = true;
-                handleAnswer(i, p.correcta, btn);
+                if (respuestasUsuario[currentIdx] !== null) return;
+                respuestasUsuario[currentIdx] = i;
+                marcarBotones(btn, i, p.correcta, i);
+                updateStats();
+                
+                // Solo salta automáticamente si no es la última
+                if (currentIdx < preguntas.length - 1) {
+                    setTimeout(nextQuestion, 800);
+                } else {
+                    // Si es la última, actualizamos el botón de finalizar inmediatamente
+                    render(); 
+                }
             };
             opcionesEl.appendChild(btn);
         });
     }
 
-    function handleAnswer(selected, correct, btn) {
-        const allButtons = opcionesEl.querySelectorAll('button');
-        
-        if (selected === correct) {
-            aciertos++;
-            // ACIERTO: Verde sólido pero elegante
-            btn.className = "p-5 border border-green-500 rounded-2xl text-left font-bold bg-green-600 text-white shadow-lg shadow-green-500/20 scale-[1.02]";
-        } else {
-            fallos++;
-            // ERROR: Rojo sólido
+    function marcarBotones(btn, i, correcta, seleccionada) {
+        if (i === correcta) {
+            btn.className = "p-5 border border-green-500 rounded-2xl text-left font-bold bg-green-600 text-white shadow-lg shadow-green-500/20";
+        } else if (i === seleccionada) {
             btn.className = "p-5 border border-red-500 rounded-2xl text-left font-bold bg-red-600 text-white shadow-lg shadow-red-500/20";
-            // La correcta se marca con un borde verde y fondo sutil
-            allButtons[correct].className = "p-5 border-2 border-green-500 rounded-2xl text-left font-bold bg-green-900/30 text-green-400";
         }
-
-        setTimeout(() => {
-            if (currentIdx < preguntas.length - 1) {
-                currentIdx++;
-                render();
-            } else {
-                showResults();
-            }
-        }, 1500);
     }
 
     function showResults() {
-        document.getElementById('quiz-card').classList.add('hidden');
-        document.getElementById('test-header').classList.add('hidden');
-        document.getElementById('results-card').classList.remove('hidden');
-        document.getElementById('final-aciertos').innerText = aciertos;
-        document.getElementById('final-fallos').innerText = fallos;
+        const finalAciertos = respuestasUsuario.filter((r, i) => r !== null && r === preguntas[i].correcta).length;
+        const finalFallos = respuestasUsuario.filter((r, i) => r !== null && r !== preguntas[i].correcta).length;
+        const finalSinResponder = respuestasUsuario.filter(r => r === null).length;
+
+        quizCard.classList.add('hidden');
+        if(quizHeader) quizHeader.classList.add('hidden');
+        resultsCard.classList.remove('hidden');
+        
+        document.getElementById('final-aciertos').innerText = finalAciertos;
+        document.getElementById('final-fallos').innerText = finalFallos;
+        document.getElementById('final-pendientes').innerText = finalSinResponder;
     }
 
+    function nextQuestion() {
+        if (currentIdx < preguntas.length - 1) {
+            currentIdx++;
+            render();
+            updateStats();
+        } else {
+            showResults();
+        }
+    }
+
+    btnNext.onclick = nextQuestion;
+    btnPrev.onclick = () => { 
+        if (currentIdx > 0) { 
+            currentIdx--; 
+            render(); 
+            updateStats();
+        } 
+    };
+
     render();
+    updateStats();
 </script>
