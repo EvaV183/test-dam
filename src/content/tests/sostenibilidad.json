@@ -1,5 +1,5 @@
 {
-  "asignatura": "Sostenibilidad",
+  "asignatura": "Sostenibilidad aplicada al sistema productivo",
   "preguntas": [
     {
       "id": 1,
@@ -220,6 +220,226 @@
         "Todas son correctas"
       ],
       "correcta": 3
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Cómo pueden hacer las empresas para cumplir con el ODS de Trabajo decente y crecimiento económico?",
+      "opciones": [
+        "Crear empleo estable, bien pagado y seguro.",
+        "Ofrecer condiciones laborales justas.",
+        "Distribuir la riqueza.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 22,
+      "enunciado": "¿Cómo pueden las empresas cumplir con el ODS de Energía asequible y no contaminante?",
+      "opciones": [
+        "Utilizar energías renovables.",
+        "Reducir el consumo energético.",
+        "Usar equipos de bajo consumo y eficientes.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 23,
+      "enunciado": "¿Cuántos ODS hay planteados?",
+      "opciones": [
+        "10 objetivos",
+        "15 objetivos",
+        "17 objetivos",
+        "20 objetivos"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 24,
+      "enunciado": "¿En qué año se han de cumplir los ODS?",
+      "opciones": [
+        "2025",
+        "2030",
+        "2040",
+        "2050"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 25,
+      "enunciado": "¿Qué ODS hace referencia a la búsqueda de la igualdad entre personas?",
+      "opciones": [
+        "Igualdad de género.",
+        "Trabajo decente y crecimiento económico sostenible.",
+        "Reducción de las desigualdades.",
+        "Hay más de una correcta."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 26,
+      "enunciado": "¿Qué ODS hace referencia al medio ambiente?",
+      "opciones": [
+        "Acción por el clima.",
+        "Vida de ecosistemas terrestres.",
+        "Vida submarina.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 27,
+      "enunciado": "¿Qué tienen que hacer los sectores productivos para cumplir los ODS?",
+      "opciones": [
+        "Aplicar los ODS en la estrategia empresarial.",
+        "No promover prácticas sostenibles en la cadena de suministro.",
+        "Evitar la reducción de emisiones de gases de efecto invernadero.",
+        "No colaborar con gobiernos ni ONGs."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 28,
+      "enunciado": "De los siguientes, ¿qué se considera un riesgo para conseguir y cumplir los ODS?",
+      "opciones": [
+        "Un compromiso político sólido.",
+        "Una amplia coordinación entre sectores.",
+        "La falta de financiación.",
+        "Un buen seguimiento de la aplicación."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 29,
+      "enunciado": "El objetivo que busca crear alianzas para cumplir los ODS es:",
+      "opciones": [
+        "Objetivo 16-Paz, justicia e instituciones sólidas.",
+        "Objetivo 17-Alianzas para lograr los objetivos.",
+        "Objetivo 1-Pobreza extrema.",
+        "Objetivo 4-Educación de calidad."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 30,
+      "enunciado": "Los Objetivos del Desarrollo Sostenible se enmarcan en:",
+      "opciones": [
+        "Agenda 2030.",
+        "Protocolo de Kyoto.",
+        "Acuerdo de París.",
+        "Marco Europeo frente al cambio climático."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 31,
+      "enunciado": "¿Cómo se define la práctica del \"greenwashing\" en el contexto ambiental?",
+      "opciones": [
+        "Estrategia de producción sostenible basada en la economía circular.",
+        "Método de diseño que considera el impacto ambiental de un producto.",
+        "Implementación de la normativa ISO 14001 en empresas.",
+        "Práctica de marketing para aparentar responsabilidad ambiental sin cambios reales."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 32,
+      "enunciado": "¿Cómo se denomina al modelo económico basado en la producción en masa, el consumo y crecimiento económico continuo y la desregulación económica?",
+      "opciones": [
+        "Economía circular.",
+        "Economía verde.",
+        "Capitalismo.",
+        "Economía lineal."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Cuál de los siguientes aspectos NO es promovido por la economía verde?",
+      "opciones": [
+        "Crecimiento económico sostenible.",
+        "Desregulación financiera.",
+        "Reducción del impacto ambiental.",
+        "Conservación de recursos naturales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 34,
+      "enunciado": "El diseño de un producto teniendo en cuenta el impacto ambiental se denomina:",
+      "opciones": [
+        "Diseño sostenible.",
+        "Ecodiseño.",
+        "Rediseño.",
+        "Diseño ambiental."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 35,
+      "enunciado": "El método de evaluación del impacto ambiental de un producto o servicio se denomina:",
+      "opciones": [
+        "Análisis del ciclo de vida.",
+        "Evaluación de beneficios.",
+        "Estudio de la cadena de producción.",
+        "Economía circular."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 36,
+      "enunciado": "El modelo económico basado en la reducción de residuos y el uso eficiente de los recursos es:",
+      "opciones": [
+        "Economía lineal.",
+        "Economía verde.",
+        "Economía circular.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 37,
+      "enunciado": "La R que consiste en arreglar productos estropeados para que cumplan de nuevo su función:",
+      "opciones": [
+        "Reducir.",
+        "Renovar.",
+        "Reparar.",
+        "Reutilizar."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "Las etapas del ciclo de vida de un producto son:",
+      "opciones": [
+        "Diseño, producción, distribución, uso, fin de la vida útil.",
+        "Objetivos, análisis, evaluación del impacto y resultados.",
+        "Fabricación, ensamblaje, empaquetado, almacenamiento y distribución.",
+        "Diseño, consumo y eliminación."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 39,
+      "enunciado": "Limitar los residuos generados gracias a la disminución del consumo de materiales y recursos naturales hace referencia a:",
+      "opciones": [
+        "Reducir.",
+        "Reutilizar.",
+        "Reciclar.",
+        "Renovar."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 40,
+      "enunciado": "No es un principio del ecodiseño:",
+      "opciones": [
+        "Diseño de productos energéticamente eficientes.",
+        "Diseño de productos que generan menos residuos y emisiones.",
+        "Diseño de productos de un solo uso.",
+        "Diseño de productos con materiales reciclables o renovables."
+      ],
+      "correcta": 2
     }
   ]
 }

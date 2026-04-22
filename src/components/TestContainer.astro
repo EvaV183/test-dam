@@ -94,20 +94,19 @@ const preguntas = todasLasPreguntas.sort(() => Math.random() - 0.5).slice(0, 10)
 
     function render() {
         const p = preguntas[currentIdx];
+        
         contadorEl.innerText = `Pregunta ${currentIdx + 1} de ${preguntas.length}`;
         enunciadoEl.innerText = p.enunciado;
         opcionesEl.innerHTML = '';
         
         btnPrev.disabled = currentIdx === 0;
         
-        // Configuración inicial del botón Next
+        // Estilos del botón Siguiente / Finalizar
         if (currentIdx === preguntas.length - 1) {
             btnNext.innerText = "Finalizar";
-            // Si ya está respondida la última, le damos el estilo especial
             if (respuestasUsuario[currentIdx] !== null) {
-                btnNext.classList.replace('bg-indigo-600', 'bg-green-600');
-                btnNext.classList.add('scale-105', 'font-bold');
-                btnNext.innerText = "¡Finalizar Test!";
+                btnNext.className = "px-6 py-2 rounded-xl bg-green-600 text-white scale-105 font-bold shadow-lg shadow-green-500/20 transition-all";
+                btnNext.innerText = "✨ ¡Finalizar Test!";
             }
         } else {
             btnNext.innerText = "Siguiente →";
@@ -119,22 +118,34 @@ const preguntas = todasLasPreguntas.sort(() => Math.random() - 0.5).slice(0, 10)
             btn.innerText = op;
             btn.className = "p-5 border border-slate-800 rounded-2xl text-left transition-all duration-200 font-medium bg-slate-800/50 text-slate-200 hover:border-slate-600";
             
+            // Si ya se respondió esta pregunta anteriormente
             if (respuestasUsuario[currentIdx] !== null) {
                 marcarBotones(btn, i, p.correcta, respuestasUsuario[currentIdx]);
             }
 
             btn.onclick = () => {
                 if (respuestasUsuario[currentIdx] !== null) return;
+                
+                const esCorrecta = i === p.correcta;
                 respuestasUsuario[currentIdx] = i;
-                marcarBotones(btn, i, p.correcta, i);
+                
+                // Pintamos los botones inmediatamente usando una búsqueda en el DOM local
+                const todosLosBotones = opcionesEl.querySelectorAll('button');
+                
+                if (esCorrecta) {
+                    btn.className = "p-5 border border-green-500 rounded-2xl text-left font-bold bg-green-600 text-white shadow-lg shadow-green-500/20";
+                } else {
+                    btn.className = "p-5 border border-red-500 rounded-2xl text-left font-bold bg-red-600 text-white shadow-lg shadow-red-500/20";
+                    todosLosBotones[p.correcta].className = "p-5 border-2 border-green-500 rounded-2xl text-left font-bold bg-green-900/30 text-green-400";
+                }
+
                 updateStats();
                 
-                // Solo salta automáticamente si no es la última
                 if (currentIdx < preguntas.length - 1) {
-                    setTimeout(nextQuestion, 800);
+                    const delay = esCorrecta ? 800 : 2000;
+                    setTimeout(nextQuestion, delay);
                 } else {
-                    // Si es la última, actualizamos el botón de finalizar inmediatamente
-                    render(); 
+                    render(); // Refrescar para mostrar botón Finalizar brillante
                 }
             };
             opcionesEl.appendChild(btn);
@@ -146,6 +157,13 @@ const preguntas = todasLasPreguntas.sort(() => Math.random() - 0.5).slice(0, 10)
             btn.className = "p-5 border border-green-500 rounded-2xl text-left font-bold bg-green-600 text-white shadow-lg shadow-green-500/20";
         } else if (i === seleccionada) {
             btn.className = "p-5 border border-red-500 rounded-2xl text-left font-bold bg-red-600 text-white shadow-lg shadow-red-500/20";
+            // Si la seleccionada es la incorrecta, marcamos también la correcta al volver atrás
+            // (esto asegura que al navegar atrás también veamos qué fallamos)
+            const p = preguntas[currentIdx];
+            if (i !== p.correcta) {
+                // El render se encarga de llamar a marcarBotones para cada botón,
+                // así que cuando le toque el turno al índice correcto, entrará en el primer IF
+            }
         }
     }
 

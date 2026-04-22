@@ -220,6 +220,116 @@
         "Transformación digital."
       ],
       "correcta": 0
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Cómo pueden las THD contribuir a la sostenibilidad en el proceso de producción dentro de una economía circular?",
+      "opciones": [
+        "Desarrollando aplicaciones móviles para facilitar la compra de productos.",
+        "Utilizando plataformas de e-learning para capacitar a trabajadores.",
+        "Mejorando la publicidad en línea para incrementar las ventas.",
+        "Implementando automatización y robótica para reducir el consumo de recursos y aumentar la eficiencia."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 22,
+      "enunciado": "¿Cuál de las siguientes opciones describe mejor la tecnología de Realidad Aumentada (AR)?",
+      "opciones": [
+        "Proceso para crear objetos tridimensionales a partir de un modelo digital.",
+        "Superposición de información digital sobre el mundo real en tiempo real.",
+        "Interconexión de dispositivos físicos a través de internet.",
+        "Uso de algoritmos para que las computadoras aprendan de datos históricos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 23,
+      "enunciado": "¿Cuál es el propósito principal de las plataformas de gestión energética?",
+      "opciones": [
+        "Crear dispositivos para medir la velocidad de los vehículos.",
+        "Administrar el consumo de energía y optimizar los costos utilizando herramientas de análisis de datos.",
+        "Facilitar la reserva de viajes compartidos.",
+        "Desarrollar aplicaciones para la edición genética."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 24,
+      "enunciado": "¿Cuál es la diferencia principal entre una economía lineal y una economía circular?",
+      "opciones": [
+        "La economía lineal optimiza el uso de recursos mientras que la economía circular se basa en el reciclaje.",
+        "La economía lineal sigue un flujo unidireccional de recursos, mientras que la economía circular incorpora el concepto de reducir, reutilizar y reciclar.",
+        "La economía circular depende de la producción masiva mientras que la economía lineal se basa en la sostenibilidad.",
+        "La economía lineal solo se aplica a sectores industriales, mientras que la economía circular se enfoca en el consumo de bienes."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 25,
+      "enunciado": "¿Cuál es una de las principales aplicaciones de la Inteligencia Artificial (IA) en el ámbito de la psicología?",
+      "opciones": [
+        "Edición genética para tratar enfermedades mentales.",
+        "Aplicaciones de conversación escrita que ayudan a detectar síntomas de depresión.",
+        "Diseño de joyas mediante impresión 3D.",
+        "Gestión de flotas de vehículos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 26,
+      "enunciado": "¿Cuál es una función de los algoritmos en plataformas como Spotify y Amazon?",
+      "opciones": [
+        "Crear videos educativos sobre matemáticas.",
+        "Editar genéticamente el ADN de los usuarios.",
+        "Ofrecer juegos en la nube.",
+        "Recomendar productos y contenido basado en el comportamiento y preferencias del usuario."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 27,
+      "enunciado": "¿Qué es Tandem y cómo facilita el aprendizaje de idiomas?",
+      "opciones": [
+        "Una plataforma de telemedicina que ofrece consultas online.",
+        "Una aplicación que conecta a personas nativas de diferentes idiomas a través de chat de audio, texto y video.",
+        "Una herramienta de gestión energética para optimizar el consumo de electricidad.",
+        "Un servicio de edición genética para mejorar habilidades cognitivas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 28,
+      "enunciado": "¿Qué tecnología es comúnmente utilizada para la transmisión de datos en los contadores eléctricos?",
+      "opciones": [
+        "Tecnología de reconocimiento facial.",
+        "Tecnología de impresión 3D.",
+        "Tecnología LoRa y WiFi.",
+        "Tecnología de edición genética."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 29,
+      "enunciado": "¿Qué tipo de plataformas facilitan el transporte compartido y han revolucionado la forma de viajar?",
+      "opciones": [
+        "Plataformas de gestión energética.",
+        "Plataformas de telemedicina.",
+        "Plataformas como BlaBlaCar y Amovens.",
+        "Plataformas de edición genética."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 30,
+      "enunciado": "¿Qué ventaja clave ofrecen las Tecnologías Habilitadoras Digitales (THD) a las organizaciones?",
+      "opciones": [
+        "Descentralización de la gestión de datos.",
+        "Incremento de la intervención humana en los procesos.",
+        "Aumento de la eficiencia en los procesos y mayor adaptabilidad.",
+        "Eliminación de la necesidad de recopilación de datos."
+      ],
+      "correcta": 2
     }
   ]
 }

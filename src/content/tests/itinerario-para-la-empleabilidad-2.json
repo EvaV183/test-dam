@@ -1,0 +1,225 @@
+{
+  "asignatura": "Itinerario para la empleabilidad II",
+  "preguntas": [
+    {
+      "id": 1,
+      "enunciado": "¿Cómo están ordenadas las cualificaciones profesionales del Catálogo Nacional de Cualificaciones Profesionales?",
+      "opciones": [
+        "Se ordenan según las tablas publicadas en el BOE.",
+        "Se ordenan por familias profesionales.",
+        "Se ordenan alfabéticamente.",
+        "Se ordenan por año de publicación."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 2,
+      "enunciado": "¿Cómo puede un candidato mejorar su nivel de empleabilidad?",
+      "opciones": [
+        "Será necesario que conozca qué competencias del sector son las más buscadas.",
+        "Debe igualar sus cualidades a las del resto de los candidatos.",
+        "Acudiendo a procesos de selección de pymes.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 3,
+      "enunciado": "¿Qué dos tipos de test psicotécnicos puede realizar una empresa a los candidatos a un puesto?",
+      "opciones": [
+        "Test de personalidad y test competenciales.",
+        "Test de actitudes y test profesionales.",
+        "Test de inteligencia y test de aptitudes.",
+        "Los test psicotécnicos están prohibidos por su carácter discriminatorio."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 4,
+      "enunciado": "A la hora de realizar la planificación del futuro laboral y de la carrera profesional, el primer paso es analizar el propio potencial mediante el examen de:",
+      "opciones": [
+        "Los intereses personales, las fortalezas y las debilidades.",
+        "Las ofertas de trabajo que son atractivas.",
+        "Los procedimientos, herramientas y materiales que maneja.",
+        "Las experiencias pasadas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 5,
+      "enunciado": "El conjunto de competencias profesionales que se necesitan para realizar un trabajo, las cuales pueden adquirirse a través de formación o experiencia laboral, se conocen como:",
+      "opciones": [
+        "Cualificación profesional.",
+        "Competencia profesional.",
+        "Capacidad profesional.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 6,
+      "enunciado": "El conjunto de conocimientos y capacidades requerido para llevar a cabo el correcto desarrollo de la actividad profesional, tal como marca la normativa legal, se conoce como:",
+      "opciones": [
+        "Cualificación profesional.",
+        "Competencia profesional.",
+        "Capacidad profesional.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 7,
+      "enunciado": "En el CV inverso:",
+      "opciones": [
+        "Los datos del candidato están ordenados de mayor a menor antigüedad.",
+        "Se combina el cronológico con el funcional.",
+        "Se agiliza la identificación del contexto más cercano del candidato.",
+        "Todas son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 8,
+      "enunciado": "En relación con el CV, señala la respuesta incorrecta:",
+      "opciones": [
+        "Es lo mismo que una carta de presentación.",
+        "Se deben resaltar aspectos que realcen el perfil del candidato.",
+        "Cada candidato debe adaptarlo a sus necesidades.",
+        "Se utiliza como vía para darse a conocer en el mundo laboral."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 9,
+      "enunciado": "Entre los medios más utilizados para la búsqueda de empleo no se encuentran:",
+      "opciones": [
+        "Las bolsas de trabajo.",
+        "Las ETT.",
+        "Los servicios públicos de empleo.",
+        "Las entidades EBEP."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 10,
+      "enunciado": "La búsqueda de empleo en medios online:",
+      "opciones": [
+        "Estimula al candidato a involucrarse de forma más activa.",
+        "Favorece que el candidato conozca las empresas de las que podría formar parte.",
+        "Ha disipado las fronteras físicas y geográficas.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 11,
+      "enunciado": "¿Cuál de las siguientes no es una característica de la escucha activa?",
+      "opciones": [
+        "Empatizar con el emisor del mensaje.",
+        "Tener en cuenta los elementos paraverbales y no verbales.",
+        "Mantener una única posición respecto a la cuestión.",
+        "Comprensión del mensaje."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 12,
+      "enunciado": "Cuando en un conflicto se involucra a un tercero imparcial que interviene activamente, propone soluciones y facilita que las partes lleguen a un acuerdo beneficioso para ambas, se habla de:",
+      "opciones": [
+        "Negociación.",
+        "Arbitraje.",
+        "Mediación.",
+        "Conciliación."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 13,
+      "enunciado": "De las siguientes características, ¿cuál se puede atribuir a los equipos de trabajo?",
+      "opciones": [
+        "Todos tienen las mismas habilidades.",
+        "Existe una meta común y consensuada.",
+        "La estructura jerárquica es rígida.",
+        "Todas son correctas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 14,
+      "enunciado": "De las siguientes características, señala cuál no pertenece al conflicto:",
+      "opciones": [
+        "Es inherente a los grupos.",
+        "Siempre se puede considerar como un obstáculo que impide alcanzar los objetivos.",
+        "Si se maneja adecuadamente pueden obtenerse consecuencias positivas de él.",
+        "Existe un predominio de las opiniones opuestas."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 15,
+      "enunciado": "En relación con los costes que se asocian a los conflictos:",
+      "opciones": [
+        "Los costes de oportunidad provocan daños emocionales.",
+        "En ningún caso se producen costes monetarios.",
+        "En ocasiones el coste es la pérdida de personal.",
+        "Siempre se asocian costes legales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 16,
+      "enunciado": "La capacidad que tiene el emisor del mensaje para detectar las reacciones del receptor y adaptar sus siguientes mensajes, en caso de que fuera necesario, ¿a qué hace referencia?",
+      "opciones": [
+        "Feedback.",
+        "Asertividad.",
+        "Performing.",
+        "Inteligencia emocional."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 17,
+      "enunciado": "La habilidad para entender y gestionar los sentimientos propios y ajenos cuando se interactúa con otras personas se conoce como:",
+      "opciones": [
+        "Feedback.",
+        "Asertividad.",
+        "Performing.",
+        "Inteligencia emocional."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 18,
+      "enunciado": "Para que exista una negociación debe haber:",
+      "opciones": [
+        "Un equilibrio de fuerzas entre las partes.",
+        "Capacidad de comunicación entre las partes.",
+        "Intención de llegar a un entendimiento.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 19,
+      "enunciado": "Señala cuál de las siguientes no es una característica del buen negociador:",
+      "opciones": [
+        "Es inflexible e impone su negativa a ciertas situaciones.",
+        "Tiene un profundo conocimiento del tema.",
+        "Observa con atención y tiene en cuenta los pequeños detalles.",
+        "Es resolutivo y capaz de afrontar un punto de bloqueo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 20,
+      "enunciado": "Señala la dinámica de trabajo en equipo en la que cada uno de los miembros del equipo expone con la mayor libertad sus ideas sobre un tema o problema, sin que ninguna se descarte o se critique:",
+      "opciones": [
+        "Forming.",
+        "Role-Playing.",
+        "Hate-storming.",
+        "Tormenta de ideas."
+      ],
+      "correcta": 3
+    }
+  ]
+}
