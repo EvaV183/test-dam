@@ -90,7 +90,7 @@
       "correcta": 1
     },
     {
-      "id": 1,
+      "id": 9,
       "enunciado": "Un servicio:",
       "opciones": [
         "Es transparente para el usuario.",
@@ -218,6 +218,116 @@
         "Nunca.",
         "No existen mecanismos de sincronización para el uso concurrente.",
         "Existen mecanismos de sincronización para el uso concurrente implementados en la clase."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Cuál puede ser el tamaño máximo de un datagrama UDP?",
+      "opciones": [
+        "2^8",
+        "2^32",
+        "2^16",
+        "Todas las anteriores son incorrectas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 22,
+      "enunciado": "¿Cuáles son los dos protocolos principales a nivel de transporte?",
+      "opciones": [
+        "UDP y TCP",
+        "UDP e IP",
+        "IP y TCP",
+        "Son tres: IP, UDP y TCP"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 23,
+      "enunciado": "¿Qué comunicación es posible gracias a los sockets de comunicación?",
+      "opciones": [
+        "La comunicación Dúplex",
+        "La comunicación semidúplex",
+        "La comunicación full dúplex",
+        "A y B son correctas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 24,
+      "enunciado": "A la hora de recibir un datagrama de UDP, ¿cómo puede un programa saber la dirección IP y el puerto del emisor?",
+      "opciones": [
+        "Antes de recibir el datagrama ya sabe la dirección IP y el puerto",
+        "Usando el método connect",
+        "El datagrama contiene dicha información",
+        "Usando el objeto DatagramSocket"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 25,
+      "enunciado": "Con respecto al protocolo TCP, indica qué afirmación es verdadera:",
+      "opciones": [
+        "Permite garantizar que los segmentos de datos se han entregado en el orden correcto",
+        "Es orientado a la conexión",
+        "Permite garantizar que todos los segmentos de datos han llegado correctamente",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 26,
+      "enunciado": "El protocolo UDP...",
+      "opciones": [
+        "Pertenece a la capa de transporte",
+        "No se encuentra orientado a la conexión",
+        "No permite garantizar la entrega de los paquetes",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 27,
+      "enunciado": "Indica cuál de las siguientes afirmaciones es verdadera con respecto a las peticiones de conexión TCP:",
+      "opciones": [
+        "Se suelen enviar al servidor procedentes de un puerto del sistema del cliente",
+        "Se reciben normalmente en un puerto del sistema o registrado en el servidor",
+        "A y B son correctas",
+        "Todas son incorrectas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 28,
+      "enunciado": "Indica cuál no es un tipo de protocolo de aplicación:",
+      "opciones": [
+        "Booleano",
+        "Binario",
+        "Sin estado",
+        "Basado en texto"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 29,
+      "enunciado": "Las siglas IP, ¿a qué hacen referencia?",
+      "opciones": [
+        "Internet Protocol",
+        "Internet Premise",
+        "Impresive Protocol",
+        "Inoperative Protocol"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 30,
+      "enunciado": "Los datagramas UDP suelen ser enviados...",
+      "opciones": [
+        "Entre un puerto del sistema en el servidor y un puerto registrado en el cliente",
+        "Entre puertos efímeros, tanto en el servidor como en el cliente",
+        "Entre puertos registrados, tanto en el servidor como el cliente",
+        "Entre un puerto del sistema o registrado en el servidor y en el cliente un puerto efímero"
       ],
       "correcta": 3
     }
