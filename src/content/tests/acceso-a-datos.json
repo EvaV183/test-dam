@@ -440,6 +440,116 @@
         "La interfaz SubQuery con el método .createNativeQuery."
       ],
       "correcta": 0
+    },
+    {
+      "id": 41,
+      "enunciado": "¿Qué tipo de base de datos permite trabajar con objetos?",
+      "opciones": [
+        "Base de datos de objetos.",
+        "Base de datos relacionales.",
+        "Base de datos objeto-relacional.",
+        "La opción A y C son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 42,
+      "enunciado": "Indica la afirmación correcta respecto a las bases de datos objeto:",
+      "opciones": [
+        "No existe ninguna comunidad que realice los estándares.",
+        "Es una base de datos relacional que permite trabajar con objetos.",
+        "Permite guardar objetos directamente en la base de datos.",
+        "Usa el lenguaje SQL."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 43,
+      "enunciado": "OQL:",
+      "opciones": [
+        "Es un lenguaje de consulta similar a SQL.",
+        "Su estructura básica es SELECT .... FROM .... WHERE.",
+        "No se puede hacer sentencias INSERT, UPDATE o DELETE.",
+        "Todas las anteriores son ciertas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 44,
+      "enunciado": "Para anidar una tabla en una columna:",
+      "opciones": [
+        "Indicaremos el nombre de la columna seguido del nombre de la tabla.",
+        "Crearemos un tipo usando la sentencia AS TABLE OF REF y objeto de la tabla.",
+        "Se tendrá que crear una vista (VIEW) como tabla de anidamiento.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 45,
+      "enunciado": "Para obtener las referencias de los objetos, los OID, tendremos que usar:",
+      "opciones": [
+        "La función REF(tabla).",
+        "La función REFERENCE(tabla).",
+        "La función OID(tabla).",
+        "La función DEREF(tabla)."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 46,
+      "enunciado": "Para obtener un conjunto set de objetos en una consulta se usará:",
+      "opciones": [
+        "SELECT DISTINCT.",
+        "SELECT.",
+        "SELECT * FROM punto de entrada ORDER BY campo.",
+        "Ninguna de las anteriores."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 47,
+      "enunciado": "Qué versión de SQL permite definir estructuras de objetos:",
+      "opciones": [
+        "SQL:99 o SQL3.",
+        "SQL:92 o SQL2.",
+        "SQL:66.",
+        "SQL1."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 48,
+      "enunciado": "Que base de datos es del tipo objeto-relacional:",
+      "opciones": [
+        "Microsoft Access.",
+        "MySQL.",
+        "SQLite.",
+        "Oracle."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 49,
+      "enunciado": "Que es ODL:",
+      "opciones": [
+        "Lenguaje de consulta.",
+        "Lenguaje de definición de objetos.",
+        "Lenguaje de manipulación de datos.",
+        "Lenguaje de programación."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 50,
+      "enunciado": "Una tabla del lenguaje de definición de datos relacional (DDL) equivale a:",
+      "opciones": [
+        "Un objeto en ODL.",
+        "Una clase en ODL.",
+        "Una instancia de un objeto en ODL.",
+        "No tiene equivalencia en ODL."
+      ],
+      "correcta": 1
     }
   ]
 }

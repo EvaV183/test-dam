@@ -330,6 +330,336 @@
         "Eliminación de la necesidad de recopilación de datos."
       ],
       "correcta": 2
+    },
+    {
+      "id": 31,
+      "enunciado": "¿Cuál de las siguientes aplicaciones es un ejemplo de SaaS?",
+      "opciones": [
+        "Google Drive/Docs.",
+        "AWS EC2.",
+        "Azure DevOps.",
+        "IBM Watson."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 32,
+      "enunciado": "¿Cuál de las siguientes características es común a los modelos IaaS y PaaS?",
+      "opciones": [
+        "El uso compartido de recursos de infraestructura entre múltiples usuarios.",
+        "La integración de middleware para la operación de aplicaciones web.",
+        "La posibilidad de gestionar y configurar la infraestructura física y virtual.",
+        "La reducción de complejidad en el desarrollo de aplicaciones."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Cuál de las siguientes características es específica de los servicios IaaS?",
+      "opciones": [
+        "Gestión de bases de datos y herramientas de optimización.",
+        "Entornos de desarrollo integrados para lanzamientos de software.",
+        "Acceso remoto a recursos de computación y almacenamiento con facturación basada en el uso.",
+        "Middleware para facilitar la integración de aplicaciones web."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 34,
+      "enunciado": "¿Cuál de las siguientes es una función destacada del Cloud Computing?",
+      "opciones": [
+        "Procesamiento de datos en dispositivos finales.",
+        "Almacenamiento y procesamiento de grandes volúmenes de datos desde cualquier lugar.",
+        "Implementación de redes virtuales para la conexión de equipos locales.",
+        "Optimización de redes locales para el acceso a internet."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 35,
+      "enunciado": "¿Cuál es una característica clave de los sistemas SaaS en comparación con IaaS y PaaS?",
+      "opciones": [
+        "Ofrecen una mayor capacidad de personalización de la infraestructura subyacente.",
+        "Facilitan la gestión de bases de datos y software de middleware.",
+        "Requieren una instalación y configuración complejas.",
+        "Son aplicaciones listas para usar sin necesidad de instalación ni configuración adicional."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 36,
+      "enunciado": "¿Cuál es una desventaja común de las tecnologías Edge Computing y Mist Computing?",
+      "opciones": [
+        "Alta latencia en el procesamiento de datos.",
+        "Costos elevados de hardware y mantenimiento.",
+        "Seguridad, ya que la información accesible desde dispositivos finales puede comprometer el resto del sistema.",
+        "Complejidad en la configuración y gestión de redes virtuales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 37,
+      "enunciado": "¿Qué aspecto de IaaS permite a los usuarios pagar únicamente por los recursos que utilizan?",
+      "opciones": [
+        "El modelo de pago por uso basado en el almacenamiento de datos.",
+        "El pago por la capacidad de procesamiento asignada en el momento de la contratación.",
+        "La gestión de bases de datos y el middleware incluido en el servicio.",
+        "El modelo de facturación basado en el tiempo de uso de hardware y software."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 38,
+      "enunciado": "¿Qué aspecto de la Plataforma como Servicio (PaaS) permite a los desarrolladores centrarse en la creación de aplicaciones en lugar de gestionar la infraestructura subyacente?",
+      "opciones": [
+        "El acceso remoto a hardware virtualizado.",
+        "La inclusión de entornos de desarrollo integrados y middleware.",
+        "La facturación basada en el almacenamiento de datos.",
+        "La posibilidad de gestionar la red y el ancho de banda."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 39,
+      "enunciado": "¿Qué es Infraestructura como Servicio (IaaS) en el contexto de Cloud Computing?",
+      "opciones": [
+        "Un servicio que proporciona software para el desarrollo de aplicaciones sin necesidad de gestionar la infraestructura subyacente.",
+        "Un modelo que ofrece hardware virtualizado, almacenamiento y redes a través de internet, permitiendo a los usuarios gestionar y configurar su propia infraestructura.",
+        "Una plataforma que facilita la creación de aplicaciones web mediante entornos de desarrollo integrados.",
+        "Un servicio que proporciona herramientas para la gestión de bases de datos en la nube."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 40,
+      "enunciado": "¿Qué ventaja principal ofrece el Fog Computing en comparación con el Edge Computing?",
+      "opciones": [
+        "Procesamiento en el borde de la red para minimizar la latencia.",
+        "Intermediación en el procesamiento de datos entre los dispositivos finales y la nube, reduciendo la latencia y optimizando la red.",
+        "Computación directamente en los dispositivos finales para respuesta instantánea.",
+        "Procesamiento y análisis de datos en la nube con recursos altamente escalables."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 41,
+      "enunciado": "¿Cómo beneficia la combinación de IA y Big Data a la investigación científica?",
+      "opciones": [
+        "Permite realizar diagnósticos médicos sin necesidad de datos.",
+        "Facilita el análisis de grandes conjuntos de datos para identificar nuevos fenómenos.",
+        "Aumenta la cantidad de datos necesarios para la investigación.",
+        "Disminuye la precisión en el descubrimiento de patrones científicos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 42,
+      "enunciado": "¿Cuál de las siguientes afirmaciones es verdadera sobre la IA fuerte (AGI)?",
+      "opciones": [
+        "Está diseñada exclusivamente para el reconocimiento de voz.",
+        "Puede adaptarse a nuevas situaciones sin reprogramación.",
+        "Depende de grandes cantidades de datos específicos para operar.",
+        "No puede realizar razonamientos abstractos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 43,
+      "enunciado": "¿Cuál de las siguientes características corresponde a la IA débil?",
+      "opciones": [
+        "Capacidad para razonar y comprender contextos complejos.",
+        "Adaptabilidad a nuevas tareas sin reentrenamiento.",
+        "Especialización en tareas específicas.",
+        "Capacidad cognitiva similar a la humana."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 44,
+      "enunciado": "¿Cuál de las siguientes películas explora la interacción emocional entre humanos y una IA?",
+      "opciones": [
+        "Her.",
+        "Matrix.",
+        "Terminator.",
+        "Star Wars."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 45,
+      "enunciado": "¿Cuál es la función principal de Erica, el asistente virtual de Bank of America?",
+      "opciones": [
+        "Proporcionar asistencia técnica a los empleados.",
+        "Realizar inversiones automatizadas.",
+        "Optimizar la seguridad de las transacciones.",
+        "Gestionar las finanzas de los clientes."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 46,
+      "enunciado": "¿Qué diferencia principal existe entre la IA débil y la IA fuerte?",
+      "opciones": [
+        "La IA fuerte puede aprender de manera autónoma y generalizada.",
+        "La IA débil puede realizar cualquier tarea cognitiva.",
+        "La IA fuerte solo se especializa en tareas muy concretas.",
+        "La IA débil tiene capacidad de razonamiento profundo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 47,
+      "enunciado": "¿Qué es el Test de Turing?",
+      "opciones": [
+        "Un examen para medir la inteligencia humana.",
+        "Un test para evaluar el rendimiento de los sistemas informáticos.",
+        "Una prueba para determinar si un ordenador puede pensar como un humano.",
+        "Un método para programar algoritmos de IA."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 48,
+      "enunciado": "¿Qué es la Inteligencia Artificial (IA)?",
+      "opciones": [
+        "Un programa de entretenimiento avanzado.",
+        "La capacidad de las máquinas para realizar cálculos matemáticos.",
+        "La capacidad de los sistemas informáticos de aprender y tomar decisiones autónomas.",
+        "Un dispositivo físico que reemplaza a los humanos en tareas laborales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 49,
+      "enunciado": "¿Qué se entiende por \"AI Winter\" o \"Invierno de la IA\"?",
+      "opciones": [
+        "Un periodo de avances significativos en la IA.",
+        "Un periodo de estancamiento y desinterés en la investigación de la IA.",
+        "Una estación del año en que se desarrollan más tecnologías de IA.",
+        "Un evento anual sobre inteligencia artificial."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 50,
+      "enunciado": "¿Qué tecnologías utiliza Erica para mejorar la experiencia del cliente?",
+      "opciones": [
+        "Procesamiento de lenguaje natural (NLP) y aprendizaje automático.",
+        "Reconocimiento facial y blockchain.",
+        "Realidad aumentada y visión por computadora.",
+        "Sensores y análisis predictivo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 51,
+      "enunciado": "¿Cuál de los siguientes factores NO forma parte del análisis PESTEL?",
+      "opciones": [
+        "Políticos.",
+        "Económicos.",
+        "Organizacionales.",
+        "Sociales."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 52,
+      "enunciado": "¿Cuál es la importancia de definir objetivos dentro de una empresa?",
+      "opciones": [
+        "Facilita la contratación de nuevos empleados.",
+        "Ayuda a reducir el número de reuniones.",
+        "Mejora la relación con los proveedores.",
+        "Permite aumentar el crecimiento y rentabilidad de la empresa."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 53,
+      "enunciado": "¿Cuáles son los 3 pasos principales en la evaluación de necesidades tecnológicas?",
+      "opciones": [
+        "Investigación de competencia, diseño de productos y lanzamiento de campaña.",
+        "Evaluación del personal, compra de equipos, formación de empleados.",
+        "Análisis y descubrimiento tecnológico, desarrollo de plan de acción, documentación del plan de acción.",
+        "Análisis del mercado, desarrollo de software, implementación de hardware."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 54,
+      "enunciado": "¿Por qué es importante revisar y ajustar los KPIs durante un proyecto de transformación digital?",
+      "opciones": [
+        "Para evitar la implementación de nueva tecnología.",
+        "Para reducir el número de empleados gracias a la digitalización.",
+        "Para aumentar el presupuesto del proyecto.",
+        "Para asegurarnos de que siguen alineados con los objetivos actuales del proyecto y reflejan con precisión los resultados esperados."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 55,
+      "enunciado": "¿Qué aspectos se deben evaluar en el análisis del estado actual de la empresa para identificar oportunidades de digitalización?",
+      "opciones": [
+        "Infraestructura tecnológica, procesos empresariales, cultura organizacional y modelos de negocio.",
+        "Solo los procesos empresariales.",
+        "Solo la cultura organizacional.",
+        "Solo la infraestructura tecnológica."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 56,
+      "enunciado": "¿Qué es el diagnóstico de madurez digital de una empresa?",
+      "opciones": [
+        "Identificar las oportunidades de inversión en nuevas tecnologías.",
+        "Se trata de un proceso que evalúa el grado de adopción, integración y aprovechamiento de las tecnologías digitales dentro de una organización.",
+        "Medir la satisfacción de los empleados con las tecnologías digitales.",
+        "Analizar el rendimiento financiero de la empresa."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 57,
+      "enunciado": "¿Qué herramienta se utiliza para analizar los factores externos que afectan a la empresa, como tendencias tecnológicas y regulaciones?",
+      "opciones": [
+        "Análisis DAFO.",
+        "Análisis PESTEL.",
+        "Análisis FODA.",
+        "Análisis de las Cinco Fuerzas de Porter."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 58,
+      "enunciado": "¿Qué son los indicadores clave de desempeño (KPIs) y cuál es su propósito en un proyecto de transformación digital?",
+      "opciones": [
+        "Son métricas muy importantes para medir la cantidad de empleados dentro de una empresa.",
+        "Son indicadores para evaluar la calidad del producto final.",
+        "Es una herramienta para medir la satisfacción del cliente.",
+        "Son métricas fundamentales para medir el progreso y éxito de un proyecto de transformación digital."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 59,
+      "enunciado": "En el análisis de entorno interno se emplea la herramienta DAFO. Cuando hablamos de fortalezas ¿qué aspectos internos pueden ser una ventaja competitiva?",
+      "opciones": [
+        "Los recursos financieros, recursos humanos, recursos tecnológicos, cultura organizacional y reputación de marca.",
+        "La estructura organizacional, dependencia de proveedores, capacidades tecnológicas y problemas financieros.",
+        "La competencia intensificada, cambios regulatorios, riesgos económicos y cambios tecnológicos.",
+        "Todas las anteriores son ciertas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 60,
+      "enunciado": "En el análisis de las Cinco Fuerzas de Porter, ¿qué aspecto se refiere a la intensidad de la competencia existente en el mercado?",
+      "opciones": [
+        "Rivalidad entre competidores existentes.",
+        "Poder de negociación de los clientes.",
+        "Amenaza de nuevos entrantes.",
+        "Amenaza de productos sustitutos."
+      ],
+      "correcta": 0
     }
   ]
 }
