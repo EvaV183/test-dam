@@ -1,310 +1,72 @@
 {
   "asignatura": "Sostenibilidad aplicada al sistema productivo",
   "preguntas": [
-    {
-      "id": 1,
-      "enunciado": "¿Cómo se denomina en inglés a los grupos de interés?",
-      "opciones": ["Stakeholders", "ODS", "Groups of interest", "Ninguna es correcta"],
-      "correcta": 0
-    },
-    {
-      "id": 2,
-      "enunciado": "¿Cuál de las siguientes NO es uno de los 5 principios de sostenibilidad?",
-      "opciones": ["Planeta", "Paz", "Promoción", "Participación"],
-      "correcta": 2
-    },
-    {
-      "id": 3,
-      "enunciado": "El equilibrio entre los recursos utilizados por la humanidad y el bienestar humano teniendo en cuenta el futuro se denomina:",
-      "opciones": ["Sostenibilidad ambiental", "Sostenibilidad", "Sostenibilidad social", "Sostenibilidad económica"],
-      "correcta": 1
-    },
-    {
-      "id": 4,
-      "enunciado": "En una empresa, los aspectos de gestión de residuos y reducción de emisiones hacen referencia a:",
-      "opciones": ["Aspectos sociales", "Aspectos de gobernanza", "Aspectos ambientales", "Ninguna es correcta"],
-      "correcta": 2
-    },
-    {
-      "id": 5,
-      "enunciado": "Entre las normativas actuales internacionales en materia de sostenibilidad se encuentra:",
-      "opciones": ["Agenda 2030", "Acuerdo de París", "Marco Estratégico de Energía y Clima", "Todas son correctas"],
-      "correcta": 3
-    },
-    {
-      "id": 6,
-      "enunciado": "Es un indicador de sostenibilidad ambiental:",
-      "opciones": ["Huella de carbono", "Índice de Desarrollo Humano", "Valor Económico Generado y Distribuido", "Ninguna es correcta"],
-      "correcta": 0
-    },
-    {
-      "id": 7,
-      "enunciado": "Es un stakeholder:",
-      "opciones": ["Personal trabajador de la empresa", "Clientes", "ONGs", "Todas son correctas"],
-      "correcta": 3
-    },
-    {
-      "id": 8,
-      "enunciado": "La P que se centra en la protección del medio natural y el cambio climático es:",
-      "opciones": ["Paz", "Prosperidad", "Personas", "Planeta"],
-      "correcta": 3
-    },
-    {
-      "id": 9,
-      "enunciado": "Las estrategias de inversión que tienen en cuenta los criterios ASG son:",
-      "opciones": ["Inversiones Socialmente Respetables", "Inversiones verdes", "Inversiones Socialmente Responsables", "Inversiones Sociales y Medioambientales"],
-      "correcta": 2
-    },
-    {
-      "id": 10,
-      "enunciado": "Las siglas ASG hacen referencia a:",
-      "opciones": ["Aspectos Ambientales, Sociales y de Gobernanza", "Aspectos Ambientales, Sociales y de Gestión", "Aspectos Ambientales, Servicios y de Gobernanza", "Aspectos Amigables, Serviciales y de Gobierno"],
-      "correcta": 0
-    },
-    {
-      "id": 11,
-      "enunciado": "¿A qué nos referimos cuando los cambios se producen en la cantidad y distribución de la población?",
-      "opciones": ["Desempleo.", "Pobreza y exclusión social.", "Migración.", "Reto demográfico."],
-      "correcta": 3
-    },
-    {
-      "id": 12,
-      "enunciado": "¿Cómo se llama el acuerdo internacional que pretende frenar las emisiones de gases de efecto invernadero?",
-      "opciones": ["Protocolo de Kioto.", "Protocolo de Tokio.", "Protocolo de Okazaki.", "Protocolo de Kobe."],
-      "correcta": 0
-    },
-    {
-      "id": 13,
-      "enunciado": "¿Cuál de las siguientes no se encuentran entre los principales problemas ambientales?",
-      "opciones": ["Cambio climático acelerado por la actividad humana.", "Pérdida de biodiversidad.", "Contaminación del aire, agua y suelos.", "La protección de los ecosistemas."],
-      "correcta": 3
-    },
-    {
-      "id": 14,
-      "enunciado": "¿Qué provoca un desastre natural?",
-      "opciones": ["Reto social.", "El desplazamiento de poblaciones enteras.", "Dependencia de combustibles fósiles.", "Fomentar la reutilización de materiales."],
-      "correcta": 1
-    },
-    {
-      "id": 15,
-      "enunciado": "El cambio climático y la escasez de recursos naturales afecta directamente a:",
-      "opciones": ["Sector primario.", "Sector secundario.", "Sector terciario.", "Sector cuaternario."],
-      "correcta": 0
-    },
-    {
-      "id": 16,
-      "enunciado": "¿A qué nos referimos cuando la colaboración lleva a cambios de comportamiento que protegen el medio ambiente?",
-      "opciones": ["A los incentivos económicos.", "Al desarrollo de políticas integrales.", "Al desarrollo de estándares y certificaciones.", "Educación y sensibilización."],
-      "correcta": 3
-    },
-    {
-      "id": 17,
-      "enunciado": "La pérdida y degradación de bosques es:",
-      "opciones": ["Pérdida de biodiversidad.", "Deforestación.", "Contaminación del suelo.", "Producción sostenible."],
-      "correcta": 1
-    },
-    {
-      "id": 18,
-      "enunciado": "Las prácticas sostenibles, reducción de residuos y producción local son medidas de:",
-      "opciones": ["Consumo.", "Conservación del medio ambiente.", "Sectores productivos.", "Política y gobierno."],
-      "correcta": 2
-    },
-    {
-      "id": 19,
-      "enunciado": "¿Qué es la eficiencia energética?",
-      "opciones": ["Regular el uso de recursos naturales.", "Cambio de un sistema de energía fósil.", "Utilizar menos energía para realizar la misma tarea.", "Aumentar la conciencia sobre los problemas ambientales."],
-      "correcta": 2
-    },
-    {
-      "id": 20,
-      "enunciado": "Una medida para reducir el impacto ambiental es:",
-      "opciones": ["Eficiencia energética.", "Movilidad sostenible.", "Transición energética.", "Todas son correctas"],
-      "correcta": 3
-    },
-    {
-      "id": 21,
-      "enunciado": "¿Cómo pueden hacer las empresas para cumplir con el ODS de Trabajo decente y crecimiento económico?",
-      "opciones": ["Crear empleo estable, bien pagado y seguro.", "Ofrecer condiciones laborales justas.", "Distribuir la riqueza.", "Todas son correctas."],
-      "correcta": 3
-    },
-    {
-      "id": 22,
-      "enunciado": "¿Cómo pueden las empresas cumplir con el ODS de Energía asequible y no contaminante?",
-      "opciones": ["Utilizar energías renovables.", "Reducir el consumo energético.", "Usar equipos de bajo consumo y eficientes.", "Todas son correctas."],
-      "correcta": 3
-    },
-    {
-      "id": 23,
-      "enunciado": "¿Cuántos ODS hay planteados?",
-      "opciones": ["10 objetivos", "15 objetivos", "17 objetivos", "20 objetivos"],
-      "correcta": 2
-    },
-    {
-      "id": 24,
-      "enunciado": "¿En qué año se han de cumplir los ODS?",
-      "opciones": ["2025", "2030", "2040", "2050"],
-      "correcta": 1
-    },
-    {
-      "id": 25,
-      "enunciado": "¿Qué ODS hace referencia a la búsqueda de la igualdad entre personas?",
-      "opciones": ["Igualdad de género.", "Trabajo decente y crecimiento económico sostenible.", "Reducción de las desigualdades.", "Hay más de una correcta."],
-      "correcta": 3
-    },
-    {
-      "id": 26,
-      "enunciado": "¿Qué ODS hace referencia al medio ambiente?",
-      "opciones": ["Acción por el clima.", "Vida de ecosistemas terrestres.", "Vida submarina.", "Todas son correctas."],
-      "correcta": 3
-    },
-    {
-      "id": 27,
-      "enunciado": "¿Qué tienen que hacer los sectores productivos para cumplir los ODS?",
-      "opciones": ["Aplicar los ODS en la estrategia empresarial.", "No promover prácticas sostenibles en la cadena de suministro.", "Evitar la reducción de emisiones de gases de efecto invernadero.", "No colaborar con gobiernos ni ONGs."],
-      "correcta": 0
-    },
-    {
-      "id": 28,
-      "enunciado": "De los siguientes, ¿qué se considera un riesgo para conseguir y cumplir los ODS?",
-      "opciones": ["Un compromiso político sólido.", "Una amplia coordinación entre sectores.", "La falta de financiación.", "Un buen seguimiento de la aplicación."],
-      "correcta": 2
-    },
-    {
-      "id": 29,
-      "enunciado": "El objetivo que busca crear alianzas para cumplir los ODS es:",
-      "opciones": ["Objetivo 16-Paz, justicia e instituciones sólidas.", "Objetivo 17-Alianzas para lograr los objetivos.", "Objetivo 1-Pobreza extrema.", "Objetivo 4-Educación de calidad."],
-      "correcta": 1
-    },
-    {
-      "id": 30,
-      "enunciado": "Los Objetivos del Desarrollo Sostenible se enmarcan en:",
-      "opciones": ["Agenda 2030.", "Protocolo de Kyoto.", "Acuerdo de París.", "Marco Europeo frente al cambio climático."],
-      "correcta": 0
-    },
-    {
-      "id": 31,
-      "enunciado": "¿Cómo se define la práctica del \"greenwashing\" en el contexto ambiental?",
-      "opciones": ["Estrategia de producción sostenible basada en la economía circular.", "Método de diseño que considera el impacto ambiental de un producto.", "Implementación de la normativa ISO 14001 en empresas.", "Práctica de marketing para aparentar responsabilidad ambiental sin cambios reales."],
-      "correcta": 3
-    },
-    {
-      "id": 32,
-      "enunciado": "¿Cómo se denomina al modelo económico basado en la producción en masa, el consumo y crecimiento económico continuo y la desregulación económica?",
-      "opciones": ["Economía circular.", "Economía verde.", "Capitalismo.", "Economía lineal."],
-      "correcta": 3
-    },
-    {
-      "id": 33,
-      "enunciado": "¿Cuál de los siguientes aspectos NO es promovido por la economía verde?",
-      "opciones": ["Crecimiento económico sostenible.", "Desregulación financiera.", "Reducción del impacto ambiental.", "Conservación de recursos naturales."],
-      "correcta": 1
-    },
-    {
-      "id": 34,
-      "enunciado": "El diseño de un producto teniendo en cuenta el impacto ambiental se denomina:",
-      "opciones": ["Diseño sostenible.", "Ecodiseño.", "Rediseño.", "Diseño ambiental."],
-      "correcta": 1
-    },
-    {
-      "id": 35,
-      "enunciado": "El método de evaluación del impacto ambiental de un producto o servicio se denomina:",
-      "opciones": ["Análisis del ciclo de vida.", "Evaluación de beneficios.", "Estudio de la cadena de producción.", "Economía circular."],
-      "correcta": 0
-    },
-    {
-      "id": 36,
-      "enunciado": "El modelo económico basado en la reducción de residuos y el uso eficiente de los recursos es:",
-      "opciones": ["Economía lineal.", "Economía verde.", "Economía circular.", "Ninguna es correcta."],
-      "correcta": 2
-    },
-    {
-      "id": 37,
-      "enunciado": "La R que consiste en arreglar productos estropeados para que cumplan de nuevo su función:",
-      "opciones": ["Reducir.", "Renovar.", "Reparar.", "Reutilizar."],
-      "correcta": 2
-    },
-    {
-      "id": 38,
-      "enunciado": "Las etapas del ciclo de vida de un producto son:",
-      "opciones": ["Diseño, producción, distribución, uso, fin de la vida útil.", "Objetivos, análisis, evaluación del impacto y resultados.", "Fabricación, ensamblaje, empaquetado, almacenamiento y distribución.", "Diseño, consumo y eliminación."],
-      "correcta": 0
-    },
-    {
-      "id": 39,
-      "enunciado": "Limitar los residuos generados gracias a la disminución del consumo de materiales y recursos naturales hace referencia a:",
-      "opciones": ["Reducir.", "Reutilizar.", "Reciclar.", "Renovar."],
-      "correcta": 0
-    },
-    {
-      "id": 40,
-      "enunciado": "No es un principio del ecodiseño:",
-      "opciones": ["Diseño de productos energéticamente eficientes.", "Diseño de productos que generan menos residuos y emisiones.", "Diseño de productos de un solo uso.", "Diseño de productos con materiales reciclables o renovables."],
-      "correcta": 2
-    },
-    {
-      "id": 41,
-      "enunciado": "¿Qué Ley regula el plan de sostenibilidad en España?",
-      "opciones": ["Ley 1/2023", "Ley 50/2022", "RD 1/2000", "Ninguna es correcta"],
-      "correcta": 3
-    },
-    {
-      "id": 42,
-      "enunciado": "¿Qué se utiliza para analizar los grupos de interés?",
-      "opciones": ["Benchmark", "Matriz", "Diagnóstico", "Indicadores"],
-      "correcta": 1
-    },
-    {
-      "id": 43,
-      "enunciado": "Al grupo de interés o stakeholder al que hay que involucrar activamente en el proceso de creación e implantación de un plan de sostenibilidad cuenta con:",
-      "opciones": ["Nivel de interés alto y nivel de influencia alto", "Nivel de interés alto y nivel de influencia bajo", "Nivel de interés bajo y nivel de influencia alto", "Nivel de interés bajo y nivel de influencia bajo"],
-      "correcta": 0
-    },
-    {
-      "id": 44,
-      "enunciado": "Al tener ya toda la información necesaria se pueden establecer los objetivos y las metas que tendrá que definir el plan de sostenibilidad. Estos tienen que ser:",
-      "opciones": ["Concretos", "Realistas", "Objetivos", "A y B son correctas"],
-      "correcta": 3
-    },
-    {
-      "id": 45,
-      "enunciado": "Cuando se ha hecho una valoración inicial del estado económico, social y ambiental de la empresa se recomienda:",
-      "opciones": ["No se recomienda nada", "Valorar las pérdidas", "Crear un plan de sostenibilidad", "Valorar los grupos de interés o stakeholders"],
-      "correcta": 2
-    },
-    {
-      "id": 46,
-      "enunciado": "El análisis sobre la situación actual de la empresa se denomina:",
-      "opciones": ["Análisis de stakeholders", "Análisis de materialidad", "Análisis de diagnóstico inicial", "Análisis de sostenibilidad"],
-      "correcta": 2
-    },
-    {
-      "id": 47,
-      "enunciado": "Indica qué grupo se encarga de garantizar los recursos necesarios para aplicar el plan de sostenibilidad y comunicarlo al resto de partes de la empresa:",
-      "opciones": ["Alta dirección", "Dirección intermedia", "Personal trabajador", "Personal encargado del plan de sostenibilidad"],
-      "correcta": 0
-    },
-    {
-      "id": 48,
-      "enunciado": "La estrategia de una empresa para aplicar prácticas sostenibles a corto, medio y largo plazo buscando un impacto positivo en los ASG se denomina:",
-      "opciones": ["Estrategia de sostenibilidad", "Plan de sostenibilidad", "Análisis de sostenibilidad", "Responsabilidad sostenible"],
-      "correcta": 1
-    },
-    {
-      "id": 49,
-      "enunciado": "Las medidas cuantitativas o cualitativas para evaluar el desempeño del plan de sostenibilidad en base a aspectos ambientales, económicos y sociales son:",
-      "opciones": ["Objetivos", "Responsabilidades", "Indicadores de sostenibilidad", "Ninguna es correcta"],
-      "correcta": 2
-    },
-    {
-      "id": 50,
-      "enunciado": "Un benchmark es:",
-      "opciones": [
-        "Una prueba de rendimiento para valorar si una empresa cumple con las características adecuadas respecto a los ODS.",
-        "Una prueba de rendimiento para valorar si una empresa no cumple con las características adecuadas respecto a los ODS.",
-        "Un documento general a todas las empresas",
-        "Un diagnóstico inicial del estado de la empresa"
-      ],
-      "correcta": 0
-    }
+    { "id": 1, "enunciado": "¿Cómo se denomina en inglés a los grupos de interés?", "opciones": ["Stakeholders", "ODS", "Groups of interest", "Ninguna es correcta"], "correcta": 0 },
+    { "id": 2, "enunciado": "¿Cuál de las siguientes NO es uno de los 5 principios de sostenibilidad?", "opciones": ["Planeta", "Paz", "Promoción", "Participación"], "correcta": 2 },
+    { "id": 3, "enunciado": "El equilibrio entre los recursos utilizados por la humanidad y el bienestar humano teniendo en cuenta el futuro se denomina:", "opciones": ["Sostenibilidad ambiental", "Sostenibilidad", "Sostenibilidad social", "Sostenibilidad económica"], "correcta": 1 },
+    { "id": 4, "enunciado": "En una empresa, los aspectos de gestión de residuos y reducción de emisiones hacen referencia a:", "opciones": ["Aspectos sociales", "Aspectos de gobernanza", "Aspectos ambientales", "Ninguna es correcta"], "correcta": 2 },
+    { "id": 5, "enunciado": "Entre las normativas actuales internacionales en materia de sostenibilidad se encuentra:", "opciones": ["Agenda 2030", "Acuerdo de París", "Marco Estratégico de Energía y Clima", "Todas son correctas"], "correcta": 3 },
+    { "id": 6, "enunciado": "Es un indicador de sostenibilidad ambiental:", "opciones": ["Huella de carbono", "Índice de Desarrollo Humano", "Valor Económico Generado y Distribuido", "Ninguna es correcta"], "correcta": 0 },
+    { "id": 7, "enunciado": "Es un stakeholder:", "opciones": ["Personal trabajador de la empresa", "Clientes", "ONGs", "Todas son correctas"], "correcta": 3 },
+    { "id": 8, "enunciado": "La P que se centra en la protección del medio natural y el cambio climático es:", "opciones": ["Paz", "Prosperidad", "Personas", "Planeta"], "correcta": 3 },
+    { "id": 9, "enunciado": "Las estrategias de inversión que tienen en cuenta los criterios ASG son:", "opciones": ["Inversiones Socialmente Respetables", "Inversiones verdes", "Inversiones Socialmente Responsables", "Inversiones Sociales y Medioambientales"], "correcta": 2 },
+    { "id": 10, "enunciado": "Las siglas ASG hacen referencia a:", "opciones": ["Aspectos Ambientales, Sociales y de Gobernanza", "Aspectos Ambientales, Sociales y de Gestión", "Aspectos Ambientales, Servicios y de Gobernanza", "Aspectos Amigables, Serviciales y de Gobierno"], "correcta": 0 },
+    { "id": 11, "enunciado": "¿A qué nos referimos cuando los cambios se producen en la cantidad y distribución de la población?", "opciones": ["Desempleo.", "Pobreza y exclusión social.", "Migración.", "Reto demográfico."], "correcta": 3 },
+    { "id": 12, "enunciado": "¿Cómo se llama el acuerdo internacional que pretende frenar las emisiones de gases de efecto invernadero?", "opciones": ["Protocolo de Kioto.", "Protocolo de Tokio.", "Protocolo de Okazaki.", "Protocolo de Kobe."], "correcta": 0 },
+    { "id": 13, "enunciado": "¿Cuál de las siguientes no se encuentran entre los principales problemas ambientales?", "opciones": ["Cambio climático acelerado por la actividad humana.", "Pérdida de biodiversidad.", "Contaminación del aire, agua y suelos.", "La protección de los ecosistemas."], "correcta": 3 },
+    { "id": 14, "enunciado": "¿Qué provoca un desastre natural?", "opciones": ["Reto social.", "El desplazamiento de poblaciones enteras.", "Dependencia de combustibles fósiles.", "Fomentar la reutilización de materiales."], "correcta": 1 },
+    { "id": 15, "enunciado": "El cambio climático y la escasez de recursos naturales afecta directamente a:", "opciones": ["Sector primario.", "Sector secundario.", "Sector terciario.", "Sector cuaternario."], "correcta": 0 },
+    { "id": 16, "enunciado": "¿A qué nos referimos cuando la colaboración lleva a cambios de comportamiento que protegen el medio ambiente?", "opciones": ["A los incentivos económicos.", "Al desarrollo de políticas integrales.", "Al desarrollo de estándares y certificaciones.", "Educación y sensibilización."], "correcta": 3 },
+    { "id": 17, "enunciado": "La pérdida y degradación de bosques es:", "opciones": ["Pérdida de biodiversidad.", "Deforestación.", "Contaminación del suelo.", "Producción sostenible."], "correcta": 1 },
+    { "id": 18, "enunciado": "Las prácticas sostenibles, reducción de residuos y producción local son medidas de:", "opciones": ["Consumo.", "Conservación del medio ambiente.", "Sectores productivos.", "Política y gobierno."], "correcta": 2 },
+    { "id": 19, "enunciado": "¿Qué es la eficiencia energética?", "opciones": ["Regular el uso de recursos naturales.", "Cambio de un sistema de energía fósil.", "Utilizar menos energía para realizar la misma tarea.", "Aumentar la conciencia sobre los problemas ambientales."], "correcta": 2 },
+    { "id": 20, "enunciado": "Una medida para reducir el impacto ambiental es:", "opciones": ["Eficiencia energética.", "Movilidad sostenible.", "Transición energética.", "Todas son correctas"], "correcta": 3 },
+    { "id": 21, "enunciado": "¿Cómo pueden hacer las empresas para cumplir con el ODS de Trabajo decente y crecimiento económico?", "opciones": ["Crear empleo estable, bien pagado y seguro.", "Ofrecer condiciones laborales justas.", "Distribuir la riqueza.", "Todas son correctas."], "correcta": 3 },
+    { "id": 22, "enunciado": "¿Cómo pueden las empresas cumplir con el ODS de Energía asequible y no contaminante?", "opciones": ["Utilizar energías renovables.", "Reducir el consumo energético.", "Usar equipos de bajo consumo y eficientes.", "Todas son correctas."], "correcta": 3 },
+    { "id": 23, "enunciado": "¿Cuántos ODS hay planteados?", "opciones": ["10 objetivos", "15 objetivos", "17 objetivos", "20 objetivos"], "correcta": 2 },
+    { "id": 24, "enunciado": "¿En qué año se han de cumplir los ODS?", "opciones": ["2025", "2030", "2040", "2050"], "correcta": 1 },
+    { "id": 25, "enunciado": "¿Qué ODS hace referencia a la búsqueda de la igualdad entre personas?", "opciones": ["Igualdad de género.", "Trabajo decente y crecimiento económico sostenible.", "Reducción de las desigualdades.", "Hay más de una correcta."], "correcta": 3 },
+    { "id": 26, "enunciado": "¿Qué ODS hace referencia al medio ambiente?", "opciones": ["Acción por el clima.", "Vida de ecosistemas terrestres.", "Vida submarina.", "Todas son correctas."], "correcta": 3 },
+    { "id": 27, "enunciado": "¿Qué tienen que hacer los sectores productivos para cumplir los ODS?", "opciones": ["Aplicar los ODS en la estrategia empresarial.", "No promover prácticas sostenibles en la cadena de suministro.", "Evitar la reducción de emisiones de gases de efecto invernadero.", "No colaborar con gobiernos ni ONGs."], "correcta": 0 },
+    { "id": 28, "enunciado": "De los siguientes, ¿qué se considera un riesgo para conseguir y cumplir los ODS?", "opciones": ["Un compromiso político sólido.", "Una amplia coordinación entre sectores.", "La falta de financiación.", "Un buen seguimiento de la aplicación."], "correcta": 2 },
+    { "id": 29, "enunciado": "El objetivo que busca crear alianzas para cumplir los ODS es:", "opciones": ["Objetivo 16-Paz, justicia e instituciones sólidas.", "Objetivo 17-Alianzas para lograr los objetivos.", "Objetivo 1-Pobreza extrema.", "Objetivo 4-Educación de calidad."], "correcta": 1 },
+    { "id": 30, "enunciado": "Los Objetivos del Desarrollo Sostenible se enmarcan en:", "opciones": ["Agenda 2030.", "Protocolo de Kyoto.", "Acuerdo de París.", "Marco Europeo frente al cambio climático."], "correcta": 0 },
+    { "id": 31, "enunciado": "¿Cómo se define la práctica del \"greenwashing\" en el contexto ambiental?", "opciones": ["Estrategia de producción sostenible basada en la economía circular.", "Método de diseño que considera el impacto ambiental de un producto.", "Implementación de la normativa ISO 14001 en empresas.", "Práctica de marketing para aparentar responsabilidad ambiental sin cambios reales."], "correcta": 3 },
+    { "id": 32, "enunciado": "¿Cómo se denomina al modelo económico basado en la producción en masa, el consumo y crecimiento económico continuo y la desregulación económica?", "opciones": ["Economía circular.", "Economía verde.", "Capitalismo.", "Economía lineal."], "correcta": 3 },
+    { "id": 33, "enunciado": "¿Cuál de los siguientes aspectos NO es promovido por la economía verde?", "opciones": ["Crecimiento económico sostenible.", "Desregulación financiera.", "Reducción del impacto ambiental.", "Conservación de recursos naturales."], "correcta": 1 },
+    { "id": 34, "enunciado": "El diseño de un producto teniendo en cuenta el impacto ambiental se denomina:", "opciones": ["Diseño sostenible.", "Ecodiseño.", "Rediseño.", "Diseño ambiental."], "correcta": 1 },
+    { "id": 35, "enunciado": "El método de evaluación del impacto ambiental de un producto o servicio se denomina:", "opciones": ["Análisis del ciclo de vida.", "Evaluación de beneficios.", "Estudio de la cadena de producción.", "Economía circular."], "correcta": 0 },
+    { "id": 36, "enunciado": "El modelo económico basado en la reducción de residuos y el uso eficiente de los recursos es:", "opciones": ["Economía lineal.", "Economía verde.", "Economía circular.", "Ninguna es correcta."], "correcta": 2 },
+    { "id": 37, "enunciado": "La R que consiste en arreglar productos estropeados para que cumplan de nuevo su función:", "opciones": ["Reducir.", "Renovar.", "Reparar.", "Reutilizar."], "correcta": 2 },
+    { "id": 38, "enunciado": "Las etapas del ciclo de vida de un producto son:", "opciones": ["Diseño, producción, distribución, uso, fin de la vida útil.", "Objetivos, análisis, evaluación del impacto y resultados.", "Fabricación, ensamblaje, empaquetado, almacenamiento y distribución.", "Diseño, consumo y eliminación."], "correcta": 0 },
+    { "id": 39, "enunciado": "Limitar los residuos generados gracias a la disminución del consumo de materiales y recursos naturales hace referencia a:", "opciones": ["Reducir.", "Reutilizar.", "Reciclar.", "Renovar."], "correcta": 0 },
+    { "id": 40, "enunciado": "No es un principio del ecodiseño:", "opciones": ["Diseño de productos energéticamente eficientes.", "Diseño de productos que generan menos residuos y emisiones.", "Diseño de productos de un solo uso.", "Diseño de productos con materiales reciclables o renovables."], "correcta": 2 },
+    { "id": 41, "enunciado": "¿Qué Ley regula el plan de sostenibilidad en España?", "opciones": ["Ley 1/2023", "Ley 50/2022", "RD 1/2000", "Ninguna es correcta"], "correcta": 3 },
+    { "id": 42, "enunciado": "¿Qué se utiliza para analizar los grupos de interés?", "opciones": ["Benchmark", "Matriz", "Diagnóstico", "Indicadores"], "correcta": 1 },
+    { "id": 43, "enunciado": "Al grupo de interés o stakeholder al que hay que involucrar activamente en el proceso de creación e implantación de un plan de sostenibilidad cuenta con:", "opciones": ["Nivel de interés alto y nivel de influencia alto", "Nivel de interés alto y nivel de influencia bajo", "Nivel de interés bajo y nivel de influencia alto", "Nivel de interés bajo y nivel de influencia bajo"], "correcta": 0 },
+    { "id": 44, "enunciado": "Al tener ya toda la información necesaria se pueden establecer los objetivos y las metas que tendrá que definir el plan de sostenibilidad. Estos tienen que ser:", "opciones": ["Concretos", "Realistas", "Objetivos", "A y B son correctas"], "correcta": 3 },
+    { "id": 45, "enunciado": "Cuando se ha hecho una valoración inicial del estado económico, social y ambiental de la empresa se recomienda:", "opciones": ["No se recomienda nada", "Valorar las pérdidas", "Crear un plan de sostenibilidad", "Valorar los grupos de interés o stakeholders"], "correcta": 2 },
+    { "id": 46, "enunciado": "El análisis sobre la situación actual de la empresa se denomina:", "opciones": ["Análisis de stakeholders", "Análisis de materialidad", "Análisis de diagnóstico inicial", "Análisis de sostenibilidad"], "correcta": 2 },
+    { "id": 47, "enunciado": "Indica qué grupo se encarga de garantizar los recursos necesarios para aplicar el plan de sostenibilidad y comunicarlo al resto de partes de la empresa:", "opciones": ["Alta dirección", "Dirección intermedia", "Personal trabajador", "Personal encargado del plan de sostenibilidad"], "correcta": 0 },
+    { "id": 48, "enunciado": "La estrategia de una empresa para aplicar prácticas sostenibles a corto, medio y largo plazo buscando un impacto positivo en los ASG se denomina:", "opciones": ["Estrategia de sostenibilidad", "Plan de sostenibilidad", "Análisis de sostenibilidad", "Responsabilidad sostenible"], "correcta": 1 },
+    { "id": 49, "enunciado": "Las medidas cuantitativas o cualitativas para evaluar el desempeño del plan de sostenibilidad en base a aspectos ambientales, económicos y sociales son:", "opciones": ["Objetivos", "Responsabilidades", "Indicadores de sostenibilidad", "Ninguna es correcta"], "correcta": 2 },
+    { "id": 50, "enunciado": "Un benchmark es:", "opciones": ["Una prueba de rendimiento para valorar si una empresa cumple con las características adecuadas respecto a los ODS.", "Una prueba de rendimiento para valorar si una empresa no cumple con las características adecuadas respecto a los ODS.", "Un documento general a todas las empresas", "Un diagnóstico inicial del estado de la empresa"], "correcta": 0 },
+    { "id": 51, "enunciado": "¿Cuál de las siguientes opciones es un ejemplo de modelo de negocio en la economía circular?", "opciones": ["Producción en masa de productos de un solo uso", "Venta exclusiva de productos nuevos en tiendas minoristas", "Upcycling o suprareciclaje, donde los materiales desechados se transforman en nuevos productos", "Eliminación rápida de productos antiguos para dar paso a nuevos lanzamientos"], "correcta": 2 },
+    { "id": 52, "enunciado": "¿Cuál es uno de los principales objetivos de la economía verde?", "opciones": ["Alcanzar el crecimiento económico sin importar el impacto ambiental", "Fomentar el desarrollo sostenible mediante la reducción del impacto ambiental y la equidad social", "Promover el uso exclusivo de combustibles fósiles para mejorar la economía", "Maximizar el consumo de recursos naturales para generar beneficios económicos rápidos"], "correcta": 1 },
+    { "id": 53, "enunciado": "¿En qué ODS se promueve reducir el desperdicio de alimento y la colaboración con comedores sociales?", "opciones": ["Hambre cero", "Fin de la pobreza", "Educación de calidad", "Igualdad de género"], "correcta": 0 },
+    { "id": 54, "enunciado": "¿Qué distingue a la economía circular del modelo económico tradicional?", "opciones": ["La economía circular busca desechar productos rápidamente para incentivar la producción", "La economía circular promueve el uso y aprovechamiento prolongado de los recursos mediante la reutilización y el reciclaje", "La economía circular se basa en la extracción continua de nuevos recursos naturales", "La economía circular favorece el consumo de productos de un solo uso para reducir costos"], "correcta": 1 },
+    { "id": 55, "enunciado": "¿Qué significa el término Stakeholder?", "opciones": ["Grupo de interés", "Prosperidad", "Financiación", "Adaptación"], "correcta": 0 },
+    { "id": 56, "enunciado": "¿Cuál de los siguientes no es un reto social?", "opciones": ["Violencia y seguridad", "Deforestación", "Reto demográfico", "Migración"], "correcta": 1 },
+    { "id": 57, "enunciado": "De los siguientes, ¿qué se considera una oportunidad al conseguir y cumplir los ODS?", "opciones": ["Falta de financiación", "Dificultades de coordinación", "Abrir nuevos mercados y oportunidades comerciales", "Resistencia al cambio"], "correcta": 2 },
+    { "id": 58, "enunciado": "El índice de Desarrollo humano:", "opciones": ["Ofrece información sobre los gases de efecto invernadero", "Evalúa el bienestar humano en términos de salud, educación y riqueza", "Se mide la creación de valor económico de una empresa", "Es un indicador económico"], "correcta": 1 },
+    { "id": 59, "enunciado": "El primer paso en la elaboración de un plan de sostenibilidad es:", "opciones": ["Compromiso de dirección", "Plantear indicadores de desempeño", "Análisis de diagnóstico inicial", "Análisis de materialidad"], "correcta": 0 },
+    { "id": 60, "enunciado": "El sistema capitalista no afecta directamente al cambio climático a causa de:", "opciones": ["De la dependencia de combustibles fósiles", "Del consumo de recursos naturales", "Al acceso a la educación", "Del modelo de producción lineal y consumo continuo"], "correcta": 2 },
+    { "id": 61, "enunciado": "Indica una de las causas que provocan la pérdida de biodiversidad:", "opciones": ["La caza descontrolada", "La tala de bosques", "Los vertidos tóxicos", "El aumento de gases contaminantes"], "correcta": 0 },
+    { "id": 62, "enunciado": "Los aspectos ambientales se centran en evaluar:", "opciones": ["El uso de recursos", "Los derechos laborales", "La gestión de riesgos", "La garantía de salud y seguridad"], "correcta": 0 },
+    { "id": 63, "enunciado": "Para la mejora del plan de sostenibilidad:", "opciones": ["Se define un calendario con las fechas de evaluación del cumplimiento de objetivos", "Se debe ofrecer información que permita aplicar medidas de mejora", "Se debe hacer de forma anual para acumular información y emitir un informe final", "Todas las respuestas son correctas"], "correcta": 3 },
+    { "id": 64, "enunciado": "Hace referencia al cambio de un sistema de energía basado en combustibles fósiles:", "opciones": ["Eficiencia sostenible", "Movilidad energética", "Eficiencia energética", "Transición energética"], "correcta": 3 },
+    { "id": 65, "enunciado": "Se define como pobreza extrema a aquellas situaciones en las que tienen:", "opciones": ["Más de 2€ por persona al día para sobrevivir", "Menos de 2€ por persona al día para sobrevivir", "Menos de 20€ por persona a la semana para sobrevivir", "Menos de 100€ por persona al mes para sobrevivir"], "correcta": 1 },
+    { "id": 66, "enunciado": "Un beneficio asociado a la realización de un plan de sostenibilidad es:", "opciones": ["Aumento de costes a medio y largo plazo", "Aumento de residuos generados", "Aumento de la demanda energética", "Optimización de recursos"], "correcta": 3 },
+    { "id": 67, "enunciado": "Una de las responsabilidades asociadas a la alta dirección es:", "opciones": ["Coordinar los distintos departamentos o sectores de la empresao", "Garantizar los recursos necesarios para aplicar el plan de sostenibilidad", "Aplicar el plan de sostenibilidad", "Conocer los criterios ASG de la empresa"], "correcta": 1 }
   ]
 }
