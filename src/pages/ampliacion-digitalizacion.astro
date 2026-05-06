@@ -1,0 +1,13 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TestContainer from '../components/TestContainer.astro';
+import { getEntry } from 'astro:content';
+import QuizHeader from '../components/QuizHeader.astro';
+
+const entrada = await getEntry('tests', 'ampliacion-digitalizacion');
+const { preguntas, asignatura } = entrada?.data || { preguntas: [], asignatura: ""};
+---
+
+<Layout title={asignatura}>
+  <TestContainer preguntas={preguntas} asignatura={asignatura} />
+</Layout>

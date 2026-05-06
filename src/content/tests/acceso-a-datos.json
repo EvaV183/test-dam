@@ -1,555 +1,106 @@
 {
   "asignatura": "Acceso a Datos",
   "preguntas": [
-    {
-      "id": 1,
-      "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor una característica de las bases de datos XML Nativas?",
-      "opciones": [
-        "Son las bases de datos más empleadas en la actualidad.",
-        "Se caracteriza por la facilidad de usar las transacciones.",
-        "Se caracteriza por permitir introducir objetos directamente.",
-        "Permiten la consulta, modificación, transformación y validación de documentos XML."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 2,
-      "enunciado": "Almacenamiento primario o memoria principal:",
-      "opciones": [
-        "Su capacidad es baja y la información se borra cuando dejamos de trabajar con ella o cuando apagamos el ordenador.",
-        "Permite el almacenamiento masivo de la información durante un periodo extendido de tiempo.",
-        "En estas memorias se almacenan los datos persistentes.",
-        "La segunda y tercera son correctas."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 3,
-      "enunciado": "Dependiendo de la memoria o almacenamiento donde se encuentren los datos pueden ser persistentes o…:",
-      "opciones": [
-        "Temporales.",
-        "Transitorios.",
-        "Transportables.",
-        "Transaccionales."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 4,
-      "enunciado": "En ACID, esta característica: Completadas las transacciones se deben guardar todos los datos modificados como datos persistentes:",
-      "opciones": [
-        "Atomic.",
-        "Consistent.",
-        "Isolated.",
-        "Durable."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 5,
-      "enunciado": "En ACID, esta característica: No se deben producir errores en la transacción, y si los hubiera deben corregirse automáticamente:",
-      "opciones": [
-        "Atomic.",
-        "Consistent.",
-        "Isolated.",
-        "Durable."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 6,
-      "enunciado": "Iteradores o cursores:",
-      "opciones": [
-        "Son lo mismo y permiten el almacenamiento persistente de información.",
-        "No son lo mismo y permiten el almacenamiento persistente de información.",
-        "Son lo mismo y permiten realizar consultas en una base de datos.",
-        "No son lo mismo y permiten realizar consultas en una base de datos."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 7,
-      "enunciado": "La indexación permite:",
-      "opciones": [
-        "Mayor almacenamiento.",
-        "Una búsqueda más eficiente.",
-        "Un registro automático de la información.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 8,
-      "enunciado": "Las bases de datos relacionales:",
-      "opciones": [
-        "Poseen una gran escalabilidad.",
-        "Maneja bien las transacciones.",
-        "Emplea mecanismos de seguridad y recuperación de datos.",
-        "Todas las anteriores son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 9,
-      "enunciado": "Tipo de base de datos que no emplea tablas en el almacenamiento ni tampoco transacciones y restricciones:",
-      "opciones": [
-        "XML-enabled.",
-        "Bases de datos relacionales.",
-        "Bases de datos NoSQL.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 10,
-      "enunciado": "XML:",
-      "opciones": [
-        "Posee un orden jerárquico.",
-        "Posee un orden arborescente.",
-        "Puede poseer índices.",
-        "Todas las anteriores son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 11,
-      "enunciado": "La clase File de Java permite:",
-      "opciones": [
-        "Obtener información sobre un fichero.",
-        "Crear un fichero.",
-        "Abrir un fichero.",
-        "Esa clase no es de Java."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 12,
-      "enunciado": "La función seek() permite:",
-      "opciones": [
-        "Buscar metainformación de un fichero.",
-        "Situar el cursor en la posición deseada.",
-        "Introducir información en ficheros.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 13,
-      "enunciado": "Las bases de datos de ficheros:",
-      "opciones": [
-        "Ya no se usan.",
-        "Siguen usándose ampliamente.",
-        "Su uso se ha reducido a ciertos sectores específicos.",
-        "Ninguna de las anteriores es correcta."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 14,
-      "enunciado": "Las clases FileReader y FileWriter pertenecen a:",
-      "opciones": [
-        "El modo de acceso secuencial.",
-        "El modo de acceso aleatorio.",
-        "El modo de acceso buffering.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 15,
-      "enunciado": "Los ficheros de texto almacenan:",
-      "opciones": [
-        "Bytes.",
-        "Bits.",
-        "Cadenas de caracteres.",
-        "Las dos primeras son correctas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 16,
-      "enunciado": "Los modos de acceso son aleatorio y:",
-      "opciones": [
-        "De cierre.",
-        "Buffering.",
-        "Secuencial.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 17,
-      "enunciado": "Para resolver excepciones podemos:",
-      "opciones": [
-        "Dar una única solución para todo.",
-        "Dar soluciones individuales para cada una de las excepciones.",
-        "Las dos anteriores son válidas.",
-        "Las excepciones no se pueden resolver."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 18,
-      "enunciado": "RandomAccesFile es una clase para:",
-      "opciones": [
-        "El acceso aleatorio.",
-        "El cierre del buffer.",
-        "La búsqueda dentro de un fichero.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 19,
-      "enunciado": "Try, catch y finally, se emplean para:",
-      "opciones": [
-        "La codificación.",
-        "La descodificación.",
-        "La lectura de ficheros.",
-        "Ninguna de las anteriores es correcta."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 20,
-      "enunciado": "UTF-8:",
-      "opciones": [
-        "Está desapareciendo.",
-        "Es compatible con ASCII.",
-        "Es un tipo de fichero no muy usado.",
-        "Todas las anteriores son correctas."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 21,
-      "enunciado": "El placeholders más empleado es:",
-      "opciones": [
-        "next.",
-        "Replay",
-        "?",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 22,
-      "enunciado": "JDBC puede ejecutar SELECT, UPDATE, DELETE, etc. aunque son parte de:",
-      "opciones": [
-        "executeQuery().",
-        "SQL.",
-        "CSV.",
-        "OBDC."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 23,
-      "enunciado": "Las transacciones permiten:",
-      "opciones": [
-        "Ejecutar diversas acciones predefinidas simultáneamente.",
-        "Eliminar los resultados de diversas acciones predefinidas simultáneamente.",
-        "Las dos primeras son correctas.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 24,
-      "enunciado": "Los índices:",
-      "opciones": [
-        "Son un fichero.",
-        "Son un apartado del fichero.",
-        "Son un tipo especial de fichero.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 25,
-      "enunciado": "Los conectores:",
-      "opciones": [
-        "Permiten enlazar diversos drivers.",
-        "Permiten realizar consultas.",
-        "Permiten indexar ficheros.",
-        "No existen en las bases de datos."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 26,
-      "enunciado": "Los procedimientos pueden introducirse con:",
-      "opciones": [
-        "Las sentencias UPDATE, DELETE e INSERT.",
-        "Las cláusulas WHERE con UPDATE y DELETE.",
-        "Las dos primeras son correctas.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 27,
-      "enunciado": "SQL:",
-      "opciones": [
-        "Solo se emplea con API.",
-        "Solo se emplea con drivers.",
-        "Se emplea con ambos, incluso de manera simultánea.",
-        "Ninguna de las anteriores es correcta."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 28,
-      "enunciado": "Statement nos permite trabajar con:",
-      "opciones": [
-        "SQL.",
-        "XML.",
-        "CSV.",
-        "HTML."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 29,
-      "enunciado": "Un búfer es:",
-      "opciones": [
-        "Un tipo de aplicación.",
-        "Un tipo de invocación.",
-        "Un tipo de memoria.",
-        "Ninguna de las anteriores es correcta."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 30,
-      "enunciado": "Una arquitectura que entrelaza API y drivers en un sistema de traducción doble:",
-      "opciones": [
-        "Es posible.",
-        "Es imposible.",
-        "Posible, pero solo si se emplea CSV.",
-        "Posible, pero solo con dos API, no API y drivers."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 31,
-      "enunciado": "¿Qué es un ORM?",
-      "opciones": [
-        "Técnicas y herramientas para destruir un objeto según una correspondencia entre un objeto y una tabla de una base de datos relacional.",
-        "Técnicas y herramientas para persistir un objeto según una correspondencia entre un objeto y una tabla de una base de datos relacional.",
-        "Técnicas y herramientas para persistir una tabla según una correspondencia entre un fichero y una tabla de una base de datos relacional.",
-        "Es un organismo regional de mapeo."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 32,
-      "enunciado": "Hibernate es...",
-      "opciones": [
-        "Un estado de hibernación.",
-        "Un framework para aplicar ORM.",
-        "Un framework para ampliar la funcionalidad de java.",
-        "Ninguna de las respuestas anteriores es correcta."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 33,
-      "enunciado": "La diferencia entre el método get() y load() es:",
-      "opciones": [
-        "No hay diferencias, ambos hacen lo mismo.",
-        "Si el objeto a obtener no existe, get() devuelve null y load() una excepción.",
-        "Si el objeto a obtener no existe, get() devuelve una excepción y load() devuelve null.",
-        "Si el objeto a obtener no existe, get() lo busca en la base de datos y load() lo busca en memoria."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 34,
-      "enunciado": "Los objetos según su uso pueden tener los siguientes estados:",
-      "opciones": [
-        "Transitorio, Persistente, Separado o Corrupto.",
-        "Transitorio, Guardo, Separado o Eliminado.",
-        "Transitorio, Persistente, Insertado o Eliminado.",
-        "Transitorio, Persistente, Separado o Eliminado."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 35,
-      "enunciado": "Los POJOs:",
-      "opciones": [
-        "Son ficheros de texto que representan una correspondencia entre un objeto y una tabla de la base de datos.",
-        "Son clases de java que representan una correspondencia entre un objeto y una tabla de la base de datos.",
-        "Son un atributo que representan una correspondencia entre un objeto y una tabla de la base de datos.",
-        "Son grupos de tablas que representan una correspondencia entre un objeto."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 36,
-      "enunciado": "Para buscar un objeto podemos usar:",
-      "opciones": [
-        "El método get o load de sesión.",
-        "Uso de sentencias HQL con el método .createQuery.",
-        "Uso de sentencias SQL con el método .createNativeQuery.",
-        "Todas las respuestas anteriores son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 37,
-      "enunciado": "Podemos afirmar que:",
-      "opciones": [
-        "En hibernate no hay herramientas para aplicar la correspondencia cuando existe herencia de objetos.",
-        "Las bases de datos relacionales tienen un modelo de datos para representar la herencia.",
-        "La correspondencia de herencia solo se puede aplicar si se elimina la jerarquía.",
-        "Ninguna de las respuestas anteriores son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 38,
-      "enunciado": "Si queremos configurar hibernate tenemos que modificar el fichero:",
-      "opciones": [
-        "Los ficheros .hbm.xml.",
-        "Hibernate.cfg.xml.",
-        "Hibernate.reveng.xml.",
-        "HibernateUtils."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 39,
-      "enunciado": "Si queremos consultar la correspondencia o mapeo que hay entre una clase y una tabla de la base de datos consultaremos:",
-      "opciones": [
-        "Los ficheros .hbm.xml.",
-        "Hibernate.cfg.xml.",
-        "Hibernate.reveng.xml.",
-        "HibernateUtils."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 40,
-      "enunciado": "Si queremos hacer una consulta con el lenguaje HQL usaremos:",
-      "opciones": [
-        "La interfaz Query con el método .createQuery.",
-        "La interfaz Query con el método .createNativeQuery.",
-        "La interfaz SubQuery con el método .createQuery.",
-        "La interfaz SubQuery con el método .createNativeQuery."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 41,
-      "enunciado": "¿Qué tipo de base de datos permite trabajar con objetos?",
-      "opciones": [
-        "Base de datos de objetos.",
-        "Base de datos relacionales.",
-        "Base de datos objeto-relacional.",
-        "La opción A y C son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 42,
-      "enunciado": "Indica la afirmación correcta respecto a las bases de datos objeto:",
-      "opciones": [
-        "No existe ninguna comunidad que realice los estándares.",
-        "Es una base de datos relacional que permite trabajar con objetos.",
-        "Permite guardar objetos directamente en la base de datos.",
-        "Usa el lenguaje SQL."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 43,
-      "enunciado": "OQL:",
-      "opciones": [
-        "Es un lenguaje de consulta similar a SQL.",
-        "Su estructura básica es SELECT .... FROM .... WHERE.",
-        "No se puede hacer sentencias INSERT, UPDATE o DELETE.",
-        "Todas las anteriores son ciertas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 44,
-      "enunciado": "Para anidar una tabla en una columna:",
-      "opciones": [
-        "Indicaremos el nombre de la columna seguido del nombre de la tabla.",
-        "Crearemos un tipo usando la sentencia AS TABLE OF REF y objeto de la tabla.",
-        "Se tendrá que crear una vista (VIEW) como tabla de anidamiento.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 45,
-      "enunciado": "Para obtener las referencias de los objetos, los OID, tendremos que usar:",
-      "opciones": [
-        "La función REF(tabla).",
-        "La función REFERENCE(tabla).",
-        "La función OID(tabla).",
-        "La función DEREF(tabla)."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 46,
-      "enunciado": "Para obtener un conjunto set de objetos en una consulta se usará:",
-      "opciones": [
-        "SELECT DISTINCT.",
-        "SELECT.",
-        "SELECT * FROM punto de entrada ORDER BY campo.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 47,
-      "enunciado": "Qué versión de SQL permite definir estructuras de objetos:",
-      "opciones": [
-        "SQL:99 o SQL3.",
-        "SQL:92 o SQL2.",
-        "SQL:66.",
-        "SQL1."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 48,
-      "enunciado": "Que base de datos es del tipo objeto-relacional:",
-      "opciones": [
-        "Microsoft Access.",
-        "MySQL.",
-        "SQLite.",
-        "Oracle."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 49,
-      "enunciado": "Que es ODL:",
-      "opciones": [
-        "Lenguaje de consulta.",
-        "Lenguaje de definición de objetos.",
-        "Lenguaje de manipulación de datos.",
-        "Lenguaje de programación."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 50,
-      "enunciado": "Una tabla del lenguaje de definición de datos relacional (DDL) equivale a:",
-      "opciones": [
-        "Un objeto en ODL.",
-        "Una clase en ODL.",
-        "Una instancia de un objeto en ODL.",
-        "No tiene equivalencia en ODL."
-      ],
-      "correcta": 1
-    }
+    { "id": 1, "enunciado": "¿Cuál de las siguientes afirmaciones describe mejor una característica de las bases de datos XML Nativas?", "opciones": ["Son las bases de datos más empleadas en la actualidad.", "Se caracteriza por la facilidad de usar las transacciones.", "Se caracteriza por permitir introducir objetos directamente.", "Permiten la consulta, modificación, transformación y validación de documentos XML."], "correcta": 3 },
+    { "id": 2, "enunciado": "Almacenamiento primario o memoria principal:", "opciones": ["Su capacidad es baja y la información se borra cuando dejamos de trabajar con ella o cuando apagamos el ordenador.", "Permite el almacenamiento masivo de la información durante un periodo extendido de tiempo.", "En estas memorias se almacenan los datos persistentes.", "La segunda y tercera son correctas."], "correcta": 0 },
+    { "id": 3, "enunciado": "Dependiendo de la memoria o almacenamiento donde se encuentren los datos pueden ser persistentes o…:", "opciones": ["Temporales.", "Transitorios.", "Transportables.", "Transaccionales."], "correcta": 1 },
+    { "id": 4, "enunciado": "En ACID, esta característica: Completadas las transacciones se deben guardar todos los datos modificados como datos persistentes:", "opciones": ["Atomic.", "Consistent.", "Isolated.", "Durable."], "correcta": 3 },
+    { "id": 5, "enunciado": "En ACID, esta característica: No se deben producir errores en la transacción, y si los hubiera deben corregirse automáticamente:", "opciones": ["Atomic.", "Consistent.", "Isolated.", "Durable."], "correcta": 1 },
+    { "id": 6, "enunciado": "Iteradores o cursores:", "opciones": ["Son lo mismo y permiten el almacenamiento persistente de información.", "No son lo mismo y permiten el almacenamiento persistente de información.", "Son lo mismo y permiten realizar consultas en una base de datos.", "No son lo mismo y permiten realizar consultas en una base de datos."], "correcta": 3 },
+    { "id": 7, "enunciado": "La indexación permite:", "opciones": ["Mayor almacenamiento.", "Una búsqueda más eficiente.", "Un registro automático de la información.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 8, "enunciado": "Las bases de datos relacionales:", "opciones": ["Poseen una gran escalabilidad.", "Maneja bien las transacciones.", "Emplea mecanismos de seguridad y recuperación de datos.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 9, "enunciado": "Tipo de base de datos que no emplea tablas en el almacenamiento ni tampoco transacciones y restricciones:", "opciones": ["XML-enabled.", "Bases de datos relacionales.", "Bases de datos NoSQL.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 10, "enunciado": "XML:", "opciones": ["Posee un orden jerárquico.", "Posee un orden arborescente.", "Puede poseer índices.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 11, "enunciado": "La clase File de Java permite:", "opciones": ["Obtener información sobre un fichero.", "Crear un fichero.", "Abrir un fichero.", "Esa clase no es de Java."], "correcta": 0 },
+    { "id": 12, "enunciado": "La función seek() permite:", "opciones": ["Buscar metainformación de un fichero.", "Situar el cursor en la posición deseada.", "Introducir información en ficheros.", "Todas las anteriores son incorrectas."], "correcta": 1 },
+    { "id": 13, "enunciado": "Las bases de datos de ficheros:", "opciones": ["Ya no se usan.", "Siguen usándose ampliamente.", "Su uso se ha reducido a ciertos sectores específicos.", "Ninguna de las anteriores es correcta."], "correcta": 1 },
+    { "id": 14, "enunciado": "Las clases FileReader y FileWriter pertenecen a:", "opciones": ["El modo de acceso secuencial.", "El modo de acceso aleatorio.", "El modo de acceso buffering.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 15, "enunciado": "Los ficheros de texto almacenan:", "opciones": ["Bytes.", "Bits.", "Cadenas de caracteres.", "Las dos primeras son correctas."], "correcta": 2 },
+    { "id": 16, "enunciado": "Los modos de acceso son aleatorio y: ", "opciones": ["De cierre.", "Buffering.", "Secuencial.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 17, "enunciado": "Para resolver excepciones podemos:", "opciones": ["Dar una única solución para todo.", "Dar soluciones individuales para cada una de las excepciones.", "Las dos anteriores son válidas.", "Las excepciones no se pueden resolver."], "correcta": 2 },
+    { "id": 18, "enunciado": "RandomAccesFile es una clase para:", "opciones": ["El acceso aleatorio.", "El cierre del buffer.", "La búsqueda dentro de un fichero.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 19, "enunciado": "Try, catch y finally, se emplean para:", "opciones": ["La codificación.", "La descodificación.", "La lectura de ficheros.", "Ninguna de las anteriores es correcta."], "correcta": 3 },
+    { "id": 20, "enunciado": "UTF-8:", "opciones": ["Está desapareciendo.", "Es compatible con ASCII.", "Es un tipo de fichero no muy usado.", "Todas las anteriores son correctas."], "correcta": 1 },
+    { "id": 21, "enunciado": "El placeholders más empleado es:", "opciones": ["next.", "Replay", "?", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 22, "enunciado": "JDBC puede ejecutar SELECT, UPDATE, DELETE, etc. aunque son parte de:", "opciones": ["executeQuery().", "SQL.", "CSV.", "OBDC."], "correcta": 1 },
+    { "id": 23, "enunciado": "Las transacciones permiten:", "opciones": ["Ejecutar diversas acciones predefinidas simultáneamente.", "Eliminar los resultados de diversas acciones predefinidas simultáneamente.", "Las dos primeras son correctas.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 24, "enunciado": "Los índices:", "opciones": ["Son un fichero.", "Son un apartado del fichero.", "Son un tipo especial de fichero.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 25, "enunciado": "Los conectores:", "opciones": ["Permiten enlazar diversos drivers.", "Permiten realizar consultas.", "Permiten indexar ficheros.", "No existen en las bases de datos."], "correcta": 0 },
+    { "id": 26, "enunciado": "Los procedimientos pueden introducirse con:", "opciones": ["Las sentencias UPDATE, DELETE e INSERT.", "Las cláusulas WHERE con UPDATE y DELETE.", "Las dos primeras son correctas.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 27, "enunciado": "SQL:", "opciones": ["Solo se emplea con API.", "Solo se emplea con drivers.", "Se emplea con ambos, incluso de manera simultánea.", "Ninguna de las anteriores es correcta."], "correcta": 2 },
+    { "id": 28, "enunciado": "Statement nos permite trabajar con:", "opciones": ["SQL.", "XML.", "CSV.", "HTML."], "correcta": 0 },
+    { "id": 29, "enunciado": "Un búfer es:", "opciones": ["Un tipo de aplicación.", "Un tipo de invocación.", "Un tipo de memoria.", "Ninguna de las anteriores es correcta."], "correcta": 2 },
+    { "id": 30, "enunciado": "Una arquitectura que entrelaza API y drivers en un sistema de traducción doble:", "opciones": ["Es posible.", "Es imposible.", "Posible, pero solo si se emplea CSV.", "Posible, pero solo con dos API, no API y drivers."], "correcta": 0 },
+    { "id": 31, "enunciado": "¿Qué es un ORM?", "opciones": ["Técnicas y herramientas para destruir un objeto según una correspondencia entre un objeto y una tabla de una base de datos relacional.", "Técnicas y herramientas para persistir un objeto según una correspondencia entre un objeto y una tabla de una base de datos relacional.", "Técnicas y herramientas para persistir una tabla según una correspondencia entre un fichero y una tabla de una base de datos relacional.", "Es un organismo regional de mapeo."], "correcta": 1 },
+    { "id": 32, "enunciado": "Hibernate es...", "opciones": ["Un estado de hibernación.", "Un framework para aplicar ORM.", "Un framework para ampliar la funcionalidad de java.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 1 },
+    { "id": 33, "enunciado": "La diferencia entre el método get() y load() es:", "opciones": ["No hay diferencias, ambos hacen lo mismo.", "Si el objeto a obtener no existe, get() devuelve null y load() una excepción.", "Si el objeto a obtener no existe, get() devuelve una excepción y load() devuelve null.", "Si el objeto a obtener no existe, get() lo busca en la base de datos y load() lo busca en memoria."], "correcta": 1 },
+    { "id": 34, "enunciado": "Los objetos según su uso pueden tener los siguientes estados:", "opciones": ["Transitorio, Persistente, Separado o Corrupto.", "Transitorio, Guardo, Separado o Eliminado.", "Transitorio, Persistente, Insertado o Eliminado.", "Transitorio, Persistente, Separado o Eliminado."], "correcta": 3 },
+    { "id": 35, "enunciado": "Los POJOs:", "opciones": ["Son ficheros de texto que representan una correspondencia entre un objeto y una tabla de la base de datos.", "Son clases de java que representan una correspondencia entre un objeto y una tabla de la base de datos.", "Son un atributo que representan una correspondencia entre un objeto y una tabla de la base de datos.", "Son grupos de tablas que representan una correspondencia entre un objeto."], "correcta": 1 },
+    { "id": 36, "enunciado": "Para buscar un objeto podemos usar:", "opciones": ["El método get o load de sesión.", "Uso de sentencias HQL con el método .createQuery.", "Uso de sentencias SQL con el método .createNativeQuery.", "Todas las respuestas anteriores son correctas."], "correcta": 3 },
+    { "id": 37, "enunciado": "Podemos afirmar que:", "opciones": ["En hibernate no hay herramientas para aplicar la correspondencia cuando existe herencia de objetos.", "Las bases de datos relacionales tienen un modelo de datos para representar la herencia.", "La correspondencia de herencia solo se puede aplicar si se elimina la jerarquía.", "Ninguna de las respuestas anteriores son correctas."], "correcta": 3 },
+    { "id": 38, "enunciado": "Si queremos configurar hibernate tenemos que modificar el fichero:", "opciones": ["Los ficheros .hbm.xml.", "Hibernate.cfg.xml.", "Hibernate.reveng.xml.", "HibernateUtils."], "correcta": 1 },
+    { "id": 39, "enunciado": "Si queremos consultar la correspondencia o mapeo que hay entre una clase y una tabla de la base de datos consultaremos:", "opciones": ["Los ficheros .hbm.xml.", "Hibernate.cfg.xml.", "Hibernate.reveng.xml.", "HibernateUtils."], "correcta": 0 },
+    { "id": 40, "enunciado": "Si queremos hacer una consulta con el lenguaje HQL usaremos:", "opciones": ["La interfaz Query con el método .createQuery.", "La interfaz Query con el método .createNativeQuery.", "La interfaz SubQuery con el método .createQuery.", "La interfaz SubQuery con el método .createNativeQuery."], "correcta": 0 },
+    { "id": 41, "enunciado": "¿Qué tipo de base de datos permite trabajar con objetos?", "opciones": ["Base de datos de objetos.", "Base de datos relacionales.", "Base de datos objeto-relacional.", "La opción A y C son correctas."], "correcta": 3 },
+    { "id": 42, "enunciado": "Indica la afirmación correcta respecto a las bases de datos objeto:", "opciones": ["No existe ninguna comunidad que realice los estándares.", "Es una base de datos relacional que permite trabajar con objetos.", "Permite guardar objetos directamente en la base de datos.", "Usa el lenguaje SQL."], "correcta": 2 },
+    { "id": 43, "enunciado": "OQL:", "opciones": ["Es un lenguaje de consulta similar a SQL.", "Su estructura básica es SELECT .... FROM .... WHERE.", "No se puede hacer sentencias INSERT, UPDATE o DELETE.", "Todas las anteriores son ciertas."], "correcta": 3 },
+    { "id": 44, "enunciado": "Para anidar una tabla en una columna:", "opciones": ["Indicaremos el nombre de la columna seguido del nombre de la tabla.", "Crearemos un tipo usando la sentencia AS TABLE OF REF y objeto de la tabla.", "Se tendrá que crear una vista (VIEW) como tabla de anidamiento.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 45, "enunciado": "Para obtener las referencias de los objetos, los OID, tendremos que usar:", "opciones": ["La función REF(tabla).", "La función REFERENCE(tabla).", "La función OID(tabla).", "La función DEREF(tabla)."], "correcta": 0 },
+    { "id": 46, "enunciado": "Para obtener un conjunto set de objetos en una consulta se usará:", "opciones": ["SELECT DISTINCT.", "SELECT.", "SELECT * FROM punto de entrada ORDER BY campo.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 47, "enunciado": "Qué versión de SQL permite definir estructuras de objetos:", "opciones": ["SQL:99 o SQL3.", "SQL:92 o SQL2.", "SQL:66.", "SQL1."], "correcta": 0 },
+    { "id": 48, "enunciado": "Que base de datos es del tipo objeto-relacional:", "opciones": ["Microsoft Access.", "MySQL.", "SQLite.", "Oracle."], "correcta": 3 },
+    { "id": 49, "enunciado": "Que es ODL:", "opciones": ["Lenguaje de consulta.", "Lenguaje de definición de objetos.", "Lenguaje de manipulación de datos.", "Lenguaje de programación."], "correcta": 1 },
+    { "id": 50, "enunciado": "Una tabla del lenguaje de definición de datos relacional (DDL) equivale a:", "opciones": ["Un objeto en ODL.", "Una clase en ODL.", "Una instancia de un objeto en ODL.", "No tiene equivalencia en ODL."], "correcta": 1 },
+    { "id": 51, "enunciado": "¿Qué es el DOM?", "opciones": ["Es un dominio de XML.", "Es la representación de un documento XML en forma arbórea.", "Es un API para validar documentos XML.", "Es una etiqueta de XML."], "correcta": 1 },
+    { "id": 52, "enunciado": "¿Cómo se puede validar un documento XML?", "opciones": ["Usando una herramienta de corrección.", "DTX.", "Por esquemas XML.", "No se puede validar un documento."], "correcta": 2 },
+    { "id": 53, "enunciado": "El XPath “/Departamento/Empleados”", "opciones": ["Selecciona los nodos padres “Empleados” del nodo padre “Departamento”.", "Selecciona los nodos hijos “Empleados” del nodo padre “Departamento”.", "Selecciona los departamentos.", "Selecciona el nodo raíz."], "correcta": 1 },
+    { "id": 54, "enunciado": "La estructura de XML está formada por:", "opciones": ["Nodos representando un sistema jerárquico.", "Por instrucciones.", "Datos.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 0 },
+    { "id": 55, "enunciado": "¿Qué hace el método getChildNodes()?", "opciones": ["Obtiene una lista de nodos hijos.", "Obtiene una lista de nodos padre.", "Obtiene el valor de un nodo.", "Obtiene los atributos de los nodos hijos."], "correcta": 0 },
+    { "id": 56, "enunciado": "Si queremos tener una parte de representación de un documento XML en forma arbórea usaremos:", "opciones": ["DOM.", "SAX.", "XPath.", "JAXB."], "correcta": 0 },
+    { "id": 57, "enunciado": "¿Qué es XML?", "opciones": ["Un lenguaje de programación orientado a objetos.", "Es un proceso de lectura.", "Un lenguaje de marcas.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 2 },
+    { "id": 58, "enunciado": "¿Qué es XPath?", "opciones": ["Un lenguaje de consulta y navegación para XML.", "Es un parser para obtener la estructura de un documento XML.", "Es una ruta relativa donde se encuentran los documentos XML.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 0 },
+    { "id": 59, "enunciado": "¿Qué hace un compilador de binding JAXB?", "opciones": ["Genera código ejecutable de un documento XML.", "Traduce un XML a HTML.", "Valida un documento XML.", "Generar clases a partir de un schema XML."], "correcta": 3 },
+    { "id": 60, "enunciado": "¿Qué podemos hacer con XSL?", "opciones": ["Validar un documento XML.", "Consultar y modificar un documento XML.", "Es una plantilla para crear documentos XML, HTML, CSV, etc.", "Generar clases en Java a partir de un documento XML."], "correcta": 2 },
+    { "id": 61, "enunciado": "Como se puede dar persistencia de datos con XML:", "opciones": ["Mediante sistemas de ficheros.", "Base de datos con soporte XML.", "Base de datos nativas de XML.", "Todas las respuestas anteriores son correctas."], "correcta": 3 },
+    { "id": 62, "enunciado": "El lenguaje de XML sólo se emplea como:", "opciones": ["Lenguaje de etiquetas para representar datos.", "Base de datos.", "Las respuestas A y B son correctas.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 0 },
+    { "id": 63, "enunciado": "En una transacción como podemos revocar los cambios realizados:", "opciones": ["commit().", "rollback().", "delete().", "back()."], "correcta": 1 },
+    { "id": 64, "enunciado": "En XQuery, ¿qué palabra reservada se utiliza para definir una variable?", "opciones": ["Variable.", "define.", "let.", "set."], "correcta": 2 },
+    { "id": 65, "enunciado": "FOR en el lenguaje XQuery:", "opciones": ["Vincula variables de forma iterativa.", "Ordena los resultados.", "Indican una condición de filtrado.", "Evalúa una expresión y devuelve los resultados."], "correcta": 0 },
+    { "id": 66, "enunciado": "Qué API permite trabajar con bases de datos nativas de XML:", "opciones": ["XQJ.", "XML:DB.", "Las respuestas A y B son correctas.", "Ninguna de las respuestas anteriores es correcta."], "correcta": 2 },
+    { "id": 67, "enunciado": "Qué característica no tienen las bases de datos nativas de XML:", "opciones": ["Validación.", "Indexación.", "Soporte de APIs.", "Uso de SQL."], "correcta": 3 },
+    { "id": 68, "enunciado": "Qué hace Update insert:", "opciones": ["Sustituye el valor del elemento.", "Consulta los datos.", "Borra un elemento.", "Inserta los datos de un nuevo elemento."], "correcta": 3 },
+    { "id": 69, "enunciado": "Qué lenguaje se emplea para consultas en XML:", "opciones": ["SQL.", "HQL.", "XQuery.", "HTML."], "correcta": 2 },
+    { "id": 70, "enunciado": "Un ejemplo de base de datos nativas de XML es:", "opciones": ["eXist.", "SQL Server.", "MariaDB.", "Oracle."], "correcta": 0 },
+    { "id": 71, "enunciado": "¿Qué característica no es correcta para los EjB?", "opciones": ["Control de concurrencia.", "Es igual que un JavaBeans.", "Uso del API JPA para la persistencia de objetos.", "Sistemas de mensajes con JMS."], "correcta": 1 },
+    { "id": 72, "enunciado": "¿Qué características tienen que cumplir un JavaBeans?", "opciones": ["Implementar la interfaz Serializable.", "Tener un constructor vacío.", "Las propiedades son de ámbito privado.", "Todas las opciones son correctas."], "correcta": 3 },
+    { "id": 73, "enunciado": "¿Qué es un componente?", "opciones": ["Es un elemento gráfico, como un botón.", "Es un módulo o parte de una aplicación que hace una función global.", "Es un módulo o parte que realiza una función concreta.", "Es un módulo o parte que realiza una función concreta y ofrece una interfaz para acceder."], "correcta": 3 },
+    { "id": 74, "enunciado": "¿Qué tipos de EjB hay?", "opciones": ["Entidad, Sesión y Dirigidos por mensajes.", "Entidad, Sesión y Relación.", "Entidad, Relación y Dirigidos por mensajes.", "Sesión, Relación y Dirigidos por mensajes."], "correcta": 0 },
+    { "id": 75, "enunciado": "¿En qué fichero nos encontramos el descriptor de despliegue?", "opciones": ["Manifest.mf.", "web.xml.", "config.xml.", "descriptor.xml."], "correcta": 1 },
+    { "id": 76, "enunciado": "Indica qué sintaxis de JSP no es correcta:", "opciones": ["<% String variable = null; %>", "<%@ page import=\"java.util.Date\" %>", "<$ variable = 10 * 10; %>", "<%= request.getParameter(\"nombre\") %>"], "correcta": 2 },
+    { "id": 77, "enunciado": "JSP son ficheros de Java que pueden...", "opciones": ["Tener etiquetas.", "Directivas.", "Código del lenguaje Java.", "Todas las opciones son correctas."], "correcta": 3 },
+    { "id": 78, "enunciado": "Los JavaBeans:", "opciones": ["Es un modelo de componente para la versión de Java SE.", "Es un modelo de componente para la versión de Java EE.", "Son clases que encapsulan un objeto concreto del modelo de datos.", "Las opciones A y C son correctas."], "correcta": 3 },
+    { "id": 79, "enunciado": "Podemos decir de los Servlets que...", "opciones": ["Son programas contenidos en un módulo para ejecutarlo en el lado del servidor web.", "Son programas contenidos en un módulo para ejecutarlo en el lado del cliente.", "Son programas contenidos en un módulo que pueden ser invocados usando el protocolo FTP.", "Todas las opciones son correctas."], "correcta": 0 },
+    { "id": 80, "enunciado": "¿Qué especifica el modelo de diseño MVC?", "opciones": ["El Mapa, la Vista y el Controlador.", "El Mapa, la Vista y la Capa.", "El Modelo, la Vista y la Capa.", "El Modelo, la Vista y el Controlador."], "correcta": 3 },
+    { "id": 81, "enunciado": "¿Cómo podemos desactivar la confirmación automática de una transacción?", "opciones": ["setAutoCommit(false)", "setAutoCommit(true)", "Commit", "Rollback"], "correcta": 0 },
+    { "id": 82, "enunciado": "¿Cómo podemos indicar desde java el schema de un xml para validar?", "opciones": ["setValidating()", "setSchema()", "setXML()", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 83, "enunciado": "¿En qué capa del MVC actúan los servlets?", "opciones": ["Modelo", "Vista", "Controlador", "Base de datos"], "correcta": 2 },
+    { "id": 84, "enunciado": "¿En XQJ que objeto es necesario para crear expresiones?", "opciones": ["Object", "XMLStreamReader", "XQExpression", "XQConnection"], "correcta": 2 },
+    { "id": 85, "enunciado": "¿En qué capa del MVC actúan los servlets?", "opciones": ["Modelo", "Vista", "Controlador", "Base de datos"], "correcta": 2 },
+    { "id": 86, "enunciado": "¿Qué es un dato persistente?", "opciones": ["Son datos guardados en el almacenamiento secundario", "Son datos guardados en el almacenamiento principal", "Es un tipo de dato concreto", "Son los datos que utiliza el procesador."], "correcta": 0 },
+    { "id": 87, "enunciado": "¿Qué hace falta para poder conectarse a un tipo de base de datos desde una aplicación?", "opciones": ["El usuario y contraseña", "Un driver", "Un cliente", "Ninguna de las anteriores es correcta."], "correcta": 1 },
+    { "id": 88, "enunciado": "¿Qué hace la sentencia COMMIT en una transacción?", "opciones": ["Confirma todos los cambios realizados en el bloque de la transacción", "Descarta todos los cambios realizados en el bloque de la transacción", "Confirma la conexión con la base de datos", "Descarta la conexión con la base de datos"], "correcta": 0 },
+    { "id": 89, "enunciado": "¿Qué objeto necesitamos para poder transformar un documento XLM con XSL?", "opciones": ["DocumentBuilder", "Validate", "Parser", "Transformer"], "correcta": 3 },
+    { "id": 90, "enunciado": "Cuando finalizamos de operar con un fichero, es fundamental que se haga:", "opciones": ["Un salto con el método skip()", "Una última lectura para llegar hasta el final.", "Cerrar el buffer y el acceso con el método close()", "Ninguna de las anteriores es correcta."], "correcta": 2 },
+    { "id": 91, "enunciado": "El siguiente código: <% Date fecha = new Date(); %> pertenece a:", "opciones": ["Código php", "Código java", "Código html", "Código xml"], "correcta": 1 },
+    { "id": 92, "enunciado": "En una relación con cardinalidad N en una base de datos objeto se representará como:", "opciones": ["Un atributo único con operaciones de consulta y modificación dentro de la clase.", "Un atributo con una colección, con operaciones de añadir, modificar y eliminar.", "Un atributo enumerando, con operaciones de obtener elemento.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 93, "enunciado": "Es un estado de un objeto persistente", "opciones": ["Separado", "Confirmado", "Cargado", "Actualizado"], "correcta": 0 },
+    { "id": 94, "enunciado": "Es una sentencia de XQuery:", "opciones": ["FOR.", "LET.", "WHERE", "Todas son correctas."], "correcta": 3 },
+    { "id": 95, "enunciado": "Es una ventaja de la correspondencia objeto-relacional", "opciones": ["Agiliza el desarrollo", "Separa la aplicación del tipo de base de datos", "Desarrollos más orientados a objetos.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 96, "enunciado": "La recodificación permite:", "opciones": ["Cambiar la codificación entre flujos binarios y de texto", "Cambiar de buffer en un proceso de lectura y escritura", "Cambiar los datos de cadena a numérico", "Cambiar el orden de los bytes de un fichero."], "correcta": 0 },
+    { "id": 97, "enunciado": "No es un tipo de almacenamiento de datos:", "opciones": ["Ficheros", "Base de datos de objetos", "Base de datos relacionales", "La Nube"], "correcta": 3 },
+    { "id": 98, "enunciado": "Podemos afirmar sobre el almacenamiento secundario que:", "opciones": ["Su capacidad es muy baja", "Su velocidad es lenta", "Su velocidad es rápida", "La información se pierde al apagar el ordenador."], "correcta": 1 },
+    { "id": 99, "enunciado": "Si en un campo tenemos referencias de objetos y queremos obtener su valor, debemos usar:", "opciones": ["DEREF", "REF", "REFERENCIA", "DESREFERENCIA"], "correcta": 0 },
+    { "id": 100, "enunciado": "Si queremos crear una array en una base de datos objeto-relacional, debemos usar:", "opciones": ["new tipo [tamaño]", "ARRAY (tamaño)", "AS VARRAY (tamaño) OF tipo", "No se pueden crear arrays en objeto-relacional"], "correcta": 2 },
+    { "id": 101, "enunciado": "Uno de los siguientes procesos es incorrecto para realizar una operación de base de datos desde una aplicación", "opciones": ["Abrir una conexión", "Realizar una consulta u operación", "Cerrar la conexión", "Seleccionar el sistema operativo de la base de datos"], "correcta": 3 }
   ]
 }

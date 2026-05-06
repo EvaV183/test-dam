@@ -220,6 +220,555 @@
         "Tormenta de ideas."
       ],
       "correcta": 3
+    },
+    {
+      "id": 21,
+      "enunciado": "¿Cuál de los siguientes es un elemento decisivo para un nuevo proyecto empresarial?:",
+      "opciones": [
+        "Alta rentabilidad.",
+        "Demanda interior.",
+        "Cambios técnicos.",
+        "Un equipo muy grande desde el inicio."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 22,
+      "enunciado": "El desarrollo de las competencias digitales habilita a los profesionales a aportar dos grandes valores añadidos a los procesos de innovación:",
+      "opciones": [
+        "Transformación y experiencia.",
+        "Ideas y emprendimiento.",
+        "Alta rentabilidad y ciberseguridad.",
+        "Agilidad y creatividad."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 23,
+      "enunciado": "El empresario dependiente o intrapreneur:",
+      "opciones": [
+        "Realiza innovación dentro de la empresa, pero no es propietario de esta.",
+        "Realiza innovación dentro de la empresa y es propietario de ésta.",
+        "Realiza innovación dentro de la empresa y es socio en un 20% al menos.",
+        "Es lo que conocemos como autónomo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 24,
+      "enunciado": "En función de dónde se aplique, la innovación se clasifica en:",
+      "opciones": [
+        "Innovación incremental y radical.",
+        "Innovación comercial y de producción.",
+        "Innovación de producto y de proceso.",
+        "Todas son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 25,
+      "enunciado": "Entre las características de un emprendedor encontramos:",
+      "opciones": [
+        "Creatividad, perseverancia y rechazo del riesgo.",
+        "Creatividad, dependencia y actitud inflexible.",
+        "Creatividad, pasión, resiliencia y visión.",
+        "Creatividad, rentabilidad, actividad y experiencia."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 26,
+      "enunciado": "Es el instrumento que permite materializar una idea concreta, denominada idea de negocio, mediante la exposición detallada de las acciones que articulan su puesta en marcha:",
+      "opciones": [
+        "Innovación de producto.",
+        "Proyecto empresarial.",
+        "Sostenibilidad empresarial.",
+        "Plan de producción."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 27,
+      "enunciado": "La innovación:",
+      "opciones": [
+        "Es una secuencia creativa que se inicia cuando se descubre una idea.",
+        "Termina con una transformación en los procesos productivos o en cualquier otro proceso de la empresa.",
+        "Provoca una mayor rentabilidad y/o una mejora en la productividad.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 28,
+      "enunciado": "La Realidad Virtual (RV):",
+      "opciones": [
+        "Utiliza el mundo real como base y superpone elementos digitales, creando un entorno mixto.",
+        "Implementa soluciones mecanizadas y autónomas.",
+        "Crea un ambiente completamente digital, ocultando el entorno real.",
+        "Se relaciona con la interacción humana y la gestión de proyectos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 29,
+      "enunciado": "Los tres elementos básicos de la sostenibilidad son:",
+      "opciones": [
+        "Empresarial, financiero y tecnológico.",
+        "Económico, social y ambiental.",
+        "Estratégico, liderazgo y energético.",
+        "La sostenibilidad se centra en las acciones medioambientales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 30,
+      "enunciado": "Persona que aplica sus habilidades para transformar una idea en un proyecto de negocio que origine beneficios económicos y sociales:",
+      "opciones": [
+        "Emprendedor.",
+        "Empresario.",
+        "Profesional.",
+        "Emprendepreneur."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 31,
+      "enunciado": "¿Cuál es el principio básico de la economía circular?",
+      "opciones": [
+        "Integrar valores éticos y sociales en la actividad económica y empresarial.",
+        "El desarrollo profesional y personal de los empleados en su relación con el resto de los agentes que forman parte del ciclo productivo de la empresa.",
+        "La intervención sobre los ciclos de vida de los productos para reducir la necesidad de extraer nuevos recursos y minimizar la generación de residuos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 32,
+      "enunciado": "¿En qué áreas se fundamenta la responsabilidad social en el ámbito empresarial?",
+      "opciones": [
+        "Económica, deportiva y cultural.",
+        "Económica, sociocultural y medioambiental.",
+        "Financiera, educativa y medioambiental.",
+        "Comercial, sociocultural y laboral."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Qué entendemos por proyecto empresarial?",
+      "opciones": [
+        "Es lo mismo que idea de negocio.",
+        "Es el instrumento que convierte ideas generales en ideas de negocio, mediante la determinación de las características del mercado.",
+        "Es el instrumento que permite materializar una idea concreta, denominada idea de negocio, mediante la exposición detallada de las acciones que articulan su puesta en marcha.",
+        "Es el instrumento que permite aprovechar la propia experiencia como trabajador por cuenta ajena o la formación en un campo específico para arrancar una nueva labor profesional."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 34,
+      "enunciado": "¿Qué es la economía del bien común?",
+      "opciones": [
+        "Integrar valores éticos y sociales en la actividad económica y empresarial.",
+        "El desarrollo profesional y personal de los empleados en su relación con el resto de los agentes que forman parte del ciclo productivo de la empresa.",
+        "La intervención sobre los ciclos de vida de los productos para reducir la necesidad de extraer nuevos recursos y minimizar la generación de residuos.",
+        "El diseño de productos flexibles y que respeten los derechos laborales y humanos para maximizar los beneficios económicos y acortar los ciclos de los productos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 35,
+      "enunciado": "¿Qué se entiende por rentabilidad indirecta?",
+      "opciones": [
+        "Es la generada en empresas que, a pesar de tener pocos o ningún beneficio, justifican su existencia y actividad por otro tipo de razones de índole estratégica, operativa o comercial.",
+        "Es la obtenida por el empresario como consecuencia de los resultados de la empresa.",
+        "Se centra en objetivos sociales o cuestiones de interés público, lo que provoca que la rentabilidad vaya asociada a la consecución de esos objetivos.",
+        "Ninguna es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 36,
+      "enunciado": "¿Qué son las relaciones primarias en el área externa del balance social?",
+      "opciones": [
+        "Es la interacción con la sociedad en general, incluidos el ámbito local y el sector público.",
+        "Son aquellas establecidas de manera directa con los agentes que intervienen en el funcionamiento de la empresa (accionistas, proveedores...).",
+        "Son aquellas relaciones con los medios de comunicación, las universidades y otras muchas entidades.",
+        "Son aquellas que se establecen entre la empresa y los agentes sociales."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 37,
+      "enunciado": "Dentro del entorno general de una empresa, encontramos factores:",
+      "opciones": [
+        "Demográficos, económicos, legales y socioculturales.",
+        "Demográficos, económicos, socioculturales y de competencia.",
+        "Administrativos, económicos, legales, socioculturales.",
+        "Demográficos, sindicales, legales, socioculturales."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 38,
+      "enunciado": "El análisis de la idea de negocio debe centrarse en determinar:",
+      "opciones": [
+        "Las necesidades que cubre.",
+        "La manera de satisfacer las necesidades.",
+        "La fórmula para crear valor y generar rentabilidad económica.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 39,
+      "enunciado": "Entre las ventajas del balance social encontramos:",
+      "opciones": [
+        "Permite racionalizar los recursos de la empresa y medir su eficiencia.",
+        "Facilita las negociaciones colectivas.",
+        "Expone la aportación de la empresa al desarrollo social y económico del país.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 40,
+      "enunciado": "Para que un proyecto empresarial sea sólido, se debe:",
+      "opciones": [
+        "Determinar que la idea es realizable, asegurar la idoneidad del emprendedor y estimar los recursos necesarios.",
+        "Asegurar la idoneidad de los compradores y estimar los recursos que demandan.",
+        "Determinar que la idea es compatible con nuestra visión, flexible y estable.",
+        "Estimar los recursos económicos, humanos, materiales y sociales necesarios."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 41,
+      "enunciado": "¿Qué es un sistema?",
+      "opciones": [
+        "Un nuevo método para crear determinado bien.",
+        "Toda idea de negocio que necesita una inversión de capital para financiar su desarrollo.",
+        "Un conjunto de elementos interrelacionados que se coordinan para alcanzar una meta concreta.",
+        "Todas son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 42,
+      "enunciado": "Dentro de la política de producto del marketing mix hay que contemplar:",
+      "opciones": [
+        "Calidad técnica de los bienes y/o servicios.",
+        "Envase y etiquetado.",
+        "Marca e imagen.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 43,
+      "enunciado": "Determina hacia dónde se dirigirá la empresa, qué futuro tiene, cómo se quiere desarrollar y cuáles son los mercados que abordará:",
+      "opciones": [
+        "Cultura empresarial.",
+        "Imagen corporativa.",
+        "Visión.",
+        "Plan de empresa."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 44,
+      "enunciado": "El concepto que identifica la forma de ser de la organización y que se manifiesta en la forma en la que actúa en el desarrollo de su actividad y en cómo resuelve los problemas que se le presentan, se denomina:",
+      "opciones": [
+        "Cultura empresarial.",
+        "Imagen corporativa.",
+        "Visión.",
+        "Plan de empresa."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 45,
+      "enunciado": "El plan de empresa:",
+      "opciones": [
+        "Es fácilmente comprensible, claro y sencillo.",
+        "Incorpora en los anexos los aspectos técnicos y complejos.",
+        "Debe ser diseñado por los socios o promotores.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 46,
+      "enunciado": "En el apartado inicial del plan de empresa se incluye:",
+      "opciones": [
+        "Un análisis DAFO.",
+        "El análisis de mercado.",
+        "Los objetivos empresariales a corto, medio y largo plazo.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 47,
+      "enunciado": "La liquidez es:",
+      "opciones": [
+        "La capacidad de la empresa para hacer frente a las deudas a corto plazo.",
+        "La capacidad de la empresa para hacer frente a sus deudas tanto a corto como a largo plazo.",
+        "La procedencia de los fondos de la empresa.",
+        "La suma del activo del balance y la financiación con el neto patrimonial y el pasivo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 48,
+      "enunciado": "Segmentar el mercado es:",
+      "opciones": [
+        "Agrupar a los clientes según los rasgos diferenciadores que poseen.",
+        "La búsqueda y obtención de la información.",
+        "Utilizar diversos instrumentos, como las encuestas, las entrevistas o la observación, en los mercados.",
+        "Decidir las personas que ejercerán la administración de la empresa en cada mercado."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 49,
+      "enunciado": "Señala la respuesta correcta sobre los riesgos empresariales:",
+      "opciones": [
+        "Son positivos para la consecución de los objetivos empresariales.",
+        "No obligan a elegir, pero sí a valorar la misión de la empresa.",
+        "Someten a situaciones de incertidumbre.",
+        "Todas son correctas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 50,
+      "enunciado": "Una unidad estratégica de negocio madura genera:",
+      "opciones": [
+        "Grandes oportunidades y pequeñas amenazas.",
+        "Oportunidades y amenazas equiparables.",
+        "Oportunidades limitadas y pequeñas amenazas.",
+        "Bajo volumen de oportunidades y alto volumen de amenazas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 51,
+      "enunciado": "¿Cuál de las siguientes no es una de las consecuencias positivas que puede tener un conflicto?",
+      "opciones": [
+        "Promueve la mejora en la comunicación.",
+        "Define la identidad de grupo.",
+        "Puede favorecer la innovación y la creatividad.",
+        "Fomenta respuestas estereotipadas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 52,
+      "enunciado": "¿Cuál de los siguientes no es uno de los posibles inconvenientes del trabajo de equipo dentro de una empresa?",
+      "opciones": [
+        "Puede darse el caso de que se sobrecargue a algunos miembros del equipo.",
+        "La coordinación de muchas personas es complicada.",
+        "Dificulta la resolución conjunta de conflictos.",
+        "Los procedimientos, si no están debidamente establecidos, pueden ser poco eficaces."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 53,
+      "enunciado": "Cuando hablamos de la capacidad de una empresa para pivotar, hacemos referencia a:",
+      "opciones": [
+        "Cambiar de dirección estratégicamente cuando sea necesario para aprovechar nuevas tendencias o responder a la competencia.",
+        "Asegurar la idoneidad del emprendedor que lidera el proyecto.",
+        "Garantizar la disponibilidad de los medios necesarios para acometer el proyecto.",
+        "Establecer el contenido de su responsabilidad social a través de un análisis de las cuestiones que tienen influencia en la sociedad y los agentes sociales."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 54,
+      "enunciado": "Cuando una gran empresa realiza una búsqueda de personal:",
+      "opciones": [
+        "Siempre tiene un departamento muy estructurado de Recursos Humanos.",
+        "La persona que va a realizar la entrevista tiene un conocimiento muy técnico de lo que necesita.",
+        "No requieren procesos y procedimientos preestablecidos para la selección.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 55,
+      "enunciado": "Dentro de los pasos para crear un plan de empresa, definir tu producto supone:",
+      "opciones": [
+        "Describir la misión, visión y valores.",
+        "Plasmar cuál va a ser la realidad de tu empresa y las fortalezas, debilidades, amenazas y oportunidades.",
+        "Especificar las características del bien o servicio que vas a comercializar, en especial, qué lo hace diferente y qué necesidades cubre.",
+        "Concretar cómo se va a producir y quiénes serán los responsables de ello."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 56,
+      "enunciado": "Disponer de capital propio al iniciar un proyecto empresarial:",
+      "opciones": [
+        "Aporta confianza y solidez a posibles inversores futuros.",
+        "Transmite sensación de proyección.",
+        "Ofrece una toma de decisiones más flexible y ajustada al mercado.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 57,
+      "enunciado": "El feedback puede ser:",
+      "opciones": [
+        "Abierto o cerrado.",
+        "Explícito o implícito.",
+        "Accesible o inaccesible.",
+        "Agresivo o pasivo."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 58,
+      "enunciado": "El objetivo o límite de salida en una negociación:",
+      "opciones": [
+        "Es aquel en el que se encuentra la meta máxima a conseguir.",
+        "Es aquel en el que se encuentra la meta mínima.",
+        "Es aquel que permite romper las negociaciones.",
+        "Es aquel que se ubica lo más cerca posible del objetivo real."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 59,
+      "enunciado": "El origen de las oportunidades de negocio puede estar en:",
+      "opciones": [
+        "Repetir experiencias ajenas, a partir de la observación del mercado.",
+        "Innovar en los bienes, servicios o procesos para añadir un factor diferenciador.",
+        "Percibir una necesidad no satisfecha en el mercado.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 60,
+      "enunciado": "Entidades públicas o privadas, con o sin ánimo de lucro, que colaboran con los servicios públicos de empleo en las actividades de intermediación laboral entre las personas trabajadoras y los empleadores, valorando los perfiles profesionales y los requerimientos y características de los puestos de trabajo ofertados para cubrirlos con las personas adecuadas:",
+      "opciones": [
+        "Agencias de colocación.",
+        "ETT.",
+        "Centros de usura y empleo.",
+        "Bolsas de trabajo."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 61,
+      "enunciado": "La capacidad de adquirir y mantener las competencias, los conocimientos y la red de contactos al día para poder conseguir un empleo y mantenerlo en el tiempo, se denomina:",
+      "opciones": [
+        "Resiliencia.",
+        "Factor de crecimiento.",
+        "Empleabilidad.",
+        "Competitividad."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 62,
+      "enunciado": "La carta de presentación que se envía porque el candidato se interesa por una empresa en particular se denomina:",
+      "opciones": [
+        "Currículum Vitae.",
+        "Encabezamiento.",
+        "Autocandidatura.",
+        "Porfolio de empleabilidad."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 63,
+      "enunciado": "La estructura que define de qué manera una empresa genera ingresos y se mantiene competitiva en el mercado, es decir, el modo en que una empresa crea, entrega y captura valor para sus clientes, se denomina:",
+      "opciones": [
+        "Nicho de mercado.",
+        "Modelo de negocio.",
+        "Rentabilidad.",
+        "Balance."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 64,
+      "enunciado": "La primera fase para definir un buen sistema de gestión de riesgos es:",
+      "opciones": [
+        "Control de las decisiones.",
+        "Identificación, análisis y evaluación de riesgos.",
+        "Definir la política de producto.",
+        "Ninguna empresa utiliza ya sistemas de gestión de riesgos."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 65,
+      "enunciado": "Las áreas en las que se concentra la producción de innovaciones vinculadas a las competencias digitales son:",
+      "opciones": [
+        "Industria, turismo y ganadería.",
+        "Atención al cliente, servicios complementarios y espacios digitales.",
+        "Transformación digital, experiencia de cliente, e-commerce, marketing digital y ciberseguridad.",
+        "New Commerce, vending, atención digital, asistencia online y ciberseguridad."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 66,
+      "enunciado": "Los roles personalistas o \"destructores\":",
+      "opciones": [
+        "Se orientan hacia la esfera de la acción.",
+        "Aportan todas las ideas personales que tienen, sean válidas o no.",
+        "Dificultan la dinámica del equipo y provocan la aparición de conflictos.",
+        "Se dedican profesionalmente a la destrucción de documentos."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 67,
+      "enunciado": "Señala la afirmación correcta:",
+      "opciones": [
+        "La empresa es un sistema global, pues lo que influye en alguno de los elementos tiene repercusión sobre el resto.",
+        "La empresa es un sistema cerrado, que no intercambia entradas y salidas.",
+        "Los resultados totales como empresa son inferiores a los que se obtendrían si se sumaran los resultados de los elementos por separado.",
+        "Todas son correctas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 68,
+      "enunciado": "La Realidad Aumentada (RA):",
+      "opciones": [
+        "Utiliza el mundo real como base y superpone elementos digitales, creando un entorno mixto.",
+        "Implementa soluciones mecanizadas y autónomas.",
+        "Crea un ambiente completamente digital, ocultando el entorno real.",
+        "Se relaciona con la interacción humana y la gestión de proyectos."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 69,
+      "enunciado": "Un CV completo debe contener:",
+      "opciones": [
+        "Una descripción breve y atractiva.",
+        "La formación complementaria.",
+        "Otros datos de interés, como la disponibilidad o la movilidad.",
+        "Todas son correctas."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 70,
+      "enunciado": "Una unidad estratégica de negocio ideal genera:",
+      "opciones": [
+        "Grandes oportunidades y pequeñas amenazas.",
+        "Oportunidades y amenazas equiparables.",
+        "Oportunidades limitadas y pequeñas amenazas.",
+        "Bajo volumen de oportunidades y alto volumen de amenazas."
+      ],
+      "correcta": 0
     }
   ]
 }

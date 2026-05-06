@@ -330,6 +330,281 @@
         "Entre un puerto del sistema o registrado en el servidor y en el cliente un puerto efímero"
       ],
       "correcta": 3
+    },
+    {
+      "id": 31,
+      "enunciado": "¿Cómo se llama la biblioteca de clases que indica las clases clientes que los protocolos de aplicación pueden usar?",
+      "opciones": [
+        "Apache Comment Net",
+        "Apache Commons Networking",
+        "Apache Commons Net",
+        "Todas son incorrectas."
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 32,
+      "enunciado": "¿Dónde se decide el tipo de encriptado en las conexiones TCP?",
+      "opciones": [
+        "Al principio de la conexión",
+        "En la fase de negociación",
+        "En la fase de previsión",
+        "No se pueden encriptar"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 33,
+      "enunciado": "¿Qué es lo mejor para ejecutar sesiones remotas de Shell?",
+      "opciones": [
+        "TELNET",
+        "SSH",
+        "TCP",
+        "FTP"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 34,
+      "enunciado": "¿Qué es TLS/SSL?",
+      "opciones": [
+        "Un protocolo que puede funcionar con UDP y TCP",
+        "Un protocolo que requiere que se hagan cambios sobre los protocolos de aplicación para poder trabajar sobre estos",
+        "Un protocolo del nivel de aplicación para la encriptación de los datos",
+        "Un protocolo de transporte seguro"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 35,
+      "enunciado": "¿Qué es un MUA?",
+      "opciones": [
+        "La consulta de un cliente a sus mensajes alojados en un servidor de correo",
+        "El agente de usuario de correo",
+        "Simple Mail Transfer Protocol",
+        "Una norma de ámbito informático"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 36,
+      "enunciado": "El protocolo POP3 se caracteriza por...",
+      "opciones": [
+        "Llevar filtros antispam incrustados",
+        "Servir para transferencias de mensajes entre servidores de correo",
+        "Permitir la creación de carpetas en el servidor",
+        "Ninguna es correcta"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 37,
+      "enunciado": "Indica qué afirmación es correcta con respecto al protocolo SMTP:",
+      "opciones": [
+        "No permite que el usuario se pueda autenticar",
+        "Permite enviar un mensaje de correo como resultado de varios mensajes agrupados",
+        "Permite encriptar los mensajes",
+        "Es un protocolo binario"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 38,
+      "enunciado": "Las peticiones de HTTP tipo POST se caracterizan por...",
+      "opciones": [
+        "Que los parámetros de la petición son enviados a través de cabeceras de un tipo en específico",
+        "Que devuelve siempre en primera instancia un código de error con 1 como primer dígito",
+        "Que los parámetros de la petición se encuentran en el cuerpo de la petición",
+        "Que se redirigen a otra URL que esté asociada"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 39,
+      "enunciado": "Para conseguir los recursos de un sitio a partir de una URL, ¿qué clase usa Java?",
+      "opciones": [
+        "URL",
+        "URL_class",
+        "GET",
+        "POST"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 40,
+      "enunciado": "Todos los protocolos de correo electrónico son:",
+      "opciones": [
+        "Protocolos funcionales sobre TCP",
+        "De texto",
+        "Con estado",
+        "Todas son correctas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 41,
+      "enunciado": "En el siguiente ejemplo:\n\nSecureRandom generadorAleatorio = SecureRandom.getInstance(algoritmoNumeroAleatorio);\ngenerator.init(generadorAleatorio);\n\nSecretKey clave = generator.generateKey();\n\nSystem.out.println(\"Formato de clave: \" + clave.getFormat());\n\n¿Qué se está generando?",
+      "opciones": [
+        "Una clave pública",
+        "Un algoritmo de encriptación",
+        "Un certificado digital",
+        "Una clave privada"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 42,
+      "enunciado": "¿Cuál es el algoritmo simétrico de cifrado más usado actualmente?",
+      "opciones": [
+        "AES",
+        "Blowfish",
+        "DES",
+        "TDES"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 43,
+      "enunciado": "¿Cuál es la fase dos de un ataque informático?",
+      "opciones": [
+        "Escaneo",
+        "Reconocimiento",
+        "Obtención de acceso",
+        "Borrado de huellas"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 44,
+      "enunciado": "¿Qué es x.509?",
+      "opciones": [
+        "Una clase de Java",
+        "El DNI electrónico",
+        "Un estándar encargado de la definición de la estructura de los certificados digitales",
+        "La basura de la víctima de un ataque informático"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 45,
+      "enunciado": "Indica cuál de las siguientes no es una característica de las funciones hash:",
+      "opciones": [
+        "Gran coste computacional",
+        "Discontinuidad",
+        "Uniformidad",
+        "Bajo coste computacional"
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 46,
+      "enunciado": "Indica cuál de los siguientes sistemas hace uso de TLS/SSL:",
+      "opciones": [
+        "JCA",
+        "SHS",
+        "SSH",
+        "Todas son incorrectas"
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 47,
+      "enunciado": "La API de Java JCA, para qué se usa:",
+      "opciones": [
+        "Para autenticación de usuarios",
+        "Para aplicar TLS/SSL",
+        "Para funciones hash, encriptación, firma y certificados digitales",
+        "Todas son correctas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 48,
+      "enunciado": "La firma digital es igual de válida que...",
+      "opciones": [
+        "Un certificado digital",
+        "DNIe",
+        "La firma manuscrita",
+        "Todas son correctas"
+      ],
+      "correcta": 2
+    },
+    {
+      "id": 49,
+      "enunciado": "Las siglas CA hacen referencia a...",
+      "opciones": [
+        "La autorización de certificados",
+        "La autoridad certificadora",
+        "La certificadora de autoridad",
+        "Ninguna es correcta"
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 50,
+      "enunciado": "Las siglas DSA, ¿a qué hacen referencia?",
+      "opciones": [
+        "Digital Signature Algorithm",
+        "Relatively Slow Algorithm",
+        "Digital Slow Algorithm",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 51,
+      "enunciado": "¿Con qué método podemos interrumpir un hilo?",
+      "opciones": [
+        "Cuando otro hilo lo interrumpe.",
+        "Con sleep y wait.",
+        "Con el método pause.",
+        "Ninguna es verdadera (interrupt)."
+      ],
+      "correcta": 3
+    },
+    {
+      "id": 52,
+      "enunciado": "El Dumster diving es:",
+      "opciones": [
+        "Basura de la víctima de un ataque informático que puede contener información valiosa.",
+        "Información contenida en el paquete UDP.",
+        "Una técnica de optimización aplicada sobre el protocolo SMTP.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correcta": 0
+    },
+    {
+      "id": 53,
+      "enunciado": "Indica cuál es un tipo de archivo que se puede transmitir en una conexión FTP:",
+      "opciones": [
+        "Booleano.",
+        "Binario.",
+        "Estado.",
+        "Basado en IP."
+      ],
+      "correcta": 1
+    },
+    {
+      "id": 54,
+      "enunciado": "La \"______________\" consiste en ejecutar de forma concurrente varios procesos en un sistema monoprocesador:",
+      "opciones": [
+        "Programación concurrente.",
+        "Poliprogramación.",
+        "Multiprogramación.",
+        "Programación recurrente."
+      ],
+      "correcta": 2
+    },
+        {
+      "id": 55,
+      "enunciado": "¿Cuál puede ser el tamaño máximo de un datagrama UDP?",
+      "opciones": [
+        "28",
+        "232.",
+        "216.",
+        "Todas las anteriores son incorrectas."
+      ],
+      "correcta": 3
     }
   ]
 }
