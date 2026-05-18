@@ -1,445 +1,103 @@
 {
   "asignatura": "Bases de Datos",
   "preguntas": [
-    {
-      "id": 1,
-      "enunciado": "¿Cómo podemos representar y definir los datos en un sistema de información sin tener en cuenta las necesidades tecnológicas?",
-      "opciones": [
-        "Con un diagrama entidad/relación",
-        "Con el diccionario de datos.",
-        "Con Pseudocódigo",
-        "Con un diagrama de cardinalidad."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 2,
-      "enunciado": "¿En qué bloque se incluyen las sentencias y estructuras de la lógica del procedimiento?",
-      "opciones": [
-        "En el bloque DECLARE",
-        "En el bloque BEGIN",
-        "En el bloque EXCEPTION",
-        "Después de END"
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 3,
-      "enunciado": "¿Para qué sirven los índices?",
-      "opciones": [
-        "Para saber el número de entidades que hay.",
-        "Representa un índice de objetos de los metadatos.",
-        "Permiten agilizar el acceso a un campo mediante la organizando su información",
-        "Define la clave primaria de una entidad."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 4,
-      "enunciado": "¿PL/SQL es compatible con todos los SGBD?",
-      "opciones": [
-        "Sí, hay un estándar de aplicación.",
-        "Sí, contiene estructuras que entienden todos los SGBD.",
-        "Sí.",
-        "No, PL/SQL sirve para Oracle y PL/pgSQL para PostgreSQL"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 5,
-      "enunciado": "¿Qué condición tiene que cumplir en la segunda forma normal (2FN)?:",
-      "opciones": [
-        "Puede tener valores atómicos.",
-        "Debe estar en la primera forma normal.",
-        "Sus campos no dependen de la clave primaria.",
-        "Debe estar en la tercera forma normal."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 6,
-      "enunciado": "¿Qué es un sistema gestor de base de datos?",
-      "opciones": [
-        "Un tipo de base de datos",
-        "Un software con herramientas de administración y gestión de base de datos",
-        "Un software para programar una base de datos",
-        "Un software de diseño de base de datos."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 7,
-      "enunciado": "¿Qué instrucción necesitamos para ver la estructura de una tabla?",
-      "opciones": [
-        "DESC",
-        "ESTRUCT.",
-        "SHOW TABLES",
-        "SHOW DATABASES"
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 8,
-      "enunciado": "¿Qué instrucción nos permite modificar una tabla?",
-      "opciones": [
-        "INSERT",
-        "UPDATE",
-        "DROP TABLE",
-        "ALTER TABLE"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 9,
-      "enunciado": "Bucle preparado con un número de repeticiones predeterminadas:",
-      "opciones": [
-        "Bucle básico LOOP.",
-        "Bucle con WHILE.",
-        "Bucle FOR.",
-        "Bucle ELSE."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 10,
-      "enunciado": "CREATE DATABASE nombre_bd; permite crear una base de datos empleando el lenguaje:",
-      "opciones": [
-        "DDL.",
-        "DML.",
-        "DCL.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 11,
-      "enunciado": "Cuando hablamos de integridad referencial...",
-      "opciones": [
-        "No podemos borrar un registro que está relacionado con otra mediante su clave foránea.",
-        "Cualquier cambio en un registro que está relacionado se transmite en cascada.",
-        "Establecer valores nulos en claves foráneas",
-        "Todas son correctas"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 12,
-      "enunciado": "Cuando se almacena una dirección o puntero en vez del valor de la información, estamos hablando de:",
-      "opciones": [
-        "Datos físicos",
-        "Referencias",
-        "Herencia",
-        "Datos extrapolados"
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 13,
-      "enunciado": "Cuando tenemos una transferencia de datos entre distintos SGBD:",
-      "opciones": [
-        "No hay que preocuparse todos los SGDB tienen las mismas características",
-        "Un tipo de datos se usa igual independientemente del SGBD",
-        "Solo se puede hacer entre el mismo tipo de base de datos",
-        "Es una tarea importante, cada SGDB tiene diferentes características y hay que adaptarlas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 14,
-      "enunciado": "El lenguaje más empleado en bases de datos es:",
-      "opciones": [
-        "SUL.",
-        "SDL.",
-        "SFL.",
-        "SQL."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 15,
-      "enunciado": "Es el lenguaje que usaremos para administrar la seguridad de los datos mediante permisos y usuarios.",
-      "opciones": [
-        "DDL.",
-        "DML.",
-        "DCL.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 16,
-      "enunciado": "Es un tipo de copia de seguridad:",
-      "opciones": [
-        "Incompletas",
-        "Decrementales",
-        "Incrementales",
-        "Existenciales."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 17,
-      "enunciado": "Es un tipo de modelo de base de datos:",
-      "opciones": [
-        "Modelo relacional",
-        "Modelo en red",
-        "Modelo orientado a objetos",
-        "Todas son correctas"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 18,
-      "enunciado": "Es un tipo de organización de los soportes de almacenamiento:",
-      "opciones": [
-        "Secuencial",
-        "Aleatorio",
-        "Multiplexado",
-        "Concatenado"
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 19,
-      "enunciado": "Es un tipo de relación:",
-      "opciones": [
-        "Comunicativas",
-        "Reflexivas",
-        "Concatenarías",
-        "Expresivas"
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 20,
-      "enunciado": "Es una consecuencia de las bases de datos objeto-relacionales:",
-      "opciones": [
-        "Que no tengamos campos atómicos.",
-        "Que las tablas no sean elementos bidimensionales.",
-        "A y B son correctas.",
-        "Todas son incorrectas"
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 21,
-      "enunciado": "Es una función de agregación o resumen:",
-      "opciones": [
-        "RESTA()",
-        "MOD()",
-        "TOTAL()",
-        "COUNT()"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 22,
-      "enunciado": "Estructura de control que emplea las sentencias IF y CASE:",
-      "opciones": [
-        "Selección.",
-        "Iteración.",
-        "Segmentación.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 23,
-      "enunciado": "Existen dos tipos de clave, la primaria y:",
-      "opciones": [
-        "La secundaria.",
-        "La exclusiva.",
-        "La jerarquizada.",
-        "La candidata."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 24,
-      "enunciado": "La clave primaria:",
-      "opciones": [
-        "Puede ser única.",
-        "Puede estar formada por un único campo o ser compuesta.",
-        "Se deriva de la clave secundaria.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 25,
-      "enunciado": "La POO sirve para:",
-      "opciones": [
-        "Que otros paradigmas se basen en esta.",
-        "Desarrollar solo software privativo",
-        "Fallos de software.",
-        "Todas son incorrectas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 26,
-      "enunciado": "La sentencia UPDATE nos permite:",
-      "opciones": [
-        "La consulta de registros sobre varias tablas.",
-        "La Eliminación de registros.",
-        "La modificación de registros.",
-        "Ninguna de las anteriores es correcta."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 27,
-      "enunciado": "Lenguaje que se centra en la consulta de información:",
-      "opciones": [
-        "DDL.",
-        "DML.",
-        "DCL.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 28,
-      "enunciado": "Lo que en un modelo entidad/relación es una entidad, en un modelo físico es llamado:",
-      "opciones": [
-        "Registro.",
-        "Entidad.",
-        "Tabla.",
-        "Tipo."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 29,
-      "enunciado": "Los fallos lógicos:",
-      "opciones": [
-        "Son los que se producen por fallos de software.",
-        "Un virus es un fallo lógico.",
-        "A Y B son correctas.",
-        "Son los que se producen por fallos de hardware."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 30,
-      "enunciado": "Los ficheros:",
-      "opciones": [
-        "Tienen su propio sistema de escritura.",
-        "Contienen texto plano.",
-        "Contienen código binario.",
-        "Puede contener tanto texto plano como binario."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 31,
-      "enunciado": "M:N es un concepto de:",
-      "opciones": [
-        "Las claves.",
-        "La cardinalidad.",
-        "La modalidad.",
-        "Multidimensional."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 32,
-      "enunciado": "MySQL es:",
-      "opciones": [
-        "Un sublenguaje de SQL.",
-        "Un tipo de base de datos.",
-        "Un SGBD.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 33,
-      "enunciado": "Para buscar un patrón de una cadena de caracteres usaremos...",
-      "opciones": [
-        "Operador lógico AND",
-        "BETWEEN",
-        "LIKE",
-        "No se puede buscar patrones"
-      ],
-      "correcta": 2
-    },
-    {
-      "id": 34,
-      "enunciado": "Para solucionar un fallo físico:",
-      "opciones": [
-        "Podemos tirar todo y comprar nuevos equipos.",
-        "La gestión de los backups es una buena opción.",
-        "No es necesario recuperar un fallo físico.",
-        "Todas las anteriores son correctas."
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 35,
-      "enunciado": "PL/SQL no puede soportar:",
-      "opciones": [
-        "DDL.",
-        "DML.",
-        "Los dos anteriores.",
-        "Todas las anteriores son incorrectas."
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 36,
-      "enunciado": "Qué debemos tener en cuenta en la gestión de fallos lógicos en una base de datos:",
-      "opciones": [
-        "Controlar los accesos a los servicios y recursos.",
-        "Autenticación en el SGBD",
-        "Gestión de perfiles y usuarios.",
-        "Todas son correctas"
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 37,
-      "enunciado": "Se pueden usar para los subtipos y supertipos las cláusulas:",
-      "opciones": [
-        "NOT FINAL.",
-        "FINAL.",
-        "UNDER.",
-        "Todas las anteriores son correctas."
-      ],
-      "correcta": 3
-    },
-    {
-      "id": 38,
-      "enunciado": "Si queremos seleccionar unos datos y que no estén repetidos...",
-      "opciones": [
-        "Tenemos que preocuparnos se insertar los datos que no estén repetidos",
-        "Hay que incluir DISTINCT",
-        "En las bases de datos relacionales esto no puede suceder",
-        "Se utilizará el operador <>"
-      ],
-      "correcta": 1
-    },
-    {
-      "id": 39,
-      "enunciado": "Un tipo que puede almacenar una colección es considerado como:",
-      "opciones": [
-        "Array",
-        "Tablas",
-        "Columnas",
-        "Filas"
-      ],
-      "correcta": 0
-    },
-    {
-      "id": 40,
-      "enunciado": "UNIQUE es:",
-      "opciones": [
-        "Garantiza que no se inserten valores duplicados en una columna.",
-        "Garantiza los valores tipo NULL.",
-        "Garantiza que no se inserten valores con un formato diferente.",
-        "Ninguna de las anteriores."
-      ],
-      "correcta": 0
-    }
+    { "id": 1, "enunciado": "¿Cómo podemos representar y definir los datos en un sistema de información sin tener en cuenta las necesidades tecnológicas?", "opciones": ["Con un diagrama entidad/relación.", "Con el diccionario de datos.", "Con Pseudocódigo.", "Con un diagrama de cardinalidad."], "correcta": 0 },
+    { "id": 2, "enunciado": "¿En qué bloque se incluyen las sentencias y estructuras de la lógica del procedimiento?", "opciones": ["En el bloque DECLARE.", "En el bloque BEGIN.", "En el bloque EXCEPTION.", "Después de END."], "correcta": 1 },
+    { "id": 3, "enunciado": "¿Para qué sirven los índices?", "opciones": ["Para saber el número de entidades que hay.", "Representa un índice de objetos de los metadatos.", "Permiten agilizar el acceso a un campo mediante la organización de su información.", "Define la clave primaria de una entidad."], "correcta": 2 },
+    { "id": 4, "enunciado": "¿PL/SQL es compatible con todos los SGBD?", "opciones": ["Sí, hay un estándar de aplicación.", "Sí, contiene estructuras que entienden todos los SGBD.", "Sí.", "No, PL/SQL sirve para Oracle y PL/pgSQL para PostgreSQL."], "correcta": 3 },
+    { "id": 5, "enunciado": "¿Qué condición tiene que cumplir en la segunda forma normal (2FN)?:", "opciones": ["Can tener valores atómicos.", "Debe estar en la primera forma normal.", "Sus campos no dependen de la clave primaria.", "Debe estar en la tercera forma normal."], "correcta": 1 },
+    { "id": 6, "enunciado": "¿Qué es un sistema gestor de base de datos?", "opciones": ["Un tipo de base de datos.", "Un software con herramientas de administración y gestión de base de datos.", "Un software para programar una base de datos.", "Un software de diseño de base de datos."], "correcta": 1 },
+    { "id": 7, "enunciado": "¿Qué instrucción necesitamos para ver la estructura de una tabla?", "opciones": ["DESC.", "ESTRUCT.", "SHOW TABLES.", "SHOW DATABASES."], "correcta": 0 },
+    { "id": 8, "enunciado": "¿Qué instrucción nos permite modificar una tabla?", "opciones": ["INSERT.", "UPDATE.", "DROP TABLE.", "ALTER TABLE."], "correcta": 3 },
+    { "id": 9, "enunciado": "Bucle preparado con un número de repeticiones predeterminadas:", "opciones": ["Bucle básico LOOP.", "Bucle con WHILE.", "Bucle FOR.", "Bucle ELSE."], "correcta": 2 },
+    { "id": 10, "enunciado": "CREATE DATABASE nombre_bd; permite crear una base de datos empleando el lenguaje:", "opciones": ["DDL.", "DML.", "DCL.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 11, "enunciado": "Cuando hablamos de integridad referencial...", "opciones": ["No podemos borrar un registro que está relacionado con otro mediante su clave foránea.", "Cualquier cambio en un registro que está relacionado se transmite en cascada.", "Establecer valores nulos en claves foráneas.", "Todas son correctas."], "correcta": 3 },
+    { "id": 12, "enunciado": "Cuando se almacena una dirección o puntero en vez del valor de la información, estamos hablando de:", "opciones": ["Datos físicos.", "Referencias.", "Herencia.", "Datos extrapolados."], "correcta": 1 },
+    { "id": 13, "enunciado": "Cuando tenemos una transferencia de datos entre distintos SGBD:", "opciones": ["No hay que preocuparse, todos los SGBD tienen las mismas características.", "Un tipo de datos se usa igual independientemente del SGBD.", "Solo se puede hacer entre el mismo tipo de base de datos.", "Es una tarea importante, cada SGBD tiene diferentes características y hay que adaptarlas."], "correcta": 3 },
+    { "id": 14, "enunciado": "El lenguaje más empleado en bases de datos es:", "opciones": ["SUL.", "SDL.", "SFL.", "SQL."], "correcta": 3 },
+    { "id": 15, "enunciado": "Es el lenguaje que usaremos para administrar la seguridad de los datos mediante permisos y usuarios.", "opciones": ["DDL.", "DML.", "DCL.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 16, "enunciado": "Es un tipo de copia de seguridad:", "opciones": ["Incompletas.", "Decrementales.", "Incrementales.", "Existenciales."], "correcta": 2 },
+    { "id": 17, "enunciado": "Es un tipo de modelo de base de datos:", "opciones": ["Modelo relacional.", "Modelo en red.", "Modelo orientado a objetos.", "Todas son correctas."], "correcta": 3 },
+    { "id": 18, "enunciado": "Es un tipo de organización de los soportes de almacenamiento:", "opciones": ["Secuencial.", "Aleatorio.", "Multiplexado.", "Concatenado."], "correcta": 0 },
+    { "id": 19, "enunciado": "Es un tipo de relación:", "opciones": ["Comunicativas.", "Reflexivas.", "Concatenarias.", "Expresivas."], "correcta": 1 },
+    { "id": 20, "enunciado": "Es una consecuencia de las bases de datos objeto-relacionales:", "opciones": ["Que no tengamos campos atómicos.", "Que las tablas no sean elementos bidimensionales.", "A y B son correctas.", "Todas son incorrectas."], "correcta": 2 },
+    { "id": 21, "enunciado": "Es una función de agregación o resumen:", "opciones": ["RESTA()", "MOD()", "TOTAL()", "COUNT()"], "correcta": 3 },
+    { "id": 22, "enunciado": "Estructura de control que emplea las sentencias IF y CASE:", "opciones": ["Selección.", "Iteración.", "Segmentación.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 23, "enunciado": "Existen dos tipos de clave, la primaria y:", "opciones": ["La secundaria.", "La exclusiva.", "La jerarquizada.", "La candidata."], "correcta": 3 },
+    { "id": 24, "enunciado": "La clave primaria:", "opciones": ["Puede ser única.", "Puede estar formada por un único campo o ser compuesta.", "Se deriva de la clave secundaria.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 25, "enunciado": "La POO sirve para:", "opciones": ["Que otros paradigmas se basen en esta.", "Desarrollar solo software privativo.", "Fallos de software.", "Todas son incorrectas."], "correcta": 3 },
+    { "id": 26, "enunciado": "La sentencia UPDATE nos permite:", "opciones": ["La consulta de registros sobre varias tablas.", "La Eliminación de registros.", "La modificación de registros.", "Ninguna de las anteriores es correcta."], "correcta": 2 },
+    { "id": 27, "enunciado": "Lenguaje que se centra en la consulta de información:", "opciones": ["DDL.", "DML.", "DCL.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 28, "enunciado": "Lo que en un modelo entidad/relación es una entidad, en un modelo físico es llamado:", "opciones": ["Registro.", "Entidad.", "Tabla.", "Tipo."], "correcta": 2 },
+    { "id": 29, "enunciado": "Los fallos lógicos:", "opciones": ["Son los que se producen por fallos de software.", "Un virus es un fallo lógico.", "A y B son correctas.", "Son los que se producen por fallos de hardware."], "correcta": 2 },
+    { "id": 30, "enunciado": "Los ficheros:", "opciones": ["Tienen su propio sistema de escritura.", "Contienen texto plano.", "Contienen código binario.", "Puede contener tanto texto plano como binario."], "correcta": 3 },
+    { "id": 31, "enunciado": "M:N es un concept de:", "opciones": ["Las claves.", "La cardinalidad.", "La modalidad.", "Multidimensional."], "correcta": 1 },
+    { "id": 32, "enunciado": "MySQL es:", "opciones": ["Un sublenguaje de SQL.", "Un tipo de base de datos.", "Un SGBD.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 33, "enunciado": "Para buscar un patrón de una cadena de caracteres usaremos...", "opciones": ["Operador lógico AND.", "BETWEEN.", "LIKE.", "No se puede buscar patrones."], "correcta": 2 },
+    { "id": 34, "enunciado": "Para solucionar un fallo físico:", "opciones": ["Podemos tirar todo y comprar nuevos equipos.", "La gestión de los backups es una buena opción.", "No es necesario recuperar un fallo físico.", "Todas las anteriores son correctas."], "correcta": 1 },
+    { "id": 35, "enunciado": "PL/SQL no puede soportar:", "opciones": ["DDL.", "DML.", "Los dos anteriores.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 36, "enunciado": "Qué debemos tener en cuenta en la gestión de fallos lógicos en una base de datos:", "opciones": ["Controlar los accesos a los servicios y recursos.", "Autenticación en el SGBD.", "Gestión de perfiles y usuarios.", "Todas son correctas."], "correcta": 3 },
+    { "id": 37, "enunciado": "Se pueden usar para los subtipos y supertipos las cláusulas:", "opciones": ["NOT FINAL.", "FINAL.", "UNDER.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 38, "enunciado": "Si queremos seleccionar unos datos y que no estén repetidos...", "opciones": ["Tenemos que preocuparnos de insertar los datos que no estén repetidos.", "Hay que incluir DISTINCT.", "En las bases de datos relacionales esto no puede suceder.", "Se utilizará el operador <>."], "correcta": 1 },
+    { "id": 39, "enunciado": "Un tipo que puede almacenar una colección es considerado como:", "opciones": ["Array.", "Tablas.", "Columnas.", "Filas."], "correcta": 0 },
+    { "id": 40, "enunciado": "UNIQUE es:", "opciones": ["Garantiza que no se inserten valores duplicados en una columna.", "Garantiza los valores tipo NULL.", "Garantiza que no se inserten valores con un formato diferente.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 41, "enunciado": "El mayor problema de la indexación es:", "opciones": ["Que requiere de más espacio.", "Que al actualizarse automáticamente puede cometer fallos.", "Que no se actualiza automáticamente, por lo que resulta laborioso mantenerlo actualizado.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 42, "enunciado": "El modelo de red:", "opciones": ["Mejora la flexibilidad del jerárquico.", "Introdujo una multitud de novedades a su predecesor.", "Poseía una complejidad considerable.", "Todas las anteriores son ciertas."], "correcta": 3 },
+    { "id": 43, "enunciado": "El modelo relacional se ha fusionado con este para crear el que es hoy en día el más usado:", "opciones": ["Jerárquico.", "Indexado.", "Orientado a objetos.", "Multidimensional."], "correcta": 2 },
+    { "id": 44, "enunciado": "El soporte de datos direccionable permite:", "opciones": ["La lectura, pero solo secuencialmente.", "La lectura desde el dato deseado.", "El almacenamiento de datos jerárquicos indexados.", "No existe este tipo de soporte."], "correcta": 1 },
+    { "id": 45, "enunciado": "La codificación más común en el texto plano de los ficheros es:", "opciones": ["UTF-8 o UTF-16.", "UTF-12 o UTF-24.", "UTF-8 o UTF-24.", "UTF-12 o UTF-16."], "correcta": 0 },
+    { "id": 46, "enunciado": "La indexación permite:", "opciones": ["Mayor almacenamiento.", "Una búsqueda más eficiente.", "Un registro automático de la información.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 47, "enunciado": "Podemos encontrar punteros en:", "opciones": ["Los ficheros secuenciales.", "Las bases de datos jerárquicas.", "Los ficheros secuenciales encadenados.", "Las bases de datos objeto-relacional."], "correcta": 2 },
+    { "id": 48, "enunciado": "Un fichero secuencial encadenado:", "opciones": ["Posee un índice.", "Posee una doble ordenación, secuencial y lógica.", "Permite la ordenación por objetos.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 49, "enunciado": "Es la modalidad que implica una única ocurrencia siempre:", "opciones": ["0,1.", "1,1.", "1,N.", "0,N."], "correcta": 1 },
+    { "id": 50, "enunciado": "La clave primaria se marca con:", "opciones": ["Un círculo relleno.", "Un círculo en blanco.", "Un rombo en blanco.", "Un rombo relleno."], "correcta": 0 },
+    { "id": 51, "enunciado": "¿Cómo surge la modalidad?", "opciones": ["A partir de toda la relación de las entidades.", "A partir de los mínimos y máximos de las ocurrencias de cada entidad.", "A partir del número de atributos que tenga cada entidad.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 52, "enunciado": "La relación N-arias indica una relación entre:", "opciones": ["5 entidades o más.", "Cualquier número de entidades.", "4 entidades o más.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 53, "enunciado": "Las instancias se extraen de:", "opciones": ["Las relaciones.", "Las entidades.", "La modalidad.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 54, "enunciado": "Las ternarias son:", "opciones": ["Elementos de cardinalidad.", "Elementos de modalidad.", "Elementos de entidades.", "Todas las anteriores son incorrectas."], "correcta": 3 },
+    { "id": 55, "enunciado": "Un profesor que imparte clase a diversos alumnos formaría una relación:", "opciones": ["M:N.", "1:N.", "N:M.", "1:1."], "correcta": 1 },
+    { "id": 56, "enunciado": "1FN busca introducir valores:", "opciones": ["Duplicados.", "Numéricos.", "Atómicos.", "Ninguna de las anteriores es correcta."], "correcta": 2 },
+    { "id": 57, "enunciado": "DER son las siglas de:", "opciones": ["Diagrama de Entidad/Relación.", "Diacronía entidad/relación.", "Diseño entidad/relación.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 58, "enunciado": "El valor NULL:", "opciones": ["Indica el valor 0.", "Indica un valor indeterminado.", "Indica el valor nulo.", "Todas las anteriores son incorrectas."], "correcta": 1 },
+    { "id": 59, "enunciado": "En el modelo físico de datos los valores lógicos se marcan con el prefijo:", "opciones": ["V.", "v.", "L.", "l."], "correcta": 3 },
+    { "id": 60, "enunciado": "La integridad referencial se puede mantener empleando:", "opciones": ["Prohibiciones a ciertas operaciones.", "Transmisión en cascada.", "Valores por defecto.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 61, "enunciado": "La política de bloqueo que permite la consulta del valor del elemento bloqueado, pero prohibiendo su modificación:", "opciones": ["Exclusivas.", "Compartidos.", "Prohibitivos.", "Relacional."], "correcta": 1 },
+    { "id": 62, "enunciado": "Los identificadores siempre emplean:", "opciones": ["El prefijo I.", "El prefijo ID.", "El sufijo I.", "El sufijo ID."], "correcta": 2 },
+    { "id": 63, "enunciado": "Podemos encontrar un total de:", "opciones": ["2 Formas Normales.", "3 Formas Normales.", "5 Formas Normales.", "6 Formas Normales."], "correcta": 3 },
+    { "id": 64, "enunciado": "Boolean es un tipo de dato de:", "opciones": ["Números exactos.", "Números aproximados.", "Valor lógico.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 65, "enunciado": "CLOB es un tipo de dato de:", "opciones": ["Números exactos.", "Números aproximados.", "Valor lógico.", "Ninguna de las anteriores."], "correcta": 3 },
+    { "id": 66, "enunciado": "Es un sublenguaje de SQL:", "opciones": ["DDL.", "DML.", "DCL.", "Todas las anteriores son correctas."], "correcta": 3 },
+    { "id": 67, "enunciado": "Tipo de dato que almacena imágenes, documentos, etc. en binario:", "opciones": ["SMALLINT.", "BLOB.", "REAL.", "Ninguna de las anteriores."], "correcta": 1 },
+    { "id": 68, "enunciado": "Tipo de dato que almacena la hora en formato hora-minuto-segundo:", "opciones": ["TIME.", "TIMESTAMP.", "INTERVAL.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 69, "enunciado": "Tipo de dato que teniendo la longitud del dato almacenado menor a la definida, rellenará con espacios hasta alcanzar el límite:", "opciones": ["CHAR.", "VARCHAR.", "CLOB.", "BLOB."], "correcta": 0 },
+    { "id": 70, "enunciado": "VARCHAR(60) es un tipo de dato para:", "opciones": ["Caracteres.", "Números exactos.", "Números aproximados.", "Ninguna de las anteriores es correcta."], "correcta": 0 },
+    { "id": 71, "enunciado": "INSERT es:", "opciones": ["Un privilegio que se nos puede otorgar.", "Un tipo de vista.", "Las dos anteriores son correctas.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 72, "enunciado": "IS NULL permite:", "opciones": ["Asignar el valor NULL.", "No asignar ningún valor.", "Comprueba si el valor es NULL.", "BLOB."], "correcta": 2 },
+    { "id": 73, "enunciado": "La función integrada ABS con parámetro número devuelve:", "opciones": ["El valor absoluto del número.", "Valor con decimales.", "Resultado de la operación de la división de este número con el anterior.", "Todas las anteriores son incorrectas."], "correcta": 0 },
+    { "id": 74, "enunciado": "La inserción de registros se puede realizar con la sentencia:", "opciones": ["SELECT.", "UPDATE.", "DELETE.", "Ninguna de las anteriores."], "correcta": 3 },
+    { "id": 75, "enunciado": "Para designar un alias debemos emplear el operador:", "opciones": ["AND.", "OR.", "AS.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 76, "enunciado": "WITH GRANT OPTION se emplea en:", "opciones": ["DDL.", "DML.", "DCL.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 77, "enunciado": "WITH GRANT OPTION:", "opciones": ["Otorga el privilegio SELECT.", "Revoca los privilegios que se nos otorguen.", "Otorga el derecho a otorgar derechos.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 78, "enunciado": "El operador || determina la:", "opciones": ["Potencia.", "Raíz.", "Concatenación.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 79, "enunciado": "En una operación lógica con OR si A es TRUE y B es FALSE el resultado es:", "opciones": ["TRUE.", "FALSE.", "NULL.", "No se puede realizar esa operación."], "correcta": 0 },
+    { "id": 80, "enunciado": "Es un carácter de longitud variable:", "opciones": ["CHAR.", "CHARVAR.", "VARCHAR2.", "Ninguna de las anteriores."], "correcta": 2 },
+    { "id": 81, "enunciado": "Estructura lógica que realiza una acción hasta que un valor booleano cambie:", "opciones": ["Secuencia.", "Iteración.", "Segmentación.", "Ninguna de las anteriores es correcta."], "correcta": 1 },
+    { "id": 82, "enunciado": "Los bloques se ejecutan con el carácter:", "opciones": ["/.", "$.", "#.", "Ninguna de las anteriores."], "correcta": 0 },
+    { "id": 83, "enunciado": "Operador de la negación lógica es:", "opciones": ["--.", "=-.", "+--.", "Todas las anteriores son incorrectas."], "correcta": 3 },
+    { "id": 84, "enunciado": "Un LOOP es:", "opciones": ["Una excepción.", "Una invocación.", "Una función.", "Ninguna de las anteriores."], "correcta": 3 },
+    { "id": 85, "enunciado": "Es un fallo físico:", "opciones": ["Avería en un servidor.", "Problema con el suministro eléctrico.", "Robo.", "Todas son correctas."], "correcta": 3 },
+    { "id": 86, "enunciado": "La principal clasificación de fallos en las bases de datos se distingue en:", "opciones": ["Fallos físicos y químicos.", "Fallos físicos y lógicos.", "Fallos de software y aplicaciones.", "Todas son incorrectas."], "correcta": 1 },
+    { "id": 87, "enunciado": "La restauración:", "opciones": ["Es la remodelación de los dispositivos de la empresa.", "Es la recuperación de los datos de una copia de seguridad.", "Es el fin del ciclo de vida de una base de datos.", "Es una técnica de inserción de datos."], "correcta": 1 },
+    { "id": 88, "enunciado": "Las copias de seguridad:", "opciones": ["Son un respaldo de la información del sistema.", "Se pueden recuperar más tarde en caso de fallo del sistema.", "A y B son correctas.", "Todas las anteriores son incorrectas."], "correcta": 2 },
+    { "id": 89, "enunciado": "Las copias de seguridad pueden ser:", "opciones": ["Borradas cada dos días.", "Hechas a mano.", "Invisibles o espejadas.", "Todas son incorrectas."], "correcta": 2 },
+    { "id": 90, "enunciado": "Las copias de seguridad:", "opciones": ["Se dividen en completas e incompletas.", "No se pueden realizar en una base de datos.", "Son una mala gestión de la seguridad.", "Todas son incorrectas."], "correcta": 0 },
+    { "id": 91, "enunciado": "Para restaurar un backup:", "opciones": ["Primero tenemos que restaurar todo lo que queramos no tener.", "En última instancia debemos eliminar todas las copias para ahorrar espacio.", "Lo primero que hay que hacer es restaurar la última copia de seguridad total.", "Ninguna es correcta."], "correcta": 2 },
+    { "id": 92, "enunciado": "¿Qué cláusula se usa únicamente en la herencia de los subtipos?", "opciones": ["La cláusula UNDER.", "La cláusula NOT FINAL.", "La cláusula SELF.", "La cláusula NOT LIKE."], "correcta": 0 },
+    { "id": 93, "enunciado": "¿Qué es una referencia en bases de datos?", "opciones": ["Un puntero con un identificador (OID) que dirige a la información u otros objetos.", "Un elemento en el que la tabla guarda información de otras tablas.", "Un elemento donde se guardan únicamente datos de usuario.", "Ninguna es correcta."], "correcta": 0 },
+    { "id": 94, "enunciado": "El modelo relacional anidado:", "opciones": ["No existe.", "Indica que los valores de un campo son únicos a esa tabla.", "Comprende que los valores de un campo puedan compartirse con únicamente otra tabla más.", "Comprende que los valores de un campo se puedan compartir con varias tablas."], "correcta": 3 },
+    { "id": 95, "enunciado": "El paradigma de la programación orientada a objetos:", "opciones": ["Surge en los noventa.", "Simplifica las consultas SELECT.", "Busca conseguir un código de mayor calidad.", "Todas son correctas."], "correcta": 2 },
+    { "id": 96, "enunciado": "Indica qué afirmación sobre la herencia es falsa:", "opciones": ["Se puede extrapolar a las bases de datos.", "Comprende a las clases base y extendida.", "No tiene sentido en las bases de datos.", "Puede ser múltiple."], "correcta": 2 },
+    { "id": 97, "enunciado": "Los tipos complejos:", "opciones": ["No se pueden crear.", "Son incompatibles con los arrays.", "Solo sirven para definir un campo en específico.", "Todas son incorrectas."], "correcta": 3 },
+    { "id": 98, "enunciado": "Un array es:", "opciones": ["Una colección de datos.", "Un tipo de dato obsoleto.", "Un elemento único de las bases de datos.", "Todas son incorrectas."], "correcta": 0 }
   ]
 }
